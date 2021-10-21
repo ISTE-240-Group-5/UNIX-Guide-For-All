@@ -1,5 +1,2 @@
 # ignore all .pdf's
 *.pdf
-
-#ignore all readme's
-*.md
