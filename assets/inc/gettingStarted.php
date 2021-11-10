@@ -25,7 +25,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <!-- Include for nav... -->
    <?php 
    	
-   	require //nav
+   	require 'header.php';
+   	
    ?>
     
     <h1> UNIX 101: A Survival Guide </h1>
@@ -37,12 +38,22 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     </p>
     
     <?php 
+    
     //include the rest of getting started
+    
+     require '../whatisLinux.php';
+     require '../howToUseUnix.php';
+     require '../howToAccessTerminal.php';
+     
     ?>
 
-    <footer>
-        <p>Copyright <time datetime="2021">2015</time> ____</p>
-    </footer>
+   <?php
+   
+   	//include php for footer
+   	
+   	require '../../footer.php';
+
+   ?>
 
     <script src="js/scripts.js?v=1.0"></script>
 </body>

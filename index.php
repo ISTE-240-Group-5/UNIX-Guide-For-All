@@ -22,44 +22,34 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 </head>
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li>The menu</li>
-            </ul>
-        </nav>
-        <h1>Main title</h1>
-    </header>
-    
-    <section>
-    
-        <article>
-            <header>
-                <h2>First part</h2>
-                <p>Description</p>
-            </header>
-            <p>First content and <a href="#">a link</a></p>
-        </article>
-        
-        <article>
-            <header>
-                <h2>Second part</h2>
-                <p>Description</p>
-            </header>
-            <p>Second content and <a href="#">a link</a></p>
-        </article>
-        
-    </section>
+<!-- Landing page statement and Title -->
+  <div id="landingPageIntro">	
+  	<h1> Quasar </h1>
+  	<h2> Unix Learning Company </h2>
+  </div>
 
-    <aside>
-        <h2>Secondary information</h2>
-        <p>Secondary text...</p>
-    </aside>
+<!-- Learn more button -->
+  <div id="learnmoreButton"> 
+  	<a href="#"> LEARN MORE </a>
+  </div>
 
-    <footer>
-        <p>Copyright <time datetime="2021">2015</time> ____</p>
-    </footer>
+<!-- terminal -->
+  <div id="terminalLandingPage">
+  <img src="...">
+  </div>
+  
+  <div id="missionStatement">
+  <p> Dedicated to teaching unix language to web developers of all ages and educational backgrounds </p>
+  </div>
 
+   
+  <?php
+   
+   	//include php for footer
+   	
+   	require '../footer.php';
+
+   ?>
     <script src="js/scripts.js?v=1.0"></script>
 </body>
 </html>
