@@ -22,7 +22,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 </head>
 <body id="landingPage">
 
-<div id="landingPageMargins"
+<div id="landingPageMargins">
+
 <!-- Landing page statement and Title -->
   <div id="landingPageIntro">	
   	<h1 id="quasarHeading"> Quasar </h1>
