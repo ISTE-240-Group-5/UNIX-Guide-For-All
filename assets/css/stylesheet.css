@@ -1,0 +1,43 @@
+body {
+margin: auto 88pt 236pt 88pt;
+font-family: "Helvetica Neue", Verdana, SansSerif;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.02em;
+color: #000000;
+}
+
+h1{
+font-size: 36px;
+line-height: 43px;
+color: rgba(255, 128, 8, 0.78);
+}
+
+h2{
+font-size: 24px;
+line-height: 29px;
+color: #DAA20F;
+}
+
+
+#landingPageMargins{
+margin-top: 210pt;
+position: relative;
+}
+
+#landingPageIntro {
+float: left;
+margin: 50px;
+}
+
+/** Ignore Zoe's weirdness:
+
+#quasa
+
+<div id="landingPageIntro">	
+  	<h1 id="quasarHeading"> Quasar </h1>
+  	<h2 id="landingPageSubHeading"> Unix Learning Company </h2>
+  	
+  	<div id="learnmoreButton"> 
+  	
+**/

@@ -22,15 +22,17 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 </head>
 <body>
 
+<div id="landingPageMargins"
 <!-- Landing page statement and Title -->
   <div id="landingPageIntro">	
-  	<h1> Quasar </h1>
-  	<h2> Unix Learning Company </h2>
-  </div>
+  	<h1 id="quasarHeading"> Quasar </h1>
+  	<h2 id="landingPageSubHeading"> Unix Learning Company </h2>
+  
 
 <!-- Learn more button -->
-  <div id="learnmoreButton"> 
+  	<div id="learnmoreButton"> 
   	<a href="#"> LEARN MORE </a>
+ 	 </div>
   </div>
 
 <!-- terminal -->
@@ -42,7 +44,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
   <p> Dedicated to teaching unix language to web developers of all ages and educational backgrounds </p>
   </div>
 
-   
+</div>
   <?php
    
    	//include php for footer
