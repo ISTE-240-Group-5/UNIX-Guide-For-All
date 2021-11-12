@@ -18,9 +18,9 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
-<body>
+<body id="landingPage">
 
 <div id="landingPageMargins"
 <!-- Landing page statement and Title -->
