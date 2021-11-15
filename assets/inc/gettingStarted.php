@@ -29,7 +29,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
    	
    ?>
     
-    <h1> UNIX 101: A Survival Guide </h1>
+    <h1 class="header"> UNIX 101: A Survival Guide </h1>
     
     <p>
     
