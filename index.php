@@ -18,7 +18,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="/assets/css/stylesheet.css">
 </head>
 <body id="landingPage">
 
@@ -46,6 +46,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
   </div>
 
 </div>
+
+<!--  
   <?php
    
    	//include php for footer
@@ -53,6 +55,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
    	require '../footer.php';
 
    ?>
+-->
     <script src="js/scripts.js?v=1.0"></script>
 </body>
 </html>
