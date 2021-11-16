@@ -20,31 +20,23 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <link rel="stylesheet" href="/assets/css/stylesheet.css">
 </head>
 <body id="landingPage">
-<!--  
-  <?php
-   
-   	//include php for footer
-   	
-   	require '../nav.php';
 
-   ?>
--->
 
 <div id="landingPageMargins">
 
-<!-- Landing page statement and Title -->
+
   <div id="landingPageIntro">	
   	<h1 id="quasarHeading"> Quasar </h1>
   	<h2 id="landingPageSubHeading"> Unix Learning Company </h2>
   
 
-<!-- Learn more button -->
+
   	<div id="learnmoreButton"> 
   	<a href="#"> LEARN MORE </a>
  	 </div>
   </div>
 
-<!-- terminal -->
+
   <div id="terminalLandingPage">
   <img src="...">
   </div>
@@ -56,15 +48,6 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
 </div>
 
-<!--  
-  <?php
-   
-   	//include php for footer
-   	
-   	require '../footer.php';
-
-   ?>
--->
     <script src="js/scripts.js?v=1.0"></script>
 </body>
 </html>
