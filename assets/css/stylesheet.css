@@ -1,0 +1,177 @@
+/** CSS Rules for all pages **/
+
+/**
+
+Class Name Rules:
+header = header
+subheader = subheader
+command titles/sub-subheader = subber
+
+Hex Codes & Needs:
+header: color: rgba(255, 128, 8, 0.78);
+subheader: #DAA20F;
+subber: #585858;
+
+For Nav:
+background-color of top nav: #646363;
+Color of top nav (font): white;
+color of top nav (hover): #3B3B3B;
+Hover of top nav AND color of side nav: #FFC637;
+Hover of side nav: #E3A303;
+color of side nav(and hover): #3B3B3B;
+
+For body:
+color: black;
+For search bar: 
+	background: rgba(230, 228, 228, 0.54);
+	border-radius: 10px;
+
+Buttons: 
+	previous and Next: #4C4B7A;
+	
+	reminder boxes: 
+		background: rgba(255, 198, 55, 0.26);
+		border-radius: 19px;
+		
+	terminal examples:
+		background: #363636;
+		border-radius: 5px;
+		font (for server): 
+			font-family: Andale Mono;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 10px;
+			line-height: 11px;
+			color: #00FF85;
+		font (for user input): 
+			font-family: Andale Mono;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 10px;
+			line-height: 11px;
+			color: #FFFFFF;
+			
+For quizzes:
+Div: 
+	width: 594px;
+	height: 324px;
+	left: 161px;
+	top: 200px;
+	background: linear-gradient(99.99deg, rgba(13, 11, 140, 0.25) -2.63%, rgba(219, 0, 255, 0.25) 105.87%);
+	border-radius: 17px;
+font in div: 
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	color: #3B3B3B;
+
+Div:hover: 
+	background: #35395B;
+	opacity: 0.4;
+	
+font:hover: 
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+	
+
+
+
+**/
+
+/** CSS Rules for all pages **/
+
+body {
+margin: auto 88pt 236pt 88pt;
+font-family: "Helvetica Neue", Verdana, SansSerif;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.02em;
+color: #000000;
+}
+
+.header{
+font-size: 36px;
+line-height: 43px;
+color: rgba(255, 128, 8, 0.78);
+}
+
+.subheader{
+font-size: 24px;
+line-height: 29px;
+color: #DAA20F;
+}
+
+/** CSS Rules for landing page **/
+
+#landingPage{
+background-color: linear-gradient(110.27deg, rgba(255, 128, 8, 0.78) 10.56%, #FFC837 66.09%);
+
+}
+#quasarHeading{
+font-family: Futurist Fixed-width;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 62px;
+color: #FFFFFF;
+}
+
+#landingPageMargins{
+margin-top: 210pt;
+position: relative;
+display: flex;
+/** column-gap: 20px; **/
+}
+
+#landingPageSubHeading {
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+
+#landingPageIntro {
+float: left;
+margin: 50px;
+}
+
+/** #learnmoreButton < a {
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+color: #FFFFFF;
+}
+**/
+
+#learnmoreButton {
+width: 100%;
+margin: auto auto auto auto;
+height: 29px;
+left: 129px;
+top: 400px;
+background: #963539;
+border-radius: 1004px;
+}
+
+#missionStatement{
+font-family: Helvetica;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 18px;
+}
+
+
+
+
+
+
+

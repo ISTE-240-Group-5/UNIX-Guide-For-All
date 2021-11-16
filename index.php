@@ -7,58 +7,46 @@ Compatibility: caniuse.com, allmost all browsers.
 Rights       : Copyright (c) 2021 Quasar - GPLv3             
 -->
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Quasar-edu.page</title>
+    <title>Quasar</title>
     <meta name="_____" content="_____">
     <meta name="_____" content="_____">
 
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="/assets/css/stylesheet.css">
 </head>
-<body>
+<body id="landingPage">
 
-    <header>
-        <nav>
-            <ul>
-                <li>The menu</li>
-            </ul>
-        </nav>
-        <h1>Main title</h1>
-    </header>
-    
-    <section>
-    
-        <article>
-            <header>
-                <h2>First part</h2>
-                <p>Description</p>
-            </header>
-            <p>First content and <a href="#">a link</a></p>
-        </article>
-        
-        <article>
-            <header>
-                <h2>Second part</h2>
-                <p>Description</p>
-            </header>
-            <p>Second content and <a href="#">a link</a></p>
-        </article>
-        
-    </section>
 
-    <aside>
-        <h2>Secondary information</h2>
-        <p>Secondary text...</p>
-    </aside>
+<div id="landingPageMargins">
 
-    <footer>
-        <p>Copyright <time datetime="2021">2015</time> ____</p>
-    </footer>
+
+  <div id="landingPageIntro">	
+  	<h1 id="quasarHeading"> Quasar </h1>
+  	<h2 id="landingPageSubHeading"> Unix Learning Company </h2>
+  
+
+
+  	<div id="learnmoreButton"> 
+  	<a href="#"> LEARN MORE </a>
+ 	 </div>
+  </div>
+
+
+  <div id="terminalLandingPage">
+  <img src="...">
+  </div>
+  
+  <div id="missionStatement">
+  <p> Dedicated to teaching unix language to web developers of all ages and educational backgrounds 
+  </p>
+  </div>
+
+</div>
 
     <script src="js/scripts.js?v=1.0"></script>
 </body>
