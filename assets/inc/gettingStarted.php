@@ -22,12 +22,13 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 </head>
 <body>
 
-<!-- Include for nav... -->
+<!-- Include for nav...
    <?php 
    	
    	require 'header.php';
    	
    ?>
+    -->
     
     <h1 class="header"> UNIX 101: A Survival Guide </h1>
     
@@ -37,6 +38,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     
     </p>
     
+    <!--
     <?php 
     
     //include the rest of getting started
@@ -54,6 +56,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
    	require '../../footer.php';
 
    ?>
+   -->
 
     <script src="js/scripts.js?v=1.0"></script>
 </body>

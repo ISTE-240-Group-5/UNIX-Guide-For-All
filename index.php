@@ -21,6 +21,15 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <link rel="stylesheet" href="/assets/css/stylesheet.css">
 </head>
 <body id="landingPage">
+<!--  
+  <?php
+   
+   	//include php for footer
+   	
+   	require '../nav.php';
+
+   ?>
+-->
 
 <div id="landingPageMargins">
 
