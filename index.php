@@ -7,11 +7,11 @@ Compatibility: caniuse.com, allmost all browsers.
 Rights       : Copyright (c) 2021 Quasar - GPLv3             
 -->
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Quasar-edu.page</title>
+    <title>Quasar</title>
     <meta name="_____" content="_____">
     <meta name="_____" content="_____">
 
@@ -50,7 +50,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
   </div>
   
   <div id="missionStatement">
-  <p> Dedicated to teaching unix language to web developers of all ages and educational backgrounds </p>
+  <p> Dedicated to teaching unix language to web developers of all ages and educational backgrounds 
+  </p>
   </div>
 
 </div>
