@@ -18,45 +18,21 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
 
-<!-- Include for nav...
-   <?php 
-   	
-   	require 'header.php';
-   	
-   ?>
-    -->
+
     
     <h1 class="header"> UNIX 101: A Survival Guide </h1>
     
     <p>
     
-    <!-- Initial content -->
+  
     
     </p>
     
-    <!--
-    <?php 
     
-    //include the rest of getting started
-    
-     require '../whatisLinux.php';
-     require '../howToUseUnix.php';
-     require '../howToAccessTerminal.php';
-     
-    ?>
-
-   <?php
-   
-   	//include php for footer
-   	
-   	require '../../footer.php';
-
-   ?>
-   -->
 
     <script src="js/scripts.js?v=1.0"></script>
 </body>
