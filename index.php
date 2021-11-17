@@ -30,8 +30,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
   
 
 
-  	<div class="learnmoreButton"> 
-  	<a href="#"> LEARN MORE </a>
+  	<div> 
+  	<a class="learnmoreButton" href="#"> LEARN MORE </a>
  	 </div>
 
 
