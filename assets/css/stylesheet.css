@@ -109,6 +109,40 @@ color: #DAA20F;
 
 /** CSS Rules for landing page **/
 
+#landingPageMargins{
+margin-top: 210px;
+margin-bottom: 236px;
+grid-template-areas:
+  	'. . .'
+    'quasarHeading quasarHeading terminalLandingPage'
+    'landingPageSubHeading landingPageSubHeading terminalLandingPage'
+    'learnmoreButton learnmoreButton terminalLandingPage'
+    'missionStatement missionStatement missionStatement ';
+grid-gap: 10px;
+padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
