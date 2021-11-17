@@ -24,8 +24,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
 <div class="landingPageMargins">
 
-
-  <div class="landingPageIntro">	
+	
   	<h1 class="quasarHeading"> Quasar </h1>
   	<h2 class="landingPageSubHeading"> Unix Learning Company </h2>
   
@@ -34,15 +33,12 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
   	<div class="learnmoreButton"> 
   	<a href="#"> LEARN MORE </a>
  	 </div>
-  </div>
 
 
-  <div class="terminalLandingPage">
-  
-  </div>
+  <div class="terminalLandingPage"> </div>
   
   <div class="missionStatement">
-  <p> Dedicated to teaching unix language to web developers of all ages and educational backgrounds 
+  <p> Dedicated to teaching unix language to web developers of 	 all ages and educational backgrounds 
   </p>
   </div>
 

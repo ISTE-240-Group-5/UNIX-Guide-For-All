@@ -115,9 +115,9 @@ margin-top: 210px;
 margin-bottom: 236px;
 grid-template-areas:
   	'. . .'
-    'quasarHeading quasarHeading terminalLandingPage'
+    'quasarHeading quasarHeading .'
     'landingPageSubHeading landingPageSubHeading terminalLandingPage'
-    'learnmoreButton learnmoreButton terminalLandingPage'
+    'learnmoreButton learnmoreButton .'
     'missionStatement missionStatement missionStatement';
 grid-column-gap: 20px;
 padding: 5px;
