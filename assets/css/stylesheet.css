@@ -115,6 +115,7 @@ background-repeat: no-repeat;
 }
 
 .landingPageMargins{
+	margin-top: 210px;
   display: grid; 
   grid-template-columns: 0.9fr 1.1fr; 
   grid-template-rows: 1fr 1fr 1fr 1fr; 
