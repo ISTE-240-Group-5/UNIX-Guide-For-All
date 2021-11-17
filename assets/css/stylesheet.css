@@ -109,7 +109,66 @@ color: #DAA20F;
 
 /** CSS Rules for landing page **/
 
+.landingPageMargins{
+  display: grid; 
+  grid-template-columns: 0.9fr 1.1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  gap: 13px 45px; 
+  grid-template-areas: 
+    "head term"
+    "sub term"
+    "button term"
+    "statement statement"; 
+}
 
+.quasarHeading { 
+grid-area: head; 
+font-family: "Futurist Fixed-width";
+font-size: 50px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.landingPageSubHeading { 
+grid-area: sub;
+font-family: "Helvetica Neue";
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.learnmoreButton { 
+grid-area: button;
+background: #963539;
+border-radius: 1004px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.missionStatement { 
+grid-area: statement;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 18px; 
+}
+
+.terminalLandingPage { 
+grid-area: term;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background: #363636;
+border-radius: 5px;
+}
 
 
 
