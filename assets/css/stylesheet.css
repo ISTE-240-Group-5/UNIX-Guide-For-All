@@ -130,7 +130,6 @@ background-repeat: no-repeat;
 grid-area: head; 
 font-family: "Futurist Fixed-width";
 font-size: 50px;
-text-align: center;
 color: #FFFFFF;
 }
 
@@ -140,7 +139,6 @@ font-family: "Helvetica Neue";
 font-style: normal;
 font-weight: 200;
 font-size: 24px;
-text-align: center;
 color: #FFFFFF;
 }
 
@@ -157,6 +155,8 @@ line-height: 13px;
 letter-spacing: 0.02em;
 text-transform: uppercase;
 color: #FFFFFF;
+padding: 10px;
+text-align: center;
 }
 
 .missionStatement { 
