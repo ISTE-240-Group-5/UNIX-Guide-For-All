@@ -162,6 +162,7 @@ letter-spacing: 0.02em;
 text-transform: uppercase;
 color: #FFFFFF;
 text-align: center;
+text-decoration: none;
 }
 
 .learnmoreButton:hover{
