@@ -25,7 +25,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <div class="landingPageMargins">
 
 	
-  	<h1 class="quasarHeading"> Quasar </h1>
+  	<h1 class="quasarHeading"> QUASAR </h1>
   	<h2 class="landingPageSubHeading"> Unix Learning Company </h2>
   
 
