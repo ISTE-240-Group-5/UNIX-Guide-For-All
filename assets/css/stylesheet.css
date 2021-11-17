@@ -109,7 +109,7 @@ color: #DAA20F;
 
 /** CSS Rules for landing page **/
 
-#landingPageMargins{
+.landingPageMargins{
 margin-top: 210px;
 margin-bottom: 236px;
 grid-template-areas:
