@@ -21,19 +21,39 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <link rel="stylesheet" href="../css/stylesheet.css">
 </head>
 <body>
-
-
-    
+	
+	<div class="content">
     <h1 class="header"> UNIX 101: A Survival Guide </h1>
     
     <p>
-    
-  
-    
+
     </p>
     
     
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+    
+    </div>
+    <script>
+	//Get the button
+	var mybutton = document.getElementById("myBtn");
 
-    <script src="js/scripts.js?v=1.0"></script>
+	// When the user scrolls down 20px from the top of the document, show the 		button
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 </body>
 </html>
