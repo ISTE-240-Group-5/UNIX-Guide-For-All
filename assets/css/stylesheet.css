@@ -109,16 +109,6 @@ color: #DAA20F;
 
 /** CSS Rules for landing page **/
 
-display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    "head term term"
-    "sub term term"
-    "button term term"
-    "footer footer footer"; 
-}
 
 .landingPageMargins{
 display: grid;
