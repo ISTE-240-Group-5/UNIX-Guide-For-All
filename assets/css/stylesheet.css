@@ -117,9 +117,9 @@ grid-template-areas:
     'quasarHeading quasarHeading terminalLandingPage'
     'landingPageSubHeading landingPageSubHeading terminalLandingPage'
     'learnmoreButton learnmoreButton terminalLandingPage'
-    'missionStatement missionStatement missionStatement ';
-grid-gap: 10px;
-padding: 10px;
+    'missionStatement missionStatement missionStatement';
+grid-column-gap: 20px;
+padding: 5px;
 }
 
 #landingPage{
@@ -128,7 +128,7 @@ background-repeat: no-repeat;
 }
 
 .quasarHeading{
-font-family: Futurist Fixed-width;
+font-family: "Futurist Fixed-width";
 font-style: normal;
 font-weight: normal;
 font-size: 50px;
@@ -137,7 +137,7 @@ color: #FFFFFF;
 }
 
 .landingPageSubHeading{
-font-family: Helvetica Neue;
+font-family: "Helvetica Neue";
 font-style: normal;
 font-weight: 200;
 font-size: 24px;
