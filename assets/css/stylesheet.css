@@ -157,6 +157,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 padding: 10px;
 text-align: center;
+text-decoration: none;
 }
 
 .missionStatement { 
@@ -175,6 +176,7 @@ background: #363636;
 border-radius: 5px;
 width: 271px;
 height: 232px;
+
 }
 
 
