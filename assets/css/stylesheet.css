@@ -109,18 +109,29 @@ color: #DAA20F;
 
 /** CSS Rules for landing page **/
 
+display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "head term term"
+    "sub term term"
+    "button term term"
+    "footer footer footer"; 
+}
+
 .landingPageMargins{
 display: grid;
 margin-top: 210px;
 margin-bottom: 236px;
-grid-template-areas:
-  	'. . .'
-    'quasarHeading quasarHeading .'
-    'landingPageSubHeading landingPageSubHeading terminalLandingPage'
-    'learnmoreButton learnmoreButton .'
-    'missionStatement missionStatement missionStatement';
-grid-column-gap: 20px;
-padding: 5px;
+grid-template-columns: 1fr 1fr 1fr; 
+grid-template-rows: 1fr 1fr 1fr 1fr; 
+gap: 0px 0px; 
+grid-template-areas: 
+    "heading term term"
+    "subheading term term"
+    "button term term"
+    "statement statement statement"; 
 }
 
 #landingPage{
@@ -135,6 +146,7 @@ font-weight: normal;
 font-size: 50px;
 line-height: 62px;
 color: #FFFFFF;
+grid-area: heading;
 }
 
 .landingPageSubHeading{
@@ -144,6 +156,7 @@ font-weight: 200;
 font-size: 24px;
 line-height: 29px;
 color: #FFFFFF;
+grid-area: subheading;
 }
 
 .learnmoreButton {
@@ -151,6 +164,7 @@ width: 104px;
 height: 29px;
 background: #963539;
 border-radius: 1004px;
+grid-area: button;
 }
 
 .learnmoreButton > a {
@@ -179,6 +193,7 @@ font-weight: 300;
 font-size: 16px;
 line-height: 18px;
 color: #000000;
+grid-area: statement;
 }
 
 .terminalLandingPage{
@@ -186,6 +201,7 @@ width: 271px;
 height: 232px;
 background: #363636;
 border-radius: 5px;
+grid-area: term;
 }
 
 
