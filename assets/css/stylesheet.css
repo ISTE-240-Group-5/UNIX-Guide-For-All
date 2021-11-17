@@ -150,15 +150,22 @@ width: 104px;
 height: 29px;
 background: #963539;
 border-radius: 1004px;
+}
+
+.learnmoreButton > a {
 font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
 font-size: 11px;
 line-height: 13px;
-/* identical to box height */
 letter-spacing: 0.02em;
 text-transform: uppercase;
 color: #FFFFFF;
+text-align: center;
+}
+
+.learnmoreButton:hover{
+background-color: #65171A;
 }
 
 .missionStatement{
