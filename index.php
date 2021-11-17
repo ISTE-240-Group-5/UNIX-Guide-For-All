@@ -38,7 +38,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
   <div class="terminalLandingPage"> </div>
   
   <div class="missionStatement">
-  <p> Dedicated to teaching unix language to web developers of 	 all ages and educational backgrounds 
+  <p> Dedicated to teaching unix language to web developers of all ages and educational backgrounds 
   </p>
   </div>
 
