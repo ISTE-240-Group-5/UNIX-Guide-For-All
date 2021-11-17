@@ -38,7 +38,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
 
   <div class="terminalLandingPage">
-  <img src="...">
+  
   </div>
   
   <div class="missionStatement">
