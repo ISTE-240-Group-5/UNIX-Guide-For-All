@@ -162,6 +162,8 @@ letter-spacing: 0.02em;
 text-transform: uppercase;
 color: #FFFFFF;
 text-align: center;
+width: 100%;
+margin: auto auto auto auto;
 text-decoration: none;
 }
 
