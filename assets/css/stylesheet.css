@@ -85,14 +85,82 @@ font:hover:
 **/
 
 /** CSS Rules for all pages **/
+* {
+	margin: 0;
+}
+
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
 
 body {
-margin: auto 88px 236px 88px;
+/* margin: auto 88px 236px 88px; */
 font-family: "Helvetica Neue", Verdana, SansSerif;
 font-size: 12px;
 line-height: 14px;
 letter-spacing: 0.02em;
 color: #000000;
+
+
+}
+
+.logo {
+	padding: 5px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+
+  background-color: #333;
+  overflow: hidden;
+ 
+}
+
+/* Style the links inside the navigation bar */
+.topnav a  {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FFC637;
+  color: #3B3B3B;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #DAA20F;
+  color: white;
+}
+
+.search{
+	float:right;
+	margin:7px;
+}
+		
+.searchButton{
+	color: #f2f2f2;
+	float: right;
+	padding: 5px 10px;
+	margin-right: 16px;
+	font-size: 12px;
+	border: none;
+	cursor: pointer;
+}
+
+.search input[type=text]{
+	width:300px;
+	height:25px;
+	border-radius:25px;
+	border: none;
 }
 
 .header{
@@ -108,19 +176,59 @@ line-height: 29px;
 color: #DAA20F;
 }
 
+.pagefooter {
+	background-color: white;
+    position: absolutes;
+    bottom: 10px;
+    width: 100%;
+	color: black;
+}
+
+.whitebanner {
+	background-color: white;
+}
+
+.bottomnav a  {
+  float: left;
+  color: black;
+}
+
+.copyright {
+	display: inline;
+	float: right;
+    margin-left: 50px;
+}
+
+.bottomnav a, .copyright {
+	text-align: center;
+  	padding: 20px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	
+}
+
 /** CSS Rules for landing page **/
 
 #landingPage{
 background-image: linear-gradient(110.27deg, rgba(255, 128, 8, 0.78) 10.56%, #FFC837 66.09%);
 background-repeat: no-repeat;
+min-height: 100vh;
+overflow: hidden;
+
 }
 
+
+
+
 .landingPageMargins{
-  margin-top: 210px;
+  margin-top: 130px;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
   display: grid; 
-  margin-right: 122px;
   grid-template-columns: 0.9fr 1.1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
   gap: 13px 45px; 
   grid-template-areas: 
     "head term"
@@ -132,11 +240,12 @@ background-repeat: no-repeat;
 .quasarHeading { 
 grid-area: head; 
 font-family: "Futurist Fixed-width";
-font-size: 50px;
+font-size: 75px;
 color: #FFFFFF;
 left: -23.97px;
 top: 70px;
 font-weight: normal;
+letter-spacing: 10px;
 
 }
 
@@ -172,7 +281,7 @@ grid-area: statement;
 font-family: Helvetica;
 font-style: normal;
 font-weight: 300;
-font-size: 16px;
+font-size: 25px;
 line-height: 18px; 
 margin-top: 20px;
 }
