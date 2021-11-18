@@ -31,7 +31,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     
    <?php
    
-   require '../whatIsLinuxnix.php';
+   require '../whatIsLinuxUnix.php';
    
    require '../howToUseUnix.php';
    
