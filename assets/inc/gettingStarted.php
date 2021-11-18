@@ -33,8 +33,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
    
    require 'gettingStartedSubDir/whatIsLinuxUnix.php';
    
-   require ' gettingStartedSubDir/howToUseUnix.php
-';
+   require 'gettingStartedSubDir/howToUseUnix.php';
    
    require 'gettingStartedSubDir/howToTerm.php';
    
