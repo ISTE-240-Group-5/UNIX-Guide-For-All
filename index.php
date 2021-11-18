@@ -35,7 +35,9 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
  	 </div>
 
 
-  <div class="terminalLandingPage"> </div>
+  <div class="terminalLandingPage"> 
+  <span id="terminalLine"> example.bot: </span> <span id="dash"> ~ </span> <span id="restofterminal"> echo "Hello World" <br> Hello World </span> 
+  </div>
   
   <div class="missionStatement">
   <p> Dedicated to teaching unix language to web developers of all ages and educational backgrounds 
