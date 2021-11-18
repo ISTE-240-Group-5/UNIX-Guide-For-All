@@ -239,7 +239,7 @@ width: 271px;
 height: 232px;
 }
 
-#terminalLandigPage{
+#terminalLandingPage{
 font-family: "Andale Mono";
 font-style: normal;
 font-weight: normal;
@@ -250,8 +250,6 @@ padding: 5px;
 
 /* DEMO-SPECIFIC STYLES */
 #terminaltext {
-  color: #fff;
-  font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
