@@ -17,37 +17,37 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
 </head>
 <body id="landingPage">
 
 
-<div id="landingPageMargins">
+<div class="landingPageMargins">
 
-
-  <div id="landingPageIntro">	
-  	<h1 id="quasarHeading"> Quasar </h1>
-  	<h2 id="landingPageSubHeading"> Unix Learning Company </h2>
+	
+  	<h1 class="quasarHeading"> QUASAR </h1>
+  	<h2 class="landingPageSubHeading"> Unix Learning Company </h2>
   
 
 
-  	<div id="learnmoreButton"> 
-  	<a href="#"> LEARN MORE </a>
+  	<div> 
+  	<a class="learnmoreButton" href="#"> LEARN MORE </a>
  	 </div>
-  </div>
 
 
-  <div id="terminalLandingPage">
-  <img src="...">
+  <div class="terminalLandingPage"> 
+  <span style="color: #00FF85"> example.bot: </span> 
+  <span style="color: #00F0FF"> ~ </span> 
+  <p id="terminaltext" style="color: #FFFFFF" > echo "Hello World" </p>
   </div>
   
-  <div id="missionStatement">
+  <div class="missionStatement">
   <p> Dedicated to teaching unix language to web developers of all ages and educational backgrounds 
   </p>
   </div>
 
 </div>
 
-    <script src="js/scripts.js?v=1.0"></script>
+    <script class="js/scripts.js?v=1.0"></script>
 </body>
 </html>

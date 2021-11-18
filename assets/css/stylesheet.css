@@ -87,7 +87,7 @@ font:hover:
 /** CSS Rules for all pages **/
 
 body {
-margin: auto 88pt 236pt 88pt;
+margin: auto 88px 236px 88px;
 font-family: "Helvetica Neue", Verdana, SansSerif;
 font-size: 12px;
 line-height: 14px;
@@ -99,75 +99,322 @@ color: #000000;
 font-size: 36px;
 line-height: 43px;
 color: rgba(255, 128, 8, 0.78);
+font-weight: normal;
 }
 
 .subheader{
 font-size: 24px;
 line-height: 29px;
 color: #DAA20F;
+font-weight: normal;
 }
+
+.text{
+width: 610px;
+height: 93px;
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.02em;
+color: #000000;
+}
+
+.reminder {
+width: 165px;
+height: 131px;
+background-color: rgba(255, 198, 55, 0.26);
+border-radius: 19px
+}
+
+.reminderHeader{
+font-weight: bold;
+}
+
+.reminderText{
+font-family: Helvetica Neue;
+font-style: normal;
+font-size: 10px;
+line-height: 12px;
+color: #000000;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
 
 /** CSS Rules for landing page **/
 
 #landingPage{
-background-color: linear-gradient(110.27deg, rgba(255, 128, 8, 0.78) 10.56%, #FFC837 66.09%);
-
+background-image: linear-gradient(110.27deg, rgba(255, 128, 8, 0.78) 10.56%, #FFC837 66.09%);
+background-repeat: no-repeat;
 }
-#quasarHeading{
-font-family: Futurist Fixed-width;
-font-style: normal;
-font-weight: normal;
+
+.landingPageMargins{
+  margin-top: 210px;
+  display: grid; 
+  margin-right: 122px;
+  grid-template-columns: 0.9fr 1.1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+  gap: 13px 45px; 
+  grid-template-areas: 
+    "head term"
+    "sub term"
+    "button term"
+    "statement statement"; 
+}
+
+.quasarHeading { 
+grid-area: head; 
+font-family: "Futurist Fixed-width";
 font-size: 50px;
-line-height: 62px;
 color: #FFFFFF;
+left: -23.97px;
+top: 70px;
+font-weight: normal;
+
 }
 
-#landingPageMargins{
-margin-top: 210pt;
-position: relative;
-display: flex;
-/** column-gap: 20px; **/
-}
-
-#landingPageSubHeading {
-font-family: Helvetica Neue;
+.landingPageSubHeading { 
+grid-area: sub;
+font-family: "Helvetica Neue";
 font-style: normal;
 font-weight: 200;
 font-size: 24px;
-line-height: 29px;
 color: #FFFFFF;
 }
 
-#landingPageIntro {
-float: left;
-margin: 50px;
-}
-
-/** #learnmoreButton < a {
+.learnmoreButton { 
+grid-area: button;
+background: #963539;
+border-radius: 1004px;
 font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+letter-spacing: 0.02em;
+text-transform: uppercase;
 color: #FFFFFF;
-}
-**/
-
-#learnmoreButton {
-width: 100%;
-margin: auto auto auto auto;
-height: 29px;
-left: 129px;
-top: 400px;
-background: #963539;
-border-radius: 1004px;
+padding: 10px;
+text-align: center;
+text-decoration: none;
 }
 
-#missionStatement{
+.missionStatement { 
+grid-area: statement;
 font-family: Helvetica;
 font-style: normal;
 font-weight: 300;
 font-size: 16px;
-line-height: 18px;
+line-height: 18px; 
+margin-top: 20px;
 }
+
+.terminalLandingPage { 
+grid-area: term;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background: #363636;
+border-radius: 5px;
+width: 271px;
+height: 232px;
+}
+
+.terminalLandingPage span, .terminalLandingPage p {
+font-family: 'Andale Mono';
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 11px;
+padding: 5px;
+}
+
+/* DEMO-SPECIFIC STYLES */
+#terminaltext {
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+
+
+/** Getting Started Rules **/
+
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #4C4B7A;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+
+}
+
+ 
+ 
+/* Media queries */
+
+/* Landing Page */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+  
+  .terminalLandingPage{
+  display: none;
+  }
+	
+	
+	.landingPageMargins{
+  margin-top: 255px;
+  display: grid; 
+  margin-right: 24px;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+  gap: 13px 45px; 
+  grid-template-areas: 
+    "head"
+    "sub"
+    "button"
+    "statement"; 
+}
+
+
+.quasarHeading { 
+left: -18.98px;
+text-align: center;
+font-weight: normal;
+
+}
+
+.landingPageSubHeading { 
+font-size: 24px;
+color: #FFFFFF;
+text-align: center;
+}
+
+.learnmoreButton { 
+text-align: center;
+text-decoration: none;
+}
+
+.missionStatement { 
+grid-area: statement;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 18px; 
+margin-top: 20px;
+}
+
+.terminalLandingPage { 
+text-align: left;
+}
+	
+
+body {
+margin: auto 19px 133px 30px;
+font-family: "Helvetica Neue", Verdana, SansSerif;
+font-size: 11px;
+line-height: 15px;
+}
+
+.header{
+font-size: 24px;
+line-height: 29px;
+color: rgba(255, 128, 8, 0.78);
+font-weight: normal;
+}
+
+.subheader{
+font-size: 20px;
+}
+
+.text{
+width: 289px;
+height: 93px;
+font-size: 11px;
+line-height: 13px;
+}
+
+.reminder {
+width: 100%;
+height: 100px;
+background-color: rgba(255, 198, 55, 0.26);
+border-radius: 19px
+}
+
+.reminderHeader{
+font-weight: bold;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
