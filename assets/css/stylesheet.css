@@ -368,9 +368,44 @@ margin-top: 20px;
 
 .terminalLandingPage { 
 text-align: left;
-
 }
 	
+
+body {
+margin: auto 19px 133px 30px;
+font-family: "Helvetica Neue", Verdana, SansSerif;
+font-size: 11px;
+line-height: 15px;
+}
+
+.header{
+font-size: 24px;
+line-height: 29px;
+color: rgba(255, 128, 8, 0.78);
+font-weight: normal;
+}
+
+.subheader{
+font-size: 20px;
+}
+
+.text{
+width: 289px;
+height: 93px;
+font-size: 11px;
+line-height: 13px;
+}
+
+.reminder {
+width: 100%;
+height: 100px;
+background-image: rgba(255, 198, 55, 0.26);
+border-radius: 19px
+}
+
+.reminderHeader{
+font-weight: bold;
+}
 }
 
 
