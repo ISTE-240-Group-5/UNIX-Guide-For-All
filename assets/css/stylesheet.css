@@ -236,14 +236,16 @@ background: #363636;
 border-radius: 5px;
 width: 271px;
 height: 232px;
+}
+
+#terminaltext{
 font-family: Andale Mono;
 font-style: normal;
 font-weight: normal;
 font-size: 10px;
 line-height: 11px;
-
+padding: 5px;
 }
-
 #restofterminal{
 font-family: Andale Mono;
 font-style: normal;
