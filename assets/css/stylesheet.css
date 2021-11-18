@@ -239,7 +239,7 @@ width: 271px;
 height: 232px;
 }
 
-#terminalLandingPage{
+#terminalLandingPage span, #terminalLandingPage p {
 font-family: "Andale Mono";
 font-style: normal;
 font-weight: normal;
