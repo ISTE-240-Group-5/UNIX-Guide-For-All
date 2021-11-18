@@ -7455,15 +7455,16 @@
                 var type = get_type(val);
                 if (type === 'function') {
                     if (arity && val.length !== command.args.length) {
-                        self.error(
-                            '&#91;Arity&#93; ' +
-                                sprintf(
-                                    strings().wrongArity,
-                                    command.name,
-                                    val.length,
-                                    command.args.length
-                                )
-                        );
+                        //self.error(
+                          //  '&#91;Arity&#93; ' +
+                            //    sprintf(
+                              //      strings().wrongArity,
+                                //    command.name,
+                                  //  val.length,
+                                    //command.args.length
+                                //)
+                        //);
+                        return val.apply(self, command.args = [" "]);
                     } else {
                         return val.apply(self, command.args);
                     }

@@ -5,11 +5,11 @@
 </head>
 <body>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
+    <script src="/ISTE-240-G/assets/js/terminal-backend.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
     
     <script>
-    const dir = ["Documents/", "Downloads/", "Desktop/", ".config/", ".local/", ".zshrc"];
+    const dir = ["Documents/", "Downloads/", "Desktop/", ".config/", ".local/", ".zshrc", "zshrc.conf"];
     $('body').terminal({
         //Begin `ls` function------------------------------------------------------------------------------------------------
         ls: function(m1){
@@ -28,14 +28,19 @@
                         let bpRint = "";
                             for(let i = 0; i < dir.length; i++){
                                 let temp = dir[i];
-                                bpRint = bpRint + "drwxr-xr-x 3 julianm julianm 4096 Nov 16 18:41 " + temp + "\n";
+
+                                let pattern = /^\W/g; // regex expresion to see if the first char of a string is not a letter 
+
+                                let result = temp.match(pattern);   // check if its a dot file or just contains a dot '.' (tbh this just sees if the first char is a '.')
+                                if(!result){
+                                    bpRint = bpRint + "drwxr-xr-x 3 julianm julianm 4096 Nov 16 18:41 " + temp + "\n";
+                                }
                             }
                         this.echo(bpRint);
                     break;
                     case '--help':
                         this.echo('Usage: ls [OPTION]... [FILE]...' + '\n' +
                                 'List information about the FILEs (the current directory by default).' +  '\n' +
-                                'Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.' + '\n' +
                                 '\n' +
                                 'Mandatory arguments to long options are mandatory for short options too.' + '\n' +
                                 '-a, --all                  do not ignore entries starting with .' + '\n' +
@@ -46,7 +51,10 @@
                             for(let i = 0; i < dir.length; i++){
                                 let temp = dir[i];
                                 
-                                if(temp ){
+                                let pattern = /^\W/g; // regex expresion to see if the first char of a string is not a letter 
+
+                                let result = temp.match(pattern);   // check if its a dot file or just contains a dot '.' (tbh this just sees if the first char is a '.')
+                                if(!result){
                                     defpRint = defpRint + "  " + temp;
                                 }
                             }
@@ -191,7 +199,7 @@
         },
         //End `*` function------------------------------------------------------------------------------------------------
     }, {
-        greetings: 'welcome'
+        greetings: 'Quasar learning terminal'
     });
     </script>
 </body>
