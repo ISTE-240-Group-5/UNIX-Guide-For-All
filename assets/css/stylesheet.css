@@ -120,6 +120,25 @@ letter-spacing: 0.02em;
 color: #000000;
 }
 
+.reminder {
+width: 165px;
+height: 131px;
+background-image: rgba(255, 198, 55, 0.26);
+border-radius: 19px
+}
+
+.reminderHeader{
+font-weight: bold;
+}
+
+.reminderText{
+font-family: Helvetica Neue;
+font-style: normal;
+font-size: 10px;
+line-height: 12px;
+color: #000000;
+}
+
 
 /** CSS Rules for landing page **/
 
