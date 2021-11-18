@@ -36,7 +36,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
 
   <div class="terminalLandingPage"> 
-  <span id="terminalLine"> example.bot: </span> <span id="dash"> ~ </span> <span id="restofterminal"> echo "Hello World" <br> Hello World </span> 
+  <span style="color: #00FF85"> example.bot: </span> <span style="color: #00F0FF"> ~ </span> 
+  <span id="terminalLine" style="color: #FFFFFF;" > echo "Hello World" <br> Hello World </span> 
   </div>
   
   <div class="missionStatement">
