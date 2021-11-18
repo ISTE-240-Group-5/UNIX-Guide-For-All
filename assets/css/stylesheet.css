@@ -308,6 +308,70 @@ overflow: hidden; /* Ensures the content is not revealed until the animation */
   50% { border-color: orange }
 }
  
+ 
+/* Media queries */
+
+/* Landing Page */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+  
+  .terminalLandingPage{
+  display: none;
+  }
+	
+	
+	.landingPageMargins{
+  margin-top: 255px;
+  display: grid; 
+  margin-right: 24px;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+  gap: 13px 45px; 
+  grid-template-areas: 
+    "head"
+    "sub"
+    "button"
+    "statement"; 
+}
+
+
+.quasarHeading { 
+left: -18.98px;
+text-align: center;
+font-weight: normal;
+
+}
+
+.landingPageSubHeading { 
+font-size: 24px;
+color: #FFFFFF;
+text-align: center;
+}
+
+.learnmoreButton { 
+text-align: center;
+text-decoration: none;
+}
+
+.missionStatement { 
+grid-area: statement;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 18px; 
+margin-top: 20px;
+}
+
+.terminalLandingPage { 
+text-align: left;
+
+}
+	
+}
 
 
 
