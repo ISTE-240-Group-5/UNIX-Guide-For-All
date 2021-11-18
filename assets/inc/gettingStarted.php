@@ -31,11 +31,12 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     
    <?php
    
-   require '../whatIsLinuxUnix.php';
+   require 'gettingStartedSubDir/whatIsLinuxUnix.php';
    
-   require '../howToUseUnix.php';
+   require ' gettingStartedSubDir/howToUseUnix.php
+';
    
-   require '../howToTerm.php';
+   require 'gettingStartedSubDir/howToTerm.php';
    
    ?>
    
