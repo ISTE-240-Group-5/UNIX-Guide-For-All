@@ -20,5 +20,3 @@ they follow the same, if not similiar, commands
 
 
 
-    <script class="js/scripts.js?v=1.0"></script>
-
