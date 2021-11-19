@@ -87,7 +87,6 @@ font:hover:
 /** CSS Rules for all pages **/
 
 body {
-margin: auto 88px 236px 88px;
 font-family: "Helvetica Neue", Verdana, SansSerif;
 font-size: 12px;
 line-height: 14px;
@@ -259,6 +258,9 @@ background-repeat: no-repeat;
 
 .landingPageMargins{
   display: grid; 
+  margin-top: 210px;
+  margin-right: 88px;
+  margin-left: 88px;
   grid-template-columns: 0.9fr 1.1fr; 
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
   gap: 13px 45px; 
