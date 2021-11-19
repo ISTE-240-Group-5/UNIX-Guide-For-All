@@ -17,9 +17,10 @@
             </div>
 
 
-            <div class="terminalLandingPage"> 
-                <img src="./assets/images/small/example_terminal.png" alt="image of terminal">
-            </div>
+            <div class="terminalLandingPage">
+  <span style="color:#00FF85">example.bot:</span><span style="color:#00F0FF">~ $</span>
+  <p id="terminaltext" style="color:white"> echo "Hello World" </p>
+</div>
             
             <div class="missionStatement">
                 <p> Dedicated to teaching unix language to web developers of all ages and educational backgrounds </p>
