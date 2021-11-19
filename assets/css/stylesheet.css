@@ -95,6 +95,94 @@ letter-spacing: 0.02em;
 color: #000000;
 }
 
+.logo {
+	padding: 5px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+
+  background-color: #333;
+  overflow: hidden;
+ 
+}
+
+/* Style the links inside the navigation bar */
+.topnav a  {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FFC637;
+  color: #3B3B3B;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #DAA20F;
+  color: white;
+}
+
+.search{
+	float:right;
+	margin:7px;
+}
+		
+.searchButton{
+	color: #f2f2f2;
+	float: right;
+	padding: 5px 10px;
+	margin-right: 16px;
+	font-size: 12px;
+	border: none;
+	cursor: pointer;
+}
+
+.search input[type=text]{
+	width:300px;
+	height:25px;
+	border-radius:25px;
+	border: none;
+}
+
+.pagefooter {
+	background-color: white;
+    position: absolutes;
+    bottom: 10px;
+    width: 100%;
+	color: black;
+}
+
+.whitebanner {
+	background-color: white;
+}
+
+.bottomnav a  {
+  float: left;
+  color: black;
+}
+
+.copyright {
+	display: inline;
+	float: right;
+    margin-left: 50px;
+}
+
+.bottomnav a, .copyright {
+	text-align: center;
+  	padding: 20px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	
+}
+
 .header{
 font-size: 36px;
 line-height: 43px;
