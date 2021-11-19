@@ -85,82 +85,14 @@ font:hover:
 **/
 
 /** CSS Rules for all pages **/
-* {
-	margin: 0;
-}
-
-/* * {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
-} */
 
 body {
-/* margin: auto 88px 236px 88px; */
+margin: auto 88px 236px 88px;
 font-family: "Helvetica Neue", Verdana, SansSerif;
 font-size: 12px;
 line-height: 14px;
 letter-spacing: 0.02em;
 color: #000000;
-
-
-}
-
-.logo {
-	padding: 5px;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-
-  background-color: #333;
-  overflow: hidden;
- 
-}
-
-/* Style the links inside the navigation bar */
-.topnav a  {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: bold;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #FFC637;
-  color: #3B3B3B;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #DAA20F;
-  color: white;
-}
-
-.search{
-	float:right;
-	margin:7px;
-}
-		
-.searchButton{
-	color: #f2f2f2;
-	float: right;
-	padding: 5px 10px;
-	margin-right: 16px;
-	font-size: 12px;
-	border: none;
-	cursor: pointer;
-}
-
-.search input[type=text]{
-	width:300px;
-	height:25px;
-	border-radius:25px;
-	border: none;
 }
 
 .header{
@@ -174,61 +106,75 @@ font-weight: normal;
 font-size: 24px;
 line-height: 29px;
 color: #DAA20F;
+font-weight: normal;
 }
 
-.pagefooter {
-	background-color: white;
-    position: absolutes;
-    bottom: 10px;
-    width: 100%;
-	color: black;
+.text{
+width: 610px;
+height: 93px;
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.02em;
+color: #000000;
 }
 
-.whitebanner {
-	background-color: white;
+.reminder {
+width: 165px;
+height: 131px;
+background-color: rgba(255, 198, 55, 0.26);
+border-radius: 19px
 }
 
-.bottomnav a  {
-  float: left;
-  color: black;
+.reminderHeader{
+font-weight: bold;
 }
 
-.copyright {
-	display: inline;
-	float: right;
-    margin-left: 50px;
+.reminderText{
+font-family: Helvetica Neue;
+font-style: normal;
+font-size: 10px;
+line-height: 12px;
+color: #000000;
 }
 
-.bottomnav a, .copyright {
-	text-align: center;
-  	padding: 20px 16px;
-  	text-decoration: none;
-  	font-size: 17px;
-  	
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
 }
+
+#myBtn:hover {
+  background-color: #555;
+}
+
 
 /** CSS Rules for landing page **/
 
 #landingPage{
 background-image: linear-gradient(110.27deg, rgba(255, 128, 8, 0.78) 10.56%, #FFC837 66.09%);
 background-repeat: no-repeat;
-min-height: 100vh;
-overflow: hidden;
-
 }
 
 
-
-
 .landingPageMargins{
-  margin-top: 130px;
-  justify-content: space-evenly;
-  justify-items: center;
-  align-content: space-evenly;
-  align-items: center;
+  margin-top: 210px;
   display: grid; 
+  margin-right: 122px;
   grid-template-columns: 0.9fr 1.1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
   gap: 13px 45px; 
   grid-template-areas: 
     "head term"
@@ -240,12 +186,11 @@ overflow: hidden;
 .quasarHeading { 
 grid-area: head; 
 font-family: "Futurist Fixed-width";
-font-size: 75px;
+font-size: 50px;
 color: #FFFFFF;
 left: -23.97px;
 top: 70px;
 font-weight: normal;
-letter-spacing: 10px;
 
 }
 
@@ -281,7 +226,7 @@ grid-area: statement;
 font-family: Helvetica;
 font-style: normal;
 font-weight: 300;
-font-size: 25px;
+font-size: 16px;
 line-height: 18px; 
 margin-top: 20px;
 }
@@ -293,8 +238,41 @@ background: #363636;
 border-radius: 5px;
 width: 271px;
 height: 232px;
-
 }
+
+.terminalLandingPage span, .terminalLandingPage p {
+font-family: 'Andale Mono';
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 11px;
+padding: 10px;
+}
+
+/* DEMO-SPECIFIC STYLES */
+#terminaltext {
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+
 
 /** Getting Started Rules **/
 
@@ -314,6 +292,108 @@ height: 232px;
   border-radius: 4px;
 
 }
+
+ 
+ 
+/* Media queries */
+
+/* Landing Page */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+  
+  .terminalLandingPage{
+  display: none;
+  }
+	
+	
+	.landingPageMargins{
+  margin-top: 255px;
+  display: grid; 
+  margin-right: 24px;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+  gap: 13px 45px; 
+  grid-template-areas: 
+    "head"
+    "sub"
+    "button"
+    "statement"; 
+}
+
+
+.quasarHeading { 
+left: -18.98px;
+text-align: center;
+font-weight: normal;
+
+}
+
+.landingPageSubHeading { 
+font-size: 24px;
+color: #FFFFFF;
+text-align: center;
+}
+
+.learnmoreButton { 
+text-align: center;
+text-decoration: none;
+}
+
+.missionStatement { 
+grid-area: statement;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 18px; 
+margin-top: 20px;
+}
+
+.terminalLandingPage { 
+text-align: left;
+}
+	
+
+body {
+margin: auto 19px 133px 30px;
+font-family: "Helvetica Neue", Verdana, SansSerif;
+font-size: 11px;
+line-height: 15px;
+}
+
+.header{
+font-size: 24px;
+line-height: 29px;
+color: rgba(255, 128, 8, 0.78);
+font-weight: normal;
+}
+
+.subheader{
+font-size: 20px;
+}
+
+.text{
+width: 289px;
+height: 93px;
+font-size: 11px;
+line-height: 13px;
+}
+
+.reminder {
+width: 100%;
+height: 100px;
+background-color: rgba(255, 198, 55, 0.26);
+border-radius: 19px
+}
+
+.reminderHeader{
+font-weight: bold;
+}
+}
+
 
 
 

@@ -25,34 +25,44 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	<div class="content">
     <h1 class="header"> UNIX 101: A Survival Guide </h1>
     
-    <p>
-
+    <p class="text"> 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec pretium urna. Sed dignissim lorem 			 vel leo pretium, nec sagittis urna suscipit. In et massa imperdiet elit pellentesque gravida. Integer in commodo ex. Aliquam sagittis orci sed quam lacinia, eget tempor metus sodales. Duis pharetra est magna. Cras sed nulla gravida, pharetra justo vel, vehicula lectus. Pellentesque aliquam volutpat bibendum. Nunc accumsan mattis ex at ornare. Duis lorem est, imperdiet eget lacinia eget, viverra id tortor. Pellentesque euismod, diam et rutrum accumsan, libero odio porta sapien, ut dictum orci tellus a magna. Vestibulum sed nunc eu nisl interdum tempus. 
     </p>
     
-    
+   <?php
+   
+   include 'gettingStartedSubDir/whatIsLinuxUnix.php';
+   
+   include 'gettingStartedSubDir/howToUseUnix.php';
+   
+   include 'gettingStartedSubDir/howToTerm.php';
+   
+   ?>
+   
     <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
     
     </div>
+   
     <script>
 	//Get the button
 	var mybutton = document.getElementById("myBtn");
 
-	// When the user scrolls down 20px from the top of the document, show the 		button
+	// When the user scrolls down 20px from the top of the document, show the button
 	window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+	function scrollFunction() {
+ 		 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+   		 mybutton.style.display = "block";
+  		} else {
+  		  mybutton.style.display = "none";
+  		}
+	}
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+ 		 document.body.scrollTop = 0;
+ 		 document.documentElement.scrollTop = 0;
+	}
 </script>
 
 </body>
