@@ -115,7 +115,7 @@ color: #000000;
   padding: 20px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 /* Change the color of links on hover */
@@ -258,9 +258,7 @@ background-repeat: no-repeat;
 
 
 .landingPageMargins{
-  margin-top: 210px;
   display: grid; 
-  margin-right: 122px;
   grid-template-columns: 0.9fr 1.1fr; 
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
   gap: 13px 45px; 
