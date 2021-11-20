@@ -255,6 +255,10 @@ color: #000000;
   background-color: #555;
 }
 
+.topnav a.icon {
+  color: FFFFFF;
+}
+
 
 /** CSS Rules for landing page **/
 
