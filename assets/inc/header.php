@@ -5,6 +5,9 @@
             
         </div>
         <div class="topnav">
+        	 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   				 <i class="fa fa-bars"></i>
+ 		    </a>
             <a href="./assets/inc/gettingStarted.php">Getting Started</a>
             <a href="#">Directory Commands</a>
             <a href="#">File Commands</a>

@@ -1,5 +1,5 @@
    
-</body>
+
 <footer class="pagefooter">
         <div class="bottomnav">
             
@@ -20,4 +20,5 @@
   		}
 	}
 </script>
+</body>
 </html>
