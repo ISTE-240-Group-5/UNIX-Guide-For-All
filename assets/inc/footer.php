@@ -1,6 +1,4 @@
-
-
-    
+   
 </body>
 <footer class="pagefooter">
         <div class="bottomnav">
@@ -11,9 +9,6 @@
 
                 <p class="copyright">© Quasar Incorporated, 2021. All rights reserved.</p>
         </div>      
-          
-
-
 </footer>
    <script>
 	function myFunction() {
@@ -25,5 +20,4 @@
   		}
 	}
 </script>
-    
 </html>
