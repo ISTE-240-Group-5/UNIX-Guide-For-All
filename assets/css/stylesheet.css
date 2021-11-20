@@ -127,6 +127,10 @@ color: #000000;
 .topnav a.active {
   background-color: #DAA20F;
   color: white;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
 }
 
 .search{
