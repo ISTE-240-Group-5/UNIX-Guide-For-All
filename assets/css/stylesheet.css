@@ -137,6 +137,10 @@ color: #000000;
 	float:right;
 	margin:7px;
 }
+
+.search form {
+margin-top: 5px;
+}
 		
 .searchButton{
 	color: #f2f2f2;
