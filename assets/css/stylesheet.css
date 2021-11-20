@@ -98,6 +98,13 @@ color: #000000;
 	padding: 5px;
 }
 
+.pageHeader {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
 
