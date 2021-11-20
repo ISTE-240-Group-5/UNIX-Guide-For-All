@@ -15,9 +15,11 @@
             <div class="search">
                 <form action="#">
                     <input type="text" name="search">
+                  <!-- 
                     <button class="searchButton">
                         <i class="fas fa-search"></i>
                     </button>
+                    -->
                 </form>
             </div>
 
