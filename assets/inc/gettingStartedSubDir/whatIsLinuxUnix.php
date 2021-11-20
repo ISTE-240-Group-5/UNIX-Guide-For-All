@@ -3,7 +3,5 @@
 
 <p class="text">
 
-Consectetur minim laboris sunt consectetur ea excepteur laboris nisi culpa culpa pariatur enim. Sit dolor veniam reprehenderit non est eu voluptate proident eu et in commodo ea. Commodo aliquip officia duis non aliquip elit duis nisi. Aute anim et voluptate Lorem dolore dolore esse cupidatat enim laboris magna. Do tempor adipisicing dolor aliqua eu cupidatat id ea eiusmod culpa. Laboris voluptate id amet cupidatat commodo aliquip et ad sunt ullamco aliquip commodo veniam nostrud. 
-<br> <br>
-Do ut tempor consectetur dolor velit officia aliqua dolore proident dolore magna eu dolor. Magna ea cillum occaecat Consectetur minim laboris sunt consectetur ea excepteur laboris nisi culpa culpa pariatur enim. Sit dolor veniam reprehenderit non est eu voluptate proident eu et in commodo ea. Commodo aliquip officia duis non aliquip elit duis nisi. Aute anim et voluptate Lorem dolore dolore esse cupidatat enim laboris magna. Do tempor adipisicing
+Linux and Unix, referred to in this guide simply as “Unix” are both computer operating systems. Linux is heavily based on the Unix operating system, therefore they are similar in many areas.  For our purposes, this includes the command line interface called a “Shell”.  This interface is used for interpreting commands and translating them to perform an action on the computer.  This includes tasks such as creating, moving, or deleting files. The shell is commonly referred to as the Terminal, and will be referred to as such in this guide.
 </p>

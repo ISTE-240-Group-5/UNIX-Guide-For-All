@@ -26,7 +26,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <h1 class="header"> UNIX 101: A Survival Guide </h1>
     
     <p class="text"> 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec pretium urna. Sed dignissim lorem 			 vel leo pretium, nec sagittis urna suscipit. In et massa imperdiet elit pellentesque gravida. Integer in commodo ex. Aliquam sagittis orci sed quam lacinia, eget tempor metus sodales. Duis pharetra est magna. Cras sed nulla gravida, pharetra justo vel, vehicula lectus. Pellentesque aliquam volutpat bibendum. Nunc accumsan mattis ex at ornare. Duis lorem est, imperdiet eget lacinia eget, viverra id tortor. Pellentesque euismod, diam et rutrum accumsan, libero odio porta sapien, ut dictum orci tellus a magna. Vestibulum sed nunc eu nisl interdum tempus. 
+    Welcome, aspiring web developers!  In this guide and throughout our website, you’ll learn the basic ins and outs of Unix along with some essential commands to get you started on your web development journey.  Or, if you’re already a developer, we offer great reference material for that one pesky command that may have slipped your mind.  Don’t worry, it happens to all of us.
+
+
+If you’re new to Unix, we recommend reading “What is Linux/Unix?”, “How to use Unix”, and “How to access the Terminal”.  After, check out what things you can do with Unix in our commands sections.  Once you’re solid on a particular section, the “Quizzes” page can be used to test your knowledge.  Happy developing!
+
     </p>
     
    <?php
