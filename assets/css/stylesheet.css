@@ -313,6 +313,10 @@ text-align: center;
 text-decoration: none;
 }
 
+.learnmoreButton:hover { 
+background-color: #65171A;
+}
+
 .missionStatement { 
 grid-area: statement;
 font-family: Helvetica;
