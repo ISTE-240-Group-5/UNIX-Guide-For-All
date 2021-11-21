@@ -87,12 +87,113 @@ font:hover:
 /** CSS Rules for all pages **/
 
 body {
-margin: auto 88px 236px 88px;
 font-family: "Helvetica Neue", Verdana, SansSerif;
 font-size: 12px;
 line-height: 14px;
 letter-spacing: 0.02em;
 color: #000000;
+height: 100%;
+}
+
+.logo {
+	padding: 5px;
+}
+
+.pageHeader {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a  {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FFC637;
+  color: #3B3B3B;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #DAA20F;
+  color: white;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.search{
+	float:right;
+	margin:7px;
+}
+
+.search form {
+margin-top: 5px;
+}
+		
+.searchButton{
+	color: #f2f2f2;
+	float: right;
+	padding: 5px 10px;
+	margin-right: 16px;
+	font-size: 12px;
+	border: none;
+	cursor: pointer;
+}
+
+.search input[type=text]{
+	width:300px;
+	height:25px;
+	border-radius:25px;
+	border: none;
+}
+
+.pagefooter {
+	background-color: white;
+    position: absolutes;
+    bottom: 10px;
+    width: 100%;
+	color: black;
+}
+
+.whitebanner {
+	background-color: white;
+}
+
+.bottomnav a  {
+  float: left;
+  color: black;
+}
+
+.copyright {
+	display: inline;
+	float: right;
+    margin-left: 50px;
+}
+
+.bottomnav a, .copyright {
+	text-align: center;
+  	padding: 20px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	
 }
 
 .header{
@@ -160,6 +261,10 @@ color: #000000;
   background-color: #555;
 }
 
+.topnav a.icon {
+  color: FFFFFF;
+}
+
 
 /** CSS Rules for landing page **/
 
@@ -168,10 +273,12 @@ background-image: linear-gradient(110.27deg, rgba(255, 128, 8, 0.78) 10.56%, #FF
 background-repeat: no-repeat;
 }
 
+
 .landingPageMargins{
-  margin-top: 210px;
   display: grid; 
-  margin-right: 122px;
+  margin-top: 210px;
+  margin-right: 88px;
+  margin-left: 88px;
   grid-template-columns: 0.9fr 1.1fr; 
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
   gap: 13px 45px; 
@@ -220,6 +327,10 @@ text-align: center;
 text-decoration: none;
 }
 
+.learnmoreButton:hover { 
+background-color: #65171A;
+}
+
 .missionStatement { 
 grid-area: statement;
 font-family: Helvetica;
@@ -245,7 +356,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 10px;
 line-height: 11px;
-padding: 5px;
+padding: 10px;
 }
 
 /* DEMO-SPECIFIC STYLES */
