@@ -21,6 +21,12 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <link rel="stylesheet" href="../css/stylesheet.css">
 </head>
 <body>
+
+<?php 
+    //include header
+	require('header.php');
+
+?>
 	
 	<div class="content">
     <h1 class="header"> UNIX 101: A Survival Guide </h1>
@@ -69,5 +75,10 @@ If you’re new to Unix, we recommend reading “What is Linux/Unix?”, “How 
 	}
 </script>
 
-</body>
-</html>
+<?php 
+
+    //include footer
+	require('footer.php');
+
+
+?>
