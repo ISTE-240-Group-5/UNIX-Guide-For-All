@@ -53,7 +53,7 @@ If you’re new to Unix, we recommend reading “What is Linux/Unix?”, “How 
     
     </div>
    
- <script src="./js/javascript.js"></script>
+ <script src="../js/javascript.js"></script>
 
 <?php 
 
