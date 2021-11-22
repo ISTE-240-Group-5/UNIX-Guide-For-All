@@ -87,6 +87,8 @@ font:hover:
 /** CSS Rules for all pages **/
 
 body {
+margin-top: 210px;
+margin-right: 88px;
 font-family: "Helvetica Neue", Verdana, SansSerif;
 font-size: 12px;
 line-height: 14px;
@@ -180,6 +182,11 @@ margin-top: 5px;
 .bottomnav a  {
   float: left;
   color: black;
+}
+
+.bottomnav a:hover  {
+  float: left;
+  color: orange;
 }
 
 .copyright {
