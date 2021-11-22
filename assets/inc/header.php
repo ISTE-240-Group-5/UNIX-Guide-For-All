@@ -1,14 +1,14 @@
 
     <div class="pageHeader">
         <div class="whitebanner">
-            <a href="./index.php"><img class="logo" src="./assets/images/small/navlogo.png" alt="company logo"></a>
+            <a href="./index.php"><img class="logo" src="http://serenity.ist.rit.edu/~iste240t18/project-main/assets/assets/images/small/navlogo.png" alt="company logo"></a>
             
         </div>
         <div class="topnav">
         	 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
    				 <i class="fa fa-bars"></i>
  		    </a>
-            <a href="./assets/inc/gettingStarted.php">Getting Started</a>
+            <a href="http://serenity.ist.rit.edu/~iste240t18/project-main/assets/gettingStarted.php">Getting Started</a>
             <a href="#">Directory Commands</a>
             <a href="#">File Commands</a>
             <a href="#">Advanced Commands</a>
