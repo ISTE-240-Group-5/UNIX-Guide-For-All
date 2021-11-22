@@ -167,7 +167,7 @@ margin-top: 5px;
 
 .pagefooter {
 	background-color: white;
-    position: absolutes;
+    position: absolute;
     bottom: 10px;
     width: 100%;
 	color: black;
@@ -272,7 +272,7 @@ color: #000000;
 }
 
 .topnav a.icon {
-  color: FFFFFF;
+  color: #FFFFFF;
 }
 
 
@@ -419,10 +419,7 @@ padding: 10px;
 
 /* Landing Page */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+  { 
   
   .terminalLandingPage{
   display: none;
