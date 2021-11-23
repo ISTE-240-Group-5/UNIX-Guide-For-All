@@ -27,7 +27,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     //include header
 	require('header.php');
 	
-	require('gettingStartedSubDir/gettingstartedSidenav.php.php');
+	require('gettingStartedSubDir/gettingstartedSidenav.php');
 
 ?>
 	
