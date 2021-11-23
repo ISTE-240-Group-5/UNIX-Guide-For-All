@@ -24,7 +24,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     //include header
     $page = 'Directory Commands';
 	require('assets/inc/header.php');
-    require('assets/inc/nav.php');
+	require('assets/inc/nav.php');
 
 ?>
 <div class="content">
@@ -33,8 +33,21 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <p class="text"> Consectetur minim laboris sunt consectetur ea excepteur laboris nisi culpa culpa pariatur enim. Sit dolor veniam reprehenderit non est eu voluptate proident eu et in commodo ea. Commodo aliquip officia duis non aliquip elit duis nisi.  </p>
 
 
+ <!--
+CD Command Here
+ -->
+<?php
+  include 'assets/inc/dirComandsSubDir/cd_command.php';
+
+  include 'assets/inc/dirComandsSubDir/cp_command.php';
+
+ 
+ include 'assets/inc/dirComandsSubDir/ls_command.php';
+
+  ?>
     <script class="js/scripts.js?v=1.0"></script>
     </div>
+    
 <?php 
 
     //include footer

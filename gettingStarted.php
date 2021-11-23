@@ -29,7 +29,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     //include header
     $page = 'gettingStarted';
 	require('assets/inc/header.php');
-    require('assets/inc/nav.php');
+	require('assets/inc/nav.php');
 	require('assets/inc/gettingStartedSubDir/gettingstartedSidenav.php');
 ?>
 	

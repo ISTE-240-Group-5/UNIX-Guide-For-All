@@ -24,7 +24,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     //include header
     $page = 'File Commands';
 	require('assets/inc/header.php');
-    require('assets/inc/nav.php');
+	require('assets/inc/nav.php');
 	
 ?>
 <div class="content">
