@@ -11,7 +11,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Quasar</title>
+    <title>Quasar: File Commands</title>
     <meta name="_____" content="_____">
     <meta name="_____" content="_____">
 
