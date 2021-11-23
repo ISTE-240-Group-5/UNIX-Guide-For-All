@@ -18,11 +18,6 @@
                 	<img class="searchButton" 	
 					src="https://img.icons8.com/material-outlined/24/ffffff/search--v1.png"/>
 				<input type="text" name="search">
-                  <!-- 
-                    <button class="searchButton">
-                        <i class="fas fa-search"></i>
-                    </button>
-                    -->
                 </form>
             </div>
 
