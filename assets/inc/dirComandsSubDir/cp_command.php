@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="../../css/stylesheet.css">
   </head>
   <body>
-    
-    <?php
 
-  include "../header.php";
 
- ?>
 
-    <h1>Directory Commands</h1>
 
     <h2>CP Command</h2>
 
-    <p>Input Text Here</p>
+    <p>cp: Creates a copy of the specified file.
+
+        Syntax: cp file1 file2
+      </p>
+
+    <h3>Example: cp example  example2 </h3>
+
+    <p>Copies example.text, names the copy example2 </p>
 
 
     <!--
@@ -30,14 +32,3 @@
 
   </body>
 </html>
-
-
-
-
-
-
-<?php
-
-  include "../footer.php";
-
- ?>
