@@ -21,17 +21,24 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <link rel="stylesheet" href="../css/stylesheet.css">
 </head>
 <body>
-	
+    <?php 
+        $path = './';
+        //include header
+        require($path.'./header.php');
+
+    ?>	
+    <div class="quizPageMargins">
+    
     <h1 class="header"> Quiz Portal </h1>
 
 	<div class="qdiv">
-    <a class="qDivFont" href="./assets/inc/quizSubDir/introQuiz.php">Introduction Quiz</a><br>
-    <a class="qDivFont" href="./assets/inc/quizSubDir/fileCommQuiz.php">File Commands Quiz</a><br>
-    <a class="qDivFont" href="./assets/inc/quizSubDir/dirCommQuiz.php">Directory Commands Quiz</a><br>
-    <a class="qDivFont" href="./assets/inc/quizSubDir/advCommQuiz">Advanced Commands Quiz</a>
+    <a class="qDivFont" href="./quizSubDir/introQuiz.php">Introduction Quiz</a><br>
+    <a class="qDivFont" href="./quizSubDir/fileCommQuiz.php">File Commands Quiz</a><br>
+    <a class="qDivFont" href="./quizSubDir/dirCommQuiz.php">Directory Commands Quiz</a><br>
+    <a class="qDivFont" href="./quizSubDir/advCommQuiz.php">Advanced Commands Quiz</a>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
     </div>
-   
+    </div>
     <script>
 	//Get the button
 	var mybutton = document.getElementById("myBtn");
@@ -54,5 +61,12 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	}
 </script>
 
+    <?php 
+
+        //include footer
+        require($path.'./footer.php');
+
+
+    ?>
 </body>
 </html>
