@@ -5,8 +5,11 @@
             
         </div>
         <div class="topnav">
-        	 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-   				 <i class="fa fa-bars"></i>
+        	 <div class="container" onclick="myFunction(this)">
+ 				 <div class="bar1"></div>
+ 				 <div class="bar2"></div>
+ 				 <div class="bar3"></div>
+			</div>
  		    </a>
             <a href="http://serenity.ist.rit.edu/~iste240t18/project-main/assets/inc/gettingStarted.php">Getting Started</a>
             <a href="#">Directory Commands</a>
