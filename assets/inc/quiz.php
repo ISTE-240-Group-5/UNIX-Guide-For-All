@@ -11,7 +11,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Quasar-edu.page</title>
+    <title>Quasar Quizzez</title>
     <meta name="_____" content="_____">
     <meta name="_____" content="_____">
 
@@ -22,30 +22,14 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 </head>
 <body>
 	
-	<div class="content">
     <h1 class="header"> Quiz Portal </h1>
-    
-    <p class="text"> 
-    Welcome to our quiz portal! Here you can test your knowlege of the Unix operating system in some of our short quizzes.
 
-    </p>
-
-    <h1 class="header"> Units </h1>
-
-    <a class = "subheader" href="./assets/inc/quizSubDir/introQuiz.php">Introduction quiz</a>
-
-   <?php
-   
-   include 'quizSubDir/introQuiz.php';
-   
-   include 'quizSubDir/advCommQuiz.php';
-   
-   include 'quizSubDir/advCommQuiz.php';
-   
-   ?>
-   
+	<div class="qdiv">
+    <a class="qDivFont" href="./assets/inc/quizSubDir/introQuiz.php">Introduction Quiz</a><br>
+    <a class="qDivFont" href="./assets/inc/quizSubDir/fileCommQuiz.php">File Commands Quiz</a><br>
+    <a class="qDivFont" href="./assets/inc/quizSubDir/dirCommQuiz.php">Directory Commands Quiz</a><br>
+    <a class="qDivFont" href="./assets/inc/quizSubDir/advCommQuiz">Advanced Commands Quiz</a>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-    
     </div>
    
     <script>
