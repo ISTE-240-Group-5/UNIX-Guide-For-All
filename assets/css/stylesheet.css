@@ -74,20 +74,27 @@ Buttons:
 	color: #3B3B3B;
 }
 
-.qDivFont:hover{
-	background: rgba(40, 0, 46, 0.25) 105.87%;
-	opacity: 0.4;
+.question:hover{
+	background-color:rgba(53, 57, 91, 0.4);
+	opacity: 0.4;	
 }
 	
-.qfont:hover{
+.question a:hover{
 	font-family: Helvetica Neue;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
-	line-height: 29px;
-	color: #FFFFFF;
+	font-size: 35px;
+	line-height: 70px;
+	color: white;
 }
-	
+
+.Quizcontent{
+margin-top: 200px;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+
 
 
 
@@ -134,16 +141,6 @@ font-family: "Helvetica Neue", Verdana, SansSerif;
   color: #3B3B3B;
 }
 
-/* Add a color to the active/current link */
-/* .topnav a:active {
-  background-color: #DAA20F;
-  color: white;
-  position: absolute;
-  right: 0;
-  left: 0;
-  top: 0;
-} */
-
 .link.active {
   background-color: #DAA20F;
 }
@@ -162,7 +159,7 @@ font-family: "Helvetica Neue", Verdana, SansSerif;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 10px 10px 10px 40px;
   text-decoration: none;
   font-size: 25px;
   color: #3C3C3C;
@@ -213,7 +210,6 @@ margin-top: 5px;
     bottom: 10px;
     width: 100%;
 	color: black;
-	position: fixed;
 }
 
 .whitebanner {
@@ -223,7 +219,6 @@ margin-top: 5px;
 .bottomnav a  {
   float: left;
   color: black;
-  box-shadow: 0px 6px 13px 7px #FF8008;
 }
 
 .bottomnav a:hover  {
@@ -244,6 +239,20 @@ margin-top: 5px;
   	
 }
 
+.subsubheader{
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: #585858;
+}
+
+.subsub{
+font-weight: bold;
+font-size: 16px;
+}
+
 .header{
 font-size: 36px;
 line-height: 43px;
@@ -260,8 +269,6 @@ margin-top: 50px;
 }
 
 .text{
-width: 610px;
-height: 93px;
 font-family: Helvetica Neue;
 font-style: normal;
 font-weight: normal;
@@ -318,6 +325,24 @@ color: #000000;
 
 .topnav a.icon {
   color: #FFFFFF;
+}
+
+.terminals { 
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background: #363636;
+border-radius: 5px;
+width: 271px;
+height: 232px;
+}
+
+.terminals p {
+color: white;
+font-family: 'Andale Mono';
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 11px;
+padding: 10px;
 }
 
 

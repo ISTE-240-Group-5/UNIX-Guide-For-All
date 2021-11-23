@@ -18,24 +18,39 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
 </head>
 <body>
 	
 	<?php 
     //include header
-	require('header.php');
+	$page = 'Quizzes';
+	require('assets/inc/header.php');
+	require('assets/inc/nav.php');
 	
 
 ?>
-	<div class="content">
+	<div class="Quizcontent">
     <h1 class="header"> Quiz Portal </h1>
 
 	<div class="qdiv">
-    <a class="qDivFont" href="./assets/inc/quizSubDir/introQuiz.php">Introduction Quiz</a><br>
-    <a class="qDivFont" href="./assets/inc/quizSubDir/fileCommQuiz.php">File Commands Quiz</a><br>
-    <a class="qDivFont" href="./assets/inc/quizSubDir/dirCommQuiz.php">Directory Commands Quiz</a><br>
-    <a class="qDivFont" href="./assets/inc/quizSubDir/advCommQuiz">Advanced Commands Quiz</a>
+	
+	<div class="question">
+    <a class="qDivFont" href="assets/inc/quizSubDir/introQuiz.php">Introduction Quiz</a><br>
+    </div>
+    
+    <div class="question">
+    <a class="qDivFont" href="assets/inc/quizSubDir/fileCommQuiz.php">File Commands Quiz</a><br>
+    </div>
+    
+    <div class="question">
+    <a class="qDivFont" href="assets/inc/quizSubDir/dirCommQuiz.php">Directory Commands Quiz</a><br>
+    </div>
+    
+    <div class="question">
+    <a class="qDivFont" href="assets/inc/quizSubDir/advCommQuiz">Advanced Commands Quiz</a>
+    </div>
+    
     <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
     </div>
    </div>
@@ -64,7 +79,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <?php 
 
     //include footer
-	require('footer.php');
+	require('assets/inc/footer.php');
 
 
 ?>

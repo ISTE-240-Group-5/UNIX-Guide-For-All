@@ -23,7 +23,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <?php 
 
     //include footer
-	require('header.php');
+	require('assets/inc/header.php');
+	require('assets/inc/nav.php');
 
 
 ?>
@@ -39,7 +40,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <?php 
 
     //include footer
-	require('footer.php');
+	require('assets/inc/footer.php');
 
 
 ?>
