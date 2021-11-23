@@ -12,7 +12,7 @@
             <a href="#">Directory Commands</a>
             <a href="#">File Commands</a>
             <a href="#">Advanced Commands</a>
-            <a href="#">Quizzes</a>
+            <a href="./assets/inc/quiz.php">Quizzes</a>
 
                     <!-- search bar right align -->
             <div class="search">
