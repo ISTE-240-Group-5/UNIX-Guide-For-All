@@ -10,7 +10,7 @@
   <body>
 <?php
 
-  include "header.php";
+  include "../header.php";
 
  ?>
     <h1>Directory Commands</h1>
@@ -28,6 +28,6 @@
 
 <?php
 
-  include "footer.php";
+  include "../footer.php";
 
  ?>
