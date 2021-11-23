@@ -109,7 +109,7 @@ font-family: "Helvetica Neue", Verdana, SansSerif;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a  {
+.topnav .link  {
   float: left;
   color: #f2f2f2;
   text-align: center;
