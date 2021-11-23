@@ -5,10 +5,12 @@
             
         </div>
         <div class="topnav">
+        <a>
         	 <div class="container" onclick="myFunction(this)">
  				 <div class="bar1"></div>
  				 <div class="bar2"></div>
  				 <div class="bar3"></div>
+ 		</a>
 			</div>
  		    </a>
             <a href="http://serenity.ist.rit.edu/~iste240t18/project-main/assets/inc/gettingStarted.php">Getting Started</a>
