@@ -1,5 +1,5 @@
         <div class="topnav">
-    	 <span class="link" style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776;</span>
+    	 <span class="link" style="font-size:20px; padding: 15px; cursor:pointer" onclick="openNav()">&#9776;</span>
          
             <a class="link
                 <?php 
