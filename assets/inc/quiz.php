@@ -28,7 +28,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	
 
 ?>
-	
+	<div class="content">
     <h1 class="header"> Quiz Portal </h1>
 
 	<div class="qdiv">
@@ -38,7 +38,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <a class="qDivFont" href="./assets/inc/quizSubDir/advCommQuiz">Advanced Commands Quiz</a>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
     </div>
-   
+   </div>
     <script>
 	//Get the button
 	var mybutton = document.getElementById("myBtn");

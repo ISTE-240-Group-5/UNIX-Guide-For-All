@@ -20,12 +20,25 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <link rel="stylesheet" href="assets/css/stylesheet.css">
 </head>
 <body>
+<?php 
 
+    //include footer
+	require('header.php');
+
+
+?>
+<div class="content">
 <h1 class="header"> File Commands </h1>
 
 <p class="text"> Consectetur minim laboris sunt consectetur ea excepteur laboris nisi culpa culpa pariatur enim. Sit dolor veniam reprehenderit non est eu voluptate proident eu et in commodo ea. Commodo aliquip officia duis non aliquip elit duis nisi.  </p>
 
 
     <script class="js/scripts.js?v=1.0"></script>
-</body>
-</html>
+</div>
+<?php 
+
+    //include footer
+	require('footer.php');
+
+
+?>
