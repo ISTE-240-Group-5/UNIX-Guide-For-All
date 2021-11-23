@@ -126,13 +126,17 @@ font-family: "Helvetica Neue", Verdana, SansSerif;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+/* .topnav a:active {
   background-color: #DAA20F;
   color: white;
   position: absolute;
   right: 0;
   left: 0;
   top: 0;
+} */
+
+.link.active {
+  background-color: #DAA20F;
 }
 
 .sidenav {
