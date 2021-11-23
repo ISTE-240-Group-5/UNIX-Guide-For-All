@@ -200,6 +200,7 @@ margin-top: 5px;
     bottom: 10px;
     width: 100%;
 	color: black;
+	position: fixed;
 }
 
 .whitebanner {
@@ -317,11 +318,10 @@ height: 100vh;
 
 .landingPageMargins{
   display: grid; 
-  margin-top: 210px;
-  margin-right: 88px;
-  margin-left: 88px;
-  grid-template-columns: 0.9fr 1.1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+  margin-right: 10%;
+  margin-left: 20%;
+  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 13px 45px; 
   grid-template-areas: 
     "head term"
