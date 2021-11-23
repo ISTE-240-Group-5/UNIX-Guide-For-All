@@ -25,6 +25,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <?php 
     //include header
 	require('header.php');
+	
+	require('sidenav.php');
 
 ?>
 	
