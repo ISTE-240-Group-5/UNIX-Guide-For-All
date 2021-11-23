@@ -174,9 +174,6 @@ color: #000000;
 }
 
 
-
-
-
 .search{
 	float:right;
 	margin:7px;
@@ -248,6 +245,7 @@ font-size: 24px;
 line-height: 29px;
 color: #DAA20F;
 font-weight: normal;
+margin-top: 50px;
 }
 
 .text{
