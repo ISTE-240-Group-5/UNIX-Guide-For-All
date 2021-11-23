@@ -21,11 +21,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 </head>
 <body>
 <?php 
-
-    //include footer
-	require('header.php');
-
-
+    //include header
+    $page = 'File Commands';
+	require('assets/inc/header.php');
+    require('assets/inc/nav.php');
+	
 ?>
 <div class="content">
 <h1 class="header"> File Commands </h1>
@@ -38,7 +38,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <?php 
 
     //include footer
-	require('footer.php');
+	require('assets/inc/footer.php');
 
 
 ?>
