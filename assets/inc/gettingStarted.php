@@ -1,4 +1,5 @@
- <!-- 
+
+<!-- 
 Name         : gettingstarted
 File         : gettingstarted.php
 Objectives   : _________________________________________
@@ -26,7 +27,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     //include header
 	require('header.php');
 	
-	require('sidenav.php');
+	require('gettingStartedSubDir/gettingstartedSidenav.php.php');
 
 ?>
 	
