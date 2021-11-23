@@ -6,7 +6,7 @@
         </div>
         <div class="topnav">
 
-    	 <span class="link" style="font-size:20px;cursor: pointer;padding-top: 15px;" onclick="openNav()">&#9776;</span>
+    	 <span class="link" style="font-size:20px; cursor:pointer; padding-top:15px;" onclick="openNav()">&#9776;</span>
             <a class="link" href="http://serenity.ist.rit.edu/~iste240t18/project-main/assets/inc/gettingStarted.php">Getting Started</a>
             <a class="link" href="http://serenity.ist.rit.edu/~iste240t18/project-main/assets/inc/dirCommands.php">Directory Commands</a>
             <a class="link" href="http://serenity.ist.rit.edu/~iste240t18/project-main/assets/inc/fileCommands.php">File Commands</a>
