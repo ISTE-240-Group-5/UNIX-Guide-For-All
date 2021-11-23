@@ -22,6 +22,13 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 </head>
 <body>
 	
+	<?php 
+    //include header
+	require('header.php');
+	
+
+?>
+	
     <h1 class="header"> Quiz Portal </h1>
 
 	<div class="qdiv">
@@ -54,5 +61,10 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	}
 </script>
 
-</body>
-</html>
+<?php 
+
+    //include footer
+	require('footer.php');
+
+
+?>
