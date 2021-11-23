@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,30 +6,38 @@
     <link rel="stylesheet" href="../../css/stylesheet.css">
   </head>
   <body>
-<?php
-
-  include "../header.php";
-
- ?>
-    <h1>Directory Commands</h1>
 
     <h2>CD Command</h2>
 
-    <p>Input Text Here</p>
+    <p>cd: changes the current working directory to the specified directory.
+        Syntax: cd [directory]
+    [directory] can be the absolute path or the relative path to find the directory.</p>
+
+    <h3>Example 1: cd /example</h3>
+
+    <p>changes working directory to directory named “example”</p>
+
+    <h3>Example 2: cd /..</h3>
+
+    <p>changes working directory to the parent directory</p>
+
+<!--
+cd: changes the current working directory to the specified directory.
+    Syntax: cd [directory]
+[directory] can be the absolute path or the relative path to find the directory.
+
+Example 1: cd /example
+    changes working directory to directory named “example”
+
+Example 2: cd /..
+    changes working directory to the parent directory
+
+-->
+
+
+
 
     <!--
     Insert Take Quiz Button here.
 
     -->
-
-
-
-
-
-
-
-<?php
-
-  include "../footer.php";
-
- ?>
