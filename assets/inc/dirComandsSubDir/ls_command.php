@@ -1,8 +1,4 @@
-<?php
 
-  include "../header.php";
-
- ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +8,11 @@
     <link rel="stylesheet" href="../../css/stylesheet.css">
   </head>
   <body>
+<?php
 
+  include "../header.php";
+
+ ?>
     <h1>Directory Commands</h1>
 
     <h2>LS Command</h2>
@@ -23,13 +23,6 @@
     Insert Take Quiz Button here.
 
     -->
-
-
-  </body>
-</html>
-
-
-
 
 
 

@@ -50,39 +50,48 @@ Buttons:
 			font-size: 10px;
 			line-height: 11px;
 			color: #FFFFFF;
-			
-For quizzes:
-Div: 
+**/		
+
+/**For quizzes: **/
+.qdiv{
 	width: 594px;
 	height: 324px;
 	left: 161px;
 	top: 200px;
+  text-align: center;
 	background: linear-gradient(99.99deg, rgba(13, 11, 140, 0.25) -2.63%, rgba(219, 0, 255, 0.25) 105.87%);
 	border-radius: 17px;
-font in div: 
+}
+
+.qDivFont{
+  text-decoration: none;
 	font-family: Helvetica Neue;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
-	line-height: 29px;
+	font-size: 35px;
+	line-height: 70px;
+  border-radius: 10px;
 	color: #3B3B3B;
+}
 
-Div:hover: 
-	background: #35395B;
+.qDivFont:hover{
+	background: rgba(40, 0, 46, 0.25) 105.87%;
 	opacity: 0.4;
+}
 	
-font:hover: 
+.qfont:hover{
 	font-family: Helvetica Neue;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 24px;
 	line-height: 29px;
 	color: #FFFFFF;
+}
 	
 
 
 
-**/
+
 
 /** CSS Rules for all pages **/
 
@@ -204,6 +213,7 @@ margin-top: 5px;
     bottom: 10px;
     width: 100%;
 	color: black;
+	position: fixed;
 }
 
 .whitebanner {
@@ -213,6 +223,7 @@ margin-top: 5px;
 .bottomnav a  {
   float: left;
   color: black;
+  box-shadow: 0px 6px 13px 7px #FF8008;
 }
 
 .bottomnav a:hover  {
@@ -321,11 +332,11 @@ height: 100vh;
 
 .landingPageMargins{
   display: grid; 
-  margin-top: 210px;
-  margin-right: 88px;
-  margin-left: 88px;
-  grid-template-columns: 0.9fr 1.1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+  margin-right: 210px;
+  margin-right: 10%;
+  margin-left: 20%;
+  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 13px 45px; 
   grid-template-areas: 
     "head term"
