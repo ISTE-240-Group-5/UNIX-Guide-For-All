@@ -49,7 +49,9 @@ If you’re new to Unix, we recommend reading “What is Linux/Unix?”, “How 
    
    ?>
    
+   <!--
     <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+    -->
     
     </div>
    
