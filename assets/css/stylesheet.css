@@ -88,7 +88,12 @@ Buttons:
 	color: #FFFFFF;
 }
 	
-
+.quizPageMargins{
+  display: grid; 
+  margin-top: 160px;
+  margin-right: 88px;
+  margin-left: 88px;
+}
 
 
 
