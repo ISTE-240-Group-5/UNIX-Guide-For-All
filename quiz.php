@@ -24,7 +24,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	
 	<?php 
     //include header
-	$page = 'Quizzes';
+	$page = 'quizzes';
 	require('assets/inc/header.php');
 	require('assets/inc/nav.php');
 	

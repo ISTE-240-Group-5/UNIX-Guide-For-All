@@ -22,7 +22,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <body>
 <?php 
     //include header
-    $page = 'File Commands';
+    $page = 'fileCommands';
 	require('assets/inc/header.php');
 	require('assets/inc/nav.php');
 	

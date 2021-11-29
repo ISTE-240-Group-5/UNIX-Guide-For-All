@@ -357,7 +357,7 @@ height: 100vh;
 
 .landingPageMargins{
   display: grid; 
-  margin-right: 210px;
+  margin-top: 210px;
   margin-right: 10%;
   margin-left: 20%;
   grid-template-columns: 0.8fr 1.2fr;
