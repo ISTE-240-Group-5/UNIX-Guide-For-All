@@ -17,30 +17,29 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="../../css/stylesheet.css">
 </head>
 <body>
-<?php 
+    <?php 
+        $page = 'advancedCommands';
+        //include footer
+        require('../global/header.php');
+        require('../global/nav.php');
+    ?>
 
-    //include footer
-	require('assets/inc/header.php');
-	require('assets/inc/nav.php');
+    <div class="content">
+    <h1 class="header"> Advanced Commands </h1>
 
-
-?>
-
-<div class="content">
-<h1 class="header"> Advanced Commands </h1>
-
-<p class="text"> Consectetur minim laboris sunt consectetur ea excepteur laboris nisi culpa culpa pariatur enim. Sit dolor veniam reprehenderit non est eu voluptate proident eu et in commodo ea. Commodo aliquip officia duis non aliquip elit duis nisi.  </p>
+    <p class="text"> Consectetur minim laboris sunt consectetur ea excepteur laboris nisi culpa culpa pariatur enim. Sit dolor veniam reprehenderit non est eu voluptate proident eu et in commodo ea. Commodo aliquip officia duis non aliquip elit duis nisi.  </p>
 
 
     <script class="js/scripts.js?v=1.0"></script>
+
 </div>
 <?php 
 
     //include footer
-	require('assets/inc/footer.php');
+	require('../global/footer.php');
 
 
 ?>
