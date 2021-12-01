@@ -41,7 +41,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
         include './dirComandsSubDir/cp_command.php';
 
-        include '.dirComandsSubDir/ls_command.php';
+        include './dirComandsSubDir/ls_command.php';
     ?>
 
     <script class="js/scripts.js?v=1.0"></script>
