@@ -1,11 +1,11 @@
  <div class="topnav">
-    	 <span class="link" style="font-size:20px; padding: 15px; cursor:pointer" onclick="openNav()">&#9776;</span>
+    	 <!-- <span class="link" style="font-size:20px; padding: 15px; cursor:pointer" onclick="openNav()">&#9776;</span> -->
          
-            <a class="link" href="http://serenity.ist.rit.edu/~iste240t18/project-main/gettingStarted.php">Getting Started</a>            
-            <a class="link" href="http://serenity.ist.rit.edu/~iste240t18/project-main/dirCommands.php">Directory Commands</a>
-            <a class="link" href="http://serenity.ist.rit.edu/~iste240t18/project-main/fileCommands.php">File Commands</a>
-            <a class="link" href="http://serenity.ist.rit.edu/~iste240t18/project-main/advCommands.php">Advanced Commands</a>
-            <a class="link" href="http://serenity.ist.rit.edu/~iste240t18/project-main/quiz.php">Quizzes</a>
+            <a class="link <?php echo((isset($page) && $page=='gettingStarted')? ' active"' : ''); ?>   " href="gettingStarted.php">Getting Started</a>            
+            <a class="link <?php echo((isset($page) && $page=='dirCommands')? ' active"' : ''); ?>    " href="dirCommands.php">Directory Commands</a>
+            <a class="link <?php echo((isset($page) && $page=='fileCommands')? ' active"' : ''); ?>   " href="fileCommands.php">File Commands</a>
+            <a class="link <?php echo((isset($page) && $page=='advancedCommands')? ' active"' : ''); ?>    " href="advCommands.php">Advanced Commands</a>
+            <a class="link <?php echo((isset($page) && $page=='quizzes')? ' active"' : ''); ?>    " href="quiz.php">Quizzes</a>
 
                     <!-- search bar right align -->
             <div class="search">
