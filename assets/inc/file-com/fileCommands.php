@@ -17,14 +17,14 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="../../css/stylesheet.css">
 </head>
 <body>
 <?php 
     //include header
     $page = 'fileCommands';
-	require('assets/inc/header.php');
-	require('assets/inc/nav.php');
+    require('../global/header.php');
+    require('../global/nav.php');
 	
 ?>
 <div class="content">
@@ -38,7 +38,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <?php 
 
     //include footer
-	require('assets/inc/footer.php');
+	require('../global/footer.php');
 
 
 ?>
