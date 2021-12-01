@@ -56,5 +56,5 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
 <?php 
     //include footer
-	require('assets/inc/global/footer.php');
+	require('../global/footer.php');
 ?>
