@@ -50,55 +50,69 @@ Buttons:
 			font-size: 10px;
 			line-height: 11px;
 			color: #FFFFFF;
-			
-For quizzes:
-Div: 
+**/		
+
+/**For quizzes: **/
+.qdiv{
 	width: 594px;
 	height: 324px;
 	left: 161px;
 	top: 200px;
+  text-align: center;
 	background: linear-gradient(99.99deg, rgba(13, 11, 140, 0.25) -2.63%, rgba(219, 0, 255, 0.25) 105.87%);
 	border-radius: 17px;
-font in div: 
+}
+
+.qDivFont{
+  text-decoration: none;
 	font-family: Helvetica Neue;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
-	line-height: 29px;
+	font-size: 35px;
+	line-height: 70px;
+  border-radius: 10px;
 	color: #3B3B3B;
+}
 
-Div:hover: 
-	background: #35395B;
-	opacity: 0.4;
+.question:hover{
+	background-color:rgba(53, 57, 91, 0.4);
+	opacity: 0.4;	
+}
 	
-font:hover: 
+.question a:hover{
 	font-family: Helvetica Neue;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
-	line-height: 29px;
-	color: #FFFFFF;
-	
+	font-size: 35px;
+	line-height: 70px;
+	color: white;
+}
+
+.Quizcontent{
+margin-top: 200px;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
 
 
 
-**/
+
+
 
 /** CSS Rules for all pages **/
 
 body {
 font-family: "Helvetica Neue", Verdana, SansSerif;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.02em;
-color: #000000;
-height: 100%;
 }
 
 .logo {
 	padding: 5px;
 }
 
+.pageHeader, .topnav{
+	z-index: 2;
+}
 .pageHeader {
     position: absolute;
     right: 0;
@@ -110,16 +124,17 @@ height: 100%;
 .topnav {
   background-color: #333;
   overflow: hidden;
+  grid-area: nav
 }
 
 /* Style the links inside the navigation bar */
-.topnav a  {
+.topnav .link  {
   float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 20px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: normal;
 }
 
@@ -129,15 +144,53 @@ height: 100%;
   color: #3B3B3B;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
+.link.active {
   background-color: #DAA20F;
-  color: white;
-  position: absolute;
-  right: 0;
-  left: 0;
-  top: 0;
 }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FFC637;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sideNavBack{
+width: 250px;
+height: 30px;
+}
+
+.sideNavBack:hover{
+background-color: #E3A303;
+}
+
+.sidenav a {
+  padding: 10px 10px 10px 40px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #3C3C3C;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #E3A303;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
 
 .search{
 	float:right;
@@ -166,8 +219,6 @@ margin-top: 5px;
 }
 
 .pagefooter {
-	background-color: white;
-    position: absolutes;
     bottom: 10px;
     width: 100%;
 	color: black;
@@ -180,6 +231,10 @@ margin-top: 5px;
 .bottomnav a  {
   float: left;
   color: black;
+}
+
+.bottomnav a:hover  {
+  color: orange;
 }
 
 .copyright {
@@ -196,6 +251,20 @@ margin-top: 5px;
   	
 }
 
+.subsubheader{
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: #585858;
+}
+
+.subsub{
+font-weight: bold;
+font-size: 16px;
+}
+
 .header{
 font-size: 36px;
 line-height: 43px;
@@ -208,25 +277,30 @@ font-size: 24px;
 line-height: 29px;
 color: #DAA20F;
 font-weight: normal;
+margin-top: 50px;
 }
 
 .text{
-width: 610px;
-height: 93px;
 font-family: Helvetica Neue;
 font-style: normal;
 font-weight: normal;
-font-size: 12px;
-line-height: 14px;
+font-size: 14px;
+line-height: 16px;
 letter-spacing: 0.02em;
 color: #000000;
+}
+
+.content{
+margin-top: 200px;
+margin-left: 88px;
 }
 
 .reminder {
 width: 165px;
 height: 131px;
 background-color: rgba(255, 198, 55, 0.26);
-border-radius: 19px
+border-radius: 19px;
+padding: 10px;
 }
 
 .reminderHeader{
@@ -262,7 +336,25 @@ color: #000000;
 }
 
 .topnav a.icon {
-  color: FFFFFF;
+  color: #FFFFFF;
+}
+
+.terminals { 
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background: #363636;
+border-radius: 5px;
+width: 271px;
+height: 232px;
+}
+
+.terminals p {
+color: white;
+font-family: 'Andale Mono';
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 11px;
+padding: 10px;
 }
 
 
@@ -271,16 +363,17 @@ color: #000000;
 #landingPage{
 background-image: linear-gradient(110.27deg, rgba(255, 128, 8, 0.78) 10.56%, #FFC837 66.09%);
 background-repeat: no-repeat;
+height: 100vh;
 }
 
 
 .landingPageMargins{
   display: grid; 
   margin-top: 210px;
-  margin-right: 88px;
-  margin-left: 88px;
-  grid-template-columns: 0.9fr 1.1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+  margin-right: 10%;
+  margin-left: 20%;
+  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 13px 45px; 
   grid-template-areas: 
     "head term"
@@ -407,102 +500,7 @@ padding: 10px;
  
 /* Media queries */
 
-/* Landing Page */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-  
-  .terminalLandingPage{
-  display: none;
-  }
-	
-	
-	.landingPageMargins{
-  margin-top: 255px;
-  display: grid; 
-  margin-right: 24px;
-  grid-template-columns: 1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
-  gap: 13px 45px; 
-  grid-template-areas: 
-    "head"
-    "sub"
-    "button"
-    "statement"; 
-}
 
-
-.quasarHeading { 
-left: -18.98px;
-text-align: center;
-font-weight: normal;
-
-}
-
-.landingPageSubHeading { 
-font-size: 24px;
-color: #FFFFFF;
-text-align: center;
-}
-
-.learnmoreButton { 
-text-align: center;
-text-decoration: none;
-}
-
-.missionStatement { 
-grid-area: statement;
-font-family: Helvetica;
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 18px; 
-margin-top: 20px;
-}
-
-.terminalLandingPage { 
-text-align: left;
-}
-	
-
-body {
-margin: auto 19px 133px 30px;
-font-family: "Helvetica Neue", Verdana, SansSerif;
-font-size: 11px;
-line-height: 15px;
-}
-
-.header{
-font-size: 24px;
-line-height: 29px;
-color: rgba(255, 128, 8, 0.78);
-font-weight: normal;
-}
-
-.subheader{
-font-size: 20px;
-}
-
-.text{
-width: 289px;
-height: 93px;
-font-size: 11px;
-line-height: 13px;
-}
-
-.reminder {
-width: 100%;
-height: 100px;
-background-color: rgba(255, 198, 55, 0.26);
-border-radius: 19px
-}
-
-.reminderHeader{
-font-weight: bold;
-}
-}
 
 
 

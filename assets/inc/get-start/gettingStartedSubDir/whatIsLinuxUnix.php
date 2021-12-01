@@ -1,4 +1,3 @@
-
 <h2 class="subheader"> What is Linux/Unix? </h2>
 
 <p class="text">

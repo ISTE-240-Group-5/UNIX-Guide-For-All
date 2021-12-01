@@ -1,5 +1,3 @@
-
-
 <h2 class="subheader"> How to use Terminal </h2>
 
 <p class="text">
