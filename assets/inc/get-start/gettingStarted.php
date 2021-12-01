@@ -30,7 +30,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     $page = 'gettingStarted';
 	require('../global/header.php');
 	require('../global/nav.php');
-	require('gettingStartedSubDir/gettingstartedSidenav.php');
+	//require('gettingStartedSubDir/gettingstartedSidenav.php');
 ?>
 	
 	<div class="content">
@@ -41,11 +41,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         </p>
         
         <?php
-                include 'gettingStartedSubDir/whatIsLinuxUnix.php';
-                dsaf
-                include './gettingStartedSubDir/howToUseUnix.php';
-                re
-                include './gettingStartedSubDir/howToTerm.php';
+                //include 'gettingStartedSubDir/whatIsLinuxUnix.php';
+                
+                //include './gettingStartedSubDir/howToUseUnix.php';
+                
+                //include './gettingStartedSubDir/howToTerm.php';
         ?>
    
    <!--
