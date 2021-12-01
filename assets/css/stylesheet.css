@@ -110,6 +110,9 @@ font-family: "Helvetica Neue", Verdana, SansSerif;
 	padding: 5px;
 }
 
+.pageHeader, .topnav{
+	z-index: 2;
+}
 .pageHeader {
     position: absolute;
     right: 0;
@@ -156,6 +159,15 @@ font-family: "Helvetica Neue", Verdana, SansSerif;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+}
+
+.sideNavBack{
+width: 250px;
+height: 30px;
+}
+
+.sideNavBack:hover{
+background-color: #E3A303;
 }
 
 .sidenav a {
