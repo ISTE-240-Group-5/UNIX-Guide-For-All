@@ -22,7 +22,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <body>
     <?php 
         $page = 'advancedCommands';
-        //include footer
+        
         require('../global/header.php');
         require('../global/nav.php');
     ?>
