@@ -19,8 +19,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
-    <script src="assets/js/javascript.js"></script>
+    <link rel="stylesheet" href="../../css/stylesheet.css">
+    <script src="../../js/javascript.js"></script>
 
 </head>
 <body>

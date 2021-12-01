@@ -18,15 +18,15 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="../../css/stylesheet.css">
 </head>
 <body>
 	
 	<?php 
     //include header
 	$page = 'quizzes';
-    require('assets/inc/global/header.php');
-    require('assets/inc/global/nav.php');
+    require('../global/header.php');
+    require('../global/nav.php');
 	
 
 ?>
@@ -79,7 +79,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <?php 
 
     //include footer
-	require('assets/inc/global/footer.php');
+	require('../global/footer.php');
 
 
 ?>
