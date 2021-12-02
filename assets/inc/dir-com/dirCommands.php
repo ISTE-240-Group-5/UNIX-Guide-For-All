@@ -1,10 +1,10 @@
-<!-- 
+<!--
 Name         : index
 File         : index.html
 Objectives   : _________________________________________
 Usage        : Read directly in browser.
 Compatibility: caniuse.com, allmost all browsers.
-Rights       : Copyright (c) 2021 Quasar - GPLv3             
+Rights       : Copyright (c) 2021 Quasar - GPLv3
 -->
 
 <!DOCTYPE html>
@@ -21,7 +21,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 </head>
 <body>
 
-    <?php 
+    <?php
         //include header
         $page = 'dirCommands';
         require('../global/header.php');
@@ -42,13 +42,22 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         include './dirComandsSubDir/cp_command.php';
 
         include './dirComandsSubDir/ls_command.php';
+
+        include './dirComandsSubDir/gzip_command.php';
+
+        include './dirComandsSubDir/mkdir_command.php';
+
+        include './dirComandsSubDir/rmdir_command.php';
+
+        include './dirComandsSubDir/tar_command.php';
+
     ?>
 
     <script class="js/scripts.js?v=1.0"></script>
 
 </div>
-    
-<?php 
+
+<?php
 
     //include footer
     require('../global/footer.php');

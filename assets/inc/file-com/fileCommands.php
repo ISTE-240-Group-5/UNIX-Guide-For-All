@@ -1,10 +1,10 @@
-<!-- 
+<!--
 Name         : index
 File         : index.html
 Objectives   : _________________________________________
 Usage        : Read directly in browser.
 Compatibility: caniuse.com, allmost all browsers.
-Rights       : Copyright (c) 2021 Quasar - GPLv3             
+Rights       : Copyright (c) 2021 Quasar - GPLv3
 -->
 
 <!DOCTYPE html>
@@ -20,22 +20,34 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <link rel="stylesheet" href="../../css/stylesheet.css">
 </head>
 <body>
-<?php 
+<?php
     //include header
     $page = 'fileCommands';
     require('../global/header.php');
     require('../global/nav.php');
-	
+
 ?>
 <div class="content">
 <h1 class="header"> File Commands </h1>
 
 <p class="text"> Consectetur minim laboris sunt consectetur ea excepteur laboris nisi culpa culpa pariatur enim. Sit dolor veniam reprehenderit non est eu voluptate proident eu et in commodo ea. Commodo aliquip officia duis non aliquip elit duis nisi.  </p>
 
+<?php
+
+  include './fileCommandsSubDir/cat_command.php';
+  include './fileCommandsSubDir/cim_command.php';
+
+
+
+
+ ?>
+
+
+
 
     <script class="js/scripts.js?v=1.0"></script>
 </div>
-<?php 
+<?php
 
     //include footer
 	require('../global/footer.php');
