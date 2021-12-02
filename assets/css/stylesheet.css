@@ -410,9 +410,11 @@ padding: 10px;
     margin-left: 88px;
 }
 
-.NoSidesContent{
+.NoSidescontent{
 margin-top: 150px;
+    margin-left: 88px;
 }
+
 
 /** CSS Rules for landing page **/
 
@@ -592,6 +594,16 @@ font-size:20px;
 .topnav .link {
     padding: 13px 11px;
     font-size: 9px;
+}
+
+.quizPageMargins {
+    margin-top: 210px;
+    margin-left: 88px;
+}
+
+.NoSidescontent{
+margin-top: 210px;
+    margin-left: 88px;
 }
 
 }
