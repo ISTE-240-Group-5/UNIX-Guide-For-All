@@ -35,169 +35,164 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <th>Command Name</th>
   </tr>
   <tr>
-    <td>vim</td>
+    <td> <a href="#"> vim </a> </td>
   </tr>
    <tr>
-    <td>:e</td>
+    <td>  <a href="#"> :e </a> </td>
   </tr>
    <tr>
-    <td>:w</td>
+    <td> <a href="#"> :w </a></td>
   </tr>
    <tr>
-    <td>:wq</td>
+    <td> <a href="#"> :wq </a> </td>
   </tr>
    <tr>
-    <td>:q!</td>
+    <td><a href="#"> :q! </a> </td>
   </tr>
    <tr>
-    <td>h</td>
+    <td> <a href="#"> h </a> </td>
   </tr>
    <tr>
-    <td>l</td>
+    <td> <a href="#"> l </a> </td>
   </tr>
    <tr>
-    <td>j</td>
+    <td><a href="#"> j </a> </td>
   </tr>
    <tr>
-    <td>k</td>
+    <td> <a href="#"> k </a></td>
   </tr>
    <tr>
-    <td>H</td>
+    <td> <a href="#"> H </a> </td>
   </tr>
    <tr>
-    <td>M</td>
+    <td><a href="#"> M </a> </td>
   </tr>
    <tr>
-    <td>L</td>
+    <td><a href="#"> L </a> </td>
   </tr>
    <tr>
-    <td>w</td>
+    <td> <a href="#"> w </a> </td>
   </tr>
    <tr>
-    <td>b</td>
+    <td><a href="#"> b </a> </td>
   </tr>
    <tr>
-    <td>$</td>
+    <td> <a href="#"> $ </a> </td>
   </tr>
    <tr>
-    <td>0</td>
+    <td><a href="#"> 0 </a> </td>
   </tr>
    <tr>
-    <td>Ctrl + f</td>
+    <td><a href="#"> Ctrl + f </a></td>
   </tr>
    <tr>
-    <td>ctrl + D</td>
+    <td><a href="#">ctrl + D</a></td>
   </tr>
    <tr>
-    <td>gg</td>
+    <td><a href="#">gg</a></td>
   </tr>
    <tr>
-    <td>G</td>
+    <td><a href="#">G</a></td>
   </tr>
    <tr>
-    <td>yy</td>
+    <td><a href="#">yy</a></td>
   </tr>
    <tr>
-    <td>yw</td>
+    <td><a href="#">yw</a></td>
   </tr>
    <tr>
-    <td>y$</td>
+    <td><a href="#">y$</a></td>
   </tr>
    <tr>
-    <td>p</td>
+    <td><a href="#">p</a></td>
   </tr>
    <tr>
-    <td>d</td>
+    <td><a href="#">d</a></td>
   </tr>
    <tr>
-    <td>dd</td>
+    <td><a href="#">dd</a></td>
   </tr>
    <tr>
-    <td>x</td>
+    <td><a href="#">x</a></td>
   </tr>
    <tr>
-    <td>u</td>
+    <td><a href="#">u</a></td>
   </tr>
    <tr>
-    <td>Ctrl + r</td>
+    <td><a href="#">Ctrl + r</a></td>
   </tr>
    <tr>
-    <td>.</td>
+    <td><a href="#">.</a></td>
   </tr>
    <tr>
-    <td>cat</td>
+    <td><a href="#">cat</a></td>
   </tr>
    <tr>
-    <td>-b</td>
+    <td><a href="#">-b</a></td>
   </tr>
    <tr>
-    <td>-n</td>
+    <td><a href="#">-n</a></td>
   </tr>
    <tr>
-    <td>-u</td>
+    <td><a href="#">-u</a></td>
   </tr>
    <tr>
-    <td>></td>
+    <td><a href="#">></a></td>
   </tr>
    <tr>
-    <td>>></td>
+    <td><a href="#">>></a></td>
   </tr>
    <tr>
-    <td>mkdir</td>
+    <td><a href="#">mkdir</a></td>
   </tr>
    <tr>
-    <td>mkdir -p</td>
+    <td><a href="#">mkdir -p</a></td>
   </tr>
    <tr>
-    <td>rmdir</td>
+    <td><a href="#">rmdir</a></td>
   </tr>
    <tr>
-    <td>ls</td>
+    <td><a href="#">ls</a></td>
   </tr>
    <tr>
-    <td>ls -l</td>
+    <td><a href="#">ls -l</a></td>
   </tr>
    <tr>
-    <td>ls -a</td>
+    <td><a href="#">ls -a</a></td>
   </tr>
    <tr>
-    <td>pwd</td>
+    <td><a href="#">pwd</a></td>
   </tr>
    <tr>
-    <td>cd</td>
+    <td><a href="#">cd</a></td>
   </tr>
    <tr>
-    <td>cp</td>
+    <td><a href="#">cp</a></td>
   </tr>
    <tr>
-    <td>rm</td>
+    <td><a href="#">rm</a></td>
   </tr>
    <tr>
-    <td>rm -i</td>
+    <td><a href="#">rm -i</a></td>
   </tr>
    <tr>
-    <td>rm -r</td>
+    <td><a href="#">rm -r</a></td>
   </tr>
    <tr>
-    <td>rm -f</td>
+    <td><a href="#">rm -f</a></td>
   </tr>
    <tr>
-    <td>mv -i</td>
+    <td><a href="#">mv -i</a></td>
   </tr>
    <tr>
-    <td>mv -f</td>
+    <td><a href="#">mv -f</a></td>
   </tr>
    <tr>
-    <td>chmod</td>
+    <td><a href="#">chmod</a></td>
   </tr>
   </table>
 
-	
- 
 
-
-
-    
 </div>
 <?php 
 
