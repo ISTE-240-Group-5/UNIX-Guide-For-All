@@ -18,6 +18,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/stylesheet.css">
+     <script src="../../js/javascript.js"></script>
 </head>
 <body>
 
@@ -47,7 +48,6 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         include './dirComandsSubDir/ls_command.php';
     ?>
 
-    <script class="js/scripts.js?v=1.0"></script>
 
 </div>
     
