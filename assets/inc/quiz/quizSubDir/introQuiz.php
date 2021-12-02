@@ -23,7 +23,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <script>
     function highlight() {
         if(document.getElementById("p1").checked){
-            document.getElementById("display").innerHTML = 10 + 10;
+            document.write(2 + 3);
         }
     }
     </script>

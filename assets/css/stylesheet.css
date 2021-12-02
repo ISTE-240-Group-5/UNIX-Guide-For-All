@@ -67,6 +67,7 @@ Buttons:
 	line-height: 70px;
   border-radius: 10px;
 	color: #3B3B3B;
+  background-color: red;
 }
 
 .question:hover{
