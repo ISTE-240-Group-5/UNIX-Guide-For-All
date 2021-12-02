@@ -19,6 +19,14 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="../../../css/stylesheet.css">
+
+    <script>
+    function highlight() {
+        if(document.getElementById("p1").checked){
+            document.getElementById("display").innerHTML = 10 + 10;
+        }
+    }
+    </script>
 </head>
 <body>
     <?php 
@@ -44,13 +52,6 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
     </div>
     
-    <script>
-    function highlight() {
-        if(document.getElementById("p1").checked){
-            document.getElementById("display").innerHTML = 10 + 10;
-        }
-    }
-    </script>
 
     <?php 
         //include footer
