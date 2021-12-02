@@ -188,7 +188,7 @@ display: grid;
   background-color: #FFC637;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 140px;
   grid-area: sidenav;
 }
 
@@ -325,17 +325,10 @@ color: #000000;
 }
 
 .content {
-    margin-top: -316px;
+    margin-top: 165px;
     margin-left: 55px;
-    margin-right: 100px;
-    grid-area: content;
-}
-
-.NoSidescontent{
- margin-top: 100px;
- margin-left: 88px;
- margin-right: 150px;
- grid-area: content;
+    margin-right: 165px;
+    grid-area: auto;
 }
 
 .noside{
@@ -438,6 +431,14 @@ padding: 10px;
 #landingPage{
 background-image: linear-gradient(110.27deg, rgba(255, 128, 8, 0.78) 10.56%, #FFC837 66.09%);
 height: 100%;
+grid-template-columns: 0.8fr 1.2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 13px 45px; 
+  grid-template-areas: 
+    "head term"
+    "sub term"
+    "button term"
+    "statement statement"; 
 }
 
 
@@ -446,14 +447,6 @@ height: 100%;
   margin-top: 210px;
   margin-right: 10%;
   margin-left: 20%;
-  grid-template-columns: 0.8fr 1.2fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 13px 45px; 
-  grid-template-areas: 
-    "head term"
-    "sub term"
-    "button term"
-    "statement statement"; 
 }
 
 .quasarHeading { 
