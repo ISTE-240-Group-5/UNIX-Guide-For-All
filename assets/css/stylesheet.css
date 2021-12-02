@@ -138,8 +138,14 @@ font-family: "Helvetica Neue", Verdana, SansSerif;
   font-weight: normal;
 }
 
+
 /* Change the color of links on hover */
 .topnav a:hover {
+  background-color: #FFC637;
+  color: #3B3B3B;
+}
+
+.hamburger:hover {
   background-color: #FFC637;
   color: #3B3B3B;
 }
