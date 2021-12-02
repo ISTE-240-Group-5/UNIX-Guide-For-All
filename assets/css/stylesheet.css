@@ -102,7 +102,8 @@ display: grid;
   grid-template-columns: 250px auto;
   grid-template-areas: 
     "head head"
-    "side content"; 
+    "side content"
+    "footer footer"; 
 }
 
 .logo {
@@ -230,6 +231,7 @@ margin-top: 5px;
     bottom: 10px;
     width: 100%;
 	color: black;
+	grid-area: footer;
 }
 
 .whitebanner {
@@ -303,6 +305,17 @@ color: #000000;
     margin-left: 55px;
     margin-right: 100px;
     grid-area: content;
+}
+
+.NoSidescontent{
+ margin-top: 100px;
+ margin-left: 88px;
+ margin-right: 150px;
+ grid-area: content;
+}
+
+.noside{
+display:block;
 }
 
 #gloss {

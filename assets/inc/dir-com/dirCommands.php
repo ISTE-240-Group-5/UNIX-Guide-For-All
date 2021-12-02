@@ -19,14 +19,17 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/stylesheet.css">
      <script src="../../js/javascript.js"></script>
-</head>
-<body>
-
-    <?php 
+     
+      <?php 
         //include header
         $page = 'dirCommands';
         require('../global/header.php');
         require('../global/nav.php');
+        ?>
+</head>
+<body>
+<?php
+
         require('./dirCommandsSubDir/dirSideNav.php');
 
     ?>
