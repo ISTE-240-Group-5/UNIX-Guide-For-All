@@ -191,7 +191,6 @@ line-height: 24px;
 color: white;
 }
 
-
 /** CSS Rules for all pages **/
 
 body {
@@ -370,15 +369,11 @@ letter-spacing: 0.02em;
 color: #000000;
 }
 
-.content{
-/* margin-top: 200px;
-margin-left: 88px; */
-/* margin: auto; */
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 100px;
-margin-top: 200px;
-width: 80%;
+.content {
+    margin-top: 165px;
+    margin-left: 55px;
+    margin-right: 165px;
+    grid-area: auto;
 }
 
 .reminder {
