@@ -95,9 +95,101 @@ margin-left: auto;
 margin-right: auto;
 }
 
+/** CSS for contact page **/
+.fcf-form-group {
+    margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.success {
+  color: rgba(255, 128, 8, 0.78);
+}
 
 
 
+/** CSS for about page **/
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: #585858;
+}
+
+.container {
+  padding: 0 16px;
+  text-align: center;
+}
+
+.grid { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  /* align-items: stretch; */
+  grid-template-areas: 
+    "ja jo ju"
+    "zo mg ms"; 
+
+  }
+
+.card.ja {
+  grid-area: ja;
+}
+
+.card.jo {
+  grid-area: jo;
+}
+
+.card.ju {
+  grid-area: ju;
+}
+
+.card.zo {
+  grid-area: zo;
+}
+
+.card.mg {
+  grid-area: mg;
+}
+
+.card.ms {
+  grid-area: ms;
+}
+
+/* .container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+.teamImg {
+  width: 100%;
+}
+
+.subheader.team {
+  text-align: center;
+}
+
+.title {
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: white;
+}
 
 
 /** CSS Rules for all pages **/
@@ -239,7 +331,7 @@ margin-top: 5px;
   	
 }
 
-.subsubheader{
+.subsubheader {
 font-family: Helvetica Neue;
 font-style: normal;
 font-weight: bold;
@@ -279,8 +371,14 @@ color: #000000;
 }
 
 .content{
+/* margin-top: 200px;
+margin-left: 88px; */
+/* margin: auto; */
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 100px;
 margin-top: 200px;
-margin-left: 88px;
+width: 80%;
 }
 
 .reminder {
@@ -348,7 +446,7 @@ padding: 10px;
 
 /** CSS Rules for landing page **/
 
-#landingPage{
+#landingPage {
 background-image: linear-gradient(110.27deg, rgba(255, 128, 8, 0.78) 10.56%, #FFC837 66.09%);
 background-repeat: no-repeat;
 height: 100vh;
