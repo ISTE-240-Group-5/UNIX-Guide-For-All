@@ -34,11 +34,12 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	<div id="q1" class="qdiv">
     <h1 class="header"> Introduction Quiz </h1>
     <h2 class="subheader">1. What is UNIX?</h2>
-    <div id="diva" style="color: black"><input class="qDivFont" type="radio" name ="1" value = "A system of mathematical equations" id="1-1"/><label for="1-1">A system of mathematical equations</label><br/></div>
-	<div id="divb"><input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system" id="1-2"/><label for="1-2">A multitasking and multifunctional operating system</label></div><br/>
-	<div id="divc"><input class="qDivFont" type="radio" name ="1" value = "A server organizer"  id="1-3"/><label for="1-3">A server organizer</label></div><br/>
-	<div id="divd"><input class="qDivFont" type="radio" name ="1" value = "All of the above"  id="1-4"/><label for="1-4">All of the above</label></div><br/>
-    <input type="submit"  name="submit"  value="Submit"  onclick="gradeQ1()"/>
+    <input class="qDivFont" type="radio" name ="1" value = "A system of mathematical equations" id="1-1"/><label for="1-1">A system of mathematical equations</label><br/>
+	<input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system" id="1-2"/><label for="1-2">A multitasking and multifunctional operating system</label><br/>
+	<input class="qDivFont" type="radio" name ="1" value = "A server organizer"  id="1-3"/><label for="1-3">A server organizer</label><br/>
+	<input class="qDivFont" type="radio" name ="1" value = "All of the above"  id="1-4"/><label for="1-4">All of the above</label><br/>
+    <!--<input type="submit" onclick="gradeQ1()"/>-->
+    <button type="button" onclick="gradeQ1()">Click Me!</button> 
     </div>
     </form>
 
@@ -58,8 +59,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
     function gradeQ1(){
         if(document.getElementById('1-1').checked) {
-            document.getElementById("diva").style.color = "red";
-            document.getElementById("divd").style.color = "green";
+            document.getElementById('1-1').className = "qDivFontRed";
+            document.getElementById('1-4').className = "qDivFontGreen";
         }else if(document.getElementById('1-2').checked) {
             document.getElementById("divb").style.color = "red";
             document.getElementById("divd").style.color = "green";

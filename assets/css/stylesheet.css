@@ -69,6 +69,30 @@ Buttons:
 	color: #3B3B3B;
 }
 
+.qDivFontGreen{
+  text-decoration: none;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 70px;
+  border-radius: 10px;
+  background-color: greenyellow;
+	color: white;
+}
+
+.qDivFontRed{
+  text-decoration: none;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 70px;
+  border-radius: 10px;
+  background-color: red;
+	color: white;
+}
+
 .question:hover{
 	background-color:rgba(53, 57, 91, 0.4);
 	opacity: 0.4;	
