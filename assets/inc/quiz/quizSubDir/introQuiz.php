@@ -60,9 +60,9 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         if(document.getElementById('1-1').checked) {
             
 
-            document.getElementById("diva1").className = "qDivFontRed";
+            document.getElementById('1-1').getElementById("diva1").className = "qDivFontRed";
 
-            document.getElementById("divd4").className = "qDivFontGreen";
+            document.getElementById('1-1').getElementById("divd4").className = "qDivFontGreen";
 
 
             document.getElementById("diva").style.color = "red";
