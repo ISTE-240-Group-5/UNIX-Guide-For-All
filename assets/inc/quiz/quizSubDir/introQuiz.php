@@ -28,24 +28,69 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         require('../../global/nav.php');
 
     ?>	
-    <div id="top" class="quizPageMargins">
-
-    <form name="question 1">
-	<div id="q1" class="qdiv">
-    <h1 class="header"> Introduction Quiz </h1>
-    <h2 class="subheader">1. What is UNIX?</h2>
-    <input class="qDivFont" type="radio" name ="1" value = "A system of mathematical equations"                     id="1a"/><label    id="a1" for="1-1">A system of mathematical equations</label><br/>
-	<input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system"    id="1b"/><label    id="b1" for="1-2">A multitasking and multifunctional operating system</label><br/>
-	<input class="qDivFont" type="radio" name ="1" value = "A server organizer"                                     id="1c"/><label    id="c1" for="1-3">A server organizer</label><br/>
-	<input class="qDivFont" type="radio" name ="1" value = "All of the above"                                       id="1d"/><label    id="d1" for="1-4">All of the above</label><br/>
-    <button type="button" onclick="myFunction()">Submit</button>
-    </div>
-    </form>
-
+    <div class="quizPageMargins">
+                    <!---------------------------------------------------------------------->
+        <form name="question 1">
+            <div id="q1" class="qdiv">
+                <h1 class="header"> Introduction Quiz </h1>
+                <h2 class="subheader">1. What is UNIX?</h2>
+                    <input class="qDivFont" type="radio" name ="1" value = "A system of mathematical equations"                     id="1a"/><label    id="a1" >A system of mathematical equations</label><br/>
+                    <input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system"    id="1b"/><label    id="b1" >A multitasking and multifunctional operating system</label><br/>
+                    <input class="qDivFont" type="radio" name ="1" value = "A server organizer"                                     id="1c"/><label    id="c1" >A server organizer</label><br/>
+                    <input class="qDivFont" type="radio" name ="1" value = "All of the above"                                       id="1d"/><label    id="d1" >All of the above</label><br/>
+                        <button type="button" onclick="Q1()">Submit</button>
+                        <button type="button" onclick="myFunction()">Next</button>
+            </div>
+        </form>
+                    <!---------------------------------------------------------------------->
+        <form name="question 2">
+            <div id="q2" class="qdiv">
+                <h1 class="header"> Introduction Quiz </h1>
+                <h2 class="subheader">1. What is UNIX?</h2>
+                    <input class="qDivFont" type="radio" name ="2" value = "A system of mathematical equations"                     id="2a"/><label    id="a2" >A system of mathematical equations</label><br/>
+                    <input class="qDivFont" type="radio" name ="2" value = "A multitasking and multifunctional operating system"    id="2b"/><label    id="b2" >A multitasking and multifunctional operating system</label><br/>
+                    <input class="qDivFont" type="radio" name ="2" value = "A server organizer"                                     id="2c"/><label    id="c2" >A server organizer</label><br/>
+                    <input class="qDivFont" type="radio" name ="2" value = "All of the above"                                       id="2d"/><label    id="d2" >All of the above</label><br/>
+                        <button type="button" onclick="Q2()">Submit</button>
+                        <button type="button" onclick="myFunction()">Next Question</button>
+            </div>
+        </form>
+                    <!---------------------------------------------------------------------->
     </div>
     
     <script>
-    function myFunction() {
+    function Q1() {
+        if(document.getElementById("1a").checked==true){
+            document.getElementById("a1").style.backgroundColor = "red";
+            document.getElementById("b1").style.backgroundColor = "rgba(255, 255, 255, 0)";
+            document.getElementById("c1").style.backgroundColor = "rgba(255, 255, 255, 0)";
+            document.getElementById("d1").style.backgroundColor = "limegreen";
+        }else{
+            if(document.getElementById("1b").checked==true){
+                document.getElementById("a1").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                document.getElementById("b1").style.backgroundColor = "red";
+                document.getElementById("c1").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                document.getElementById("d1").style.backgroundColor = "limegreen";
+            }else{
+                if(document.getElementById("1c").checked==true){
+                    document.getElementById("a1").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                    document.getElementById("b1").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                    document.getElementById("c1").style.backgroundColor = "red";
+                    document.getElementById("d1").style.backgroundColor = "limegreen";
+                }else{
+                    if(document.getElementById("1d").checked==true){
+                        document.getElementById("a1").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                        document.getElementById("b1").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                        document.getElementById("c1").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                        document.getElementById("d1").style.backgroundColor = "limegreen";
+                    }else{
+                        echo('fuck');
+                    }
+                }
+            }
+        }
+    }
+    function Q2() {
         if(document.getElementById("1a").checked==true){
             document.getElementById("a1").style.backgroundColor = "red";
             document.getElementById("b1").style.backgroundColor = "rgba(255, 255, 255, 0)";
@@ -76,6 +121,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             }
         }
 
+    }
+
+    function scrollNext(){
+        var myElement = document.getElementById('element_within_div');
+        var topPos = myElement.offsetTop;
     }
 
 
