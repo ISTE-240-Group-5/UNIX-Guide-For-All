@@ -57,6 +57,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     }*/
 
     function gradeQ1(){
+        echo('its not in');
             if(document.getElementById('top').getElementById('mid').getElementById('q1').getElementById('1-1').checked) {
                 echo('its in');
                 document.getElementById('top').getElementById('1-1').style.background-color = "red";
