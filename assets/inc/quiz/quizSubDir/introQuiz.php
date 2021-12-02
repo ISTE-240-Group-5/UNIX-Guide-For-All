@@ -38,7 +38,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	<input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system" id="1-2"/><label for="1-2">A multitasking and multifunctional operating system</label><br/>
 	<input class="qDivFont" type="radio" name ="1" value = "A server organizer"  id="1-3"/><label for="1-3">A server organizer</label><br/>
 	<input class="qDivFont" type="radio" name ="1" value = "All of the above"  id="1-4"/><label for="1-4">All of the above</label><br/>
-    <input type="submit" onclick=highlight()/>
+    <input type="submit" onclick=gradeQ1()/>
     </div>
     </form>
 
@@ -64,6 +64,13 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             innerHTML = innerHTML.substring(0,index) + "<span class='highlight'>" + innerHTML.substring(index,index+text.length) + "</span>" + innerHTML.substring(index + text.length);
             inputText.innerHTML = innerHTML;
         }
+    }
+
+    function gradeQ1(){
+            if(document..getElementById('1-1').checked) {
+                echo('its in');
+                document.getElementById('1-1').style.background-color = "red";
+                document.getElementById('1-4').style.background-color  = "greenyellow";
     }
     /*$(document).ready(function(){
         function gradeQ1(){
