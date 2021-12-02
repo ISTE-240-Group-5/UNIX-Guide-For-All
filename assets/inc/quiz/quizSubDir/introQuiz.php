@@ -148,6 +148,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
         function scrollTQ2(){
             document.getElementById("q2").scrollIntoView(true);
+            document.getElementById("q2").scrollIntoView(false);
         }
         </script>
 
