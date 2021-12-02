@@ -1,17 +1,48 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@mgrobe657 
+ISTE-240-Group-5
+/
+UNIX-Guide-For-All
+Public
+0
+2
+0
+Code
+Issues
+59
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+UNIX-Guide-For-All/assets/css/stylesheet.css
+@zoryisnotreal
+zoryisnotreal Small Alters to stylesheet
+Latest commit 8ae88a9 1 hour ago
+ History
+ 3 contributors
+@zoryisnotreal@JasonA19@mgrobe657
+533 lines (419 sloc)  7.67 KB
+   
 /** CSS Rules for all pages **/
 
 /**
-
 Class Name Rules:
 header = header
 subheader = subheader
 command titles/sub-subheader = subber
-
 Hex Codes & Needs:
 header: color: rgba(255, 128, 8, 0.78);
 subheader: #DAA20F;
 subber: #585858;
-
 For Nav:
 background-color of top nav: #646363;
 Color of top nav (font): white;
@@ -19,13 +50,11 @@ color of top nav (hover): #3B3B3B;
 Hover of top nav AND color of side nav: #FFC637;
 Hover of side nav: #E3A303;
 color of side nav(and hover): #3B3B3B;
-
 For body:
 color: black;
 For search bar: 
 	background: rgba(230, 228, 228, 0.54);
 	border-radius: 10px;
-
 Buttons: 
 	previous and Next: #4C4B7A;
 	
@@ -94,7 +123,6 @@ width: 50%;
 margin-left: auto;
 margin-right: auto;
 }
-
 
 
 
@@ -526,8 +554,16 @@ padding: 10px;
 
 
 
-
-
-
-
-
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
