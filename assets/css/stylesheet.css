@@ -331,6 +331,17 @@ color: #000000;
     grid-area: content;
 }
 
+.NoSidescontent{
+ margin-top: 100px;
+ margin-left: 88px;
+ margin-right: 150px;
+ grid-area: content;
+}
+
+.noside{
+display:block;
+}
+
 #gloss {
   border:1px solid black;
   width: 100%;
