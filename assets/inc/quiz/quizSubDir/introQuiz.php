@@ -11,10 +11,9 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Quasar Quizzes</title>
+        <title>Introduction Quiz</title>
 
-        <meta name="_____" content="_____">
-        <meta name="_____" content="_____">
+        <meta name="QUASAR" content="intro-quiz">
 
         <!-- Mobile-friendly viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
