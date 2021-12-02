@@ -24,9 +24,9 @@
 
 <div class="term">
     <?php 
-      require 'http://solace.ist.rit.edu/~iste240t18/project-dev/assets/inc/qCLI/ls.php';
+      require '../../qCLI/ls.php';
     ?>
-            </div>
+</div>
 
 
 <p class="text">Syntax: cat [option] [files]</p>
