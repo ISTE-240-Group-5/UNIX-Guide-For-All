@@ -70,12 +70,6 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         background-color: red;
     }
 
-    function gradeQ1(){
-            if(document..getElementById('1-1').checked) {
-                echo('its in');
-                document.getElementById('1-1').style.background-color = "red";
-                document.getElementById('1-4').style.background-color  = "greenyellow";
-    }
     /*$(document).ready(function(){
         function gradeQ1(){
             if(document.getElementById('top').getElementById('mid').getElementById('q1').getElementById('1-1').checked) {
