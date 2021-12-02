@@ -32,7 +32,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         <div class="quizPageMargins">
                         <!---------------------------------------------------------------------->
             <form name="question 1">
-                <div id="q1" class="qdiv">
+                <div id="q1p" class="qdiv">
                     <h1 class="header"> Misc commands </h1>
                     <h2 class="subheader">1. What symbol connects commands together?</h2>
                         <input class="qDivFont" type="radio" name ="1" value = ":"                     id="1a"/><label    id="a1" >:</label><br/>
@@ -45,7 +45,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 2">
-                <div id="q2" class="qdiv">
+                <div id="q2p" class="qdiv">
                     <h1 class="header"> Misc commands </h1>
                     <h2 class="subheader">2. What command can find a word in a line?</h2>
                         <input class="qDivFont" type="radio" name ="2" value = "Grep"                     id="2a"/><label    id="a2" >Grep</label><br/>
@@ -58,20 +58,20 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 3">
-                <div id="q3" class="qdiv">
+                <div id="q3p" class="qdiv">
                     <h1 class="header"> Misc commands </h1>
                     <h2 class="subheader">3. What’s the difference between grep and find?</h2>
                         <input class="qDivFont" type="radio" name ="3" value = "Find will allow you to look through a directory grep will not"                     id="3d"/><label    id="d3" >Find will allow you to look through a directory grep will not</label><br/>
                         <input class="qDivFont" type="radio" name ="3" value = "Grep will allow you to look through a directory find will not"    id="3b"/><label    id="b3" >Grep will allow you to look through a directory find will not</label><br/>
                         <input class="qDivFont" type="radio" name ="3" value = "neither"                                     id="3c"/><label    id="c3" >neither</label><br/>
-                        <input class="qDivFont" type="radio" name ="3" value = "grep is a option for find"                                       id="3a"/><label    id="a3" >grep is a option for find</label><br/>
+                        <input class="qDivFont" type="radio" name ="3" value = "grep is an option for find"                                       id="3a"/><label    id="a3" >grep is a option for find</label><br/>
                             <button type="button" onclick="Q3()">Submit</button>
                             <button type="button" onclick="scrollTQ4()">Next Question</button>
                 </div>
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 4">
-                <div id="q4" class="qdiv">
+                <div id="q4p" class="qdiv">
                     <h1 class="header"> Misc commands </h1>
                     <h2 class="subheader">4. What symbol allows you to run multiple commands in one line?</h2>
                         <input class="qDivFont" type="radio" name ="4" value = "\"                     id="4a"/><label    id="a4" >\</label><br/>
@@ -84,7 +84,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 5">
-                <div id="q5" class="qdiv">
+                <div id="q5p" class="qdiv">
                     <h1 class="header"> Misc commands </h1>
                     <h2 class="subheader">5. What command allows you to view the amount of disk space used by a filesystem?</h2>
                         <input class="qDivFont" type="radio" name ="5" value = "Ds"                     id="5a"/><label    id="a5" >Ds</label><br/>
@@ -97,7 +97,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 6">
-                <div id="q6" class="qdiv">
+                <div id="q6p" class="qdiv">
                     <h1 class="header"> Misc commands </h1>
                     <h2 class="subheader">6. Using the date command, what option would you use to display a previous date</h2>
                         <input class="qDivFont" type="radio" name ="6" value = "--date"                     id="6d"/><label    id="d6" >--date</label><br/>
