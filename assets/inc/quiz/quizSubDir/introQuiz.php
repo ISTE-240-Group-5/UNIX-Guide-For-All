@@ -58,15 +58,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
     function gradeQ1(){
         if(document.getElementById('1-1').checked) {
-            
-
             document.getElementById('1-1').className = "qDivFontRed";
-
             document.getElementById('1-4').className = "qDivFontGreen";
-
-
-            document.getElementById("diva").style.color = "red";
-            document.getElementById("divd").style.color = "green";
         }else if(document.getElementById('1-2').checked) {
             document.getElementById("divb").style.color = "red";
             document.getElementById("divd").style.color = "green";
