@@ -1,4 +1,4 @@
-<div id="mySidenav" class="sidenav">
+<div id="mySidenav" style="margin-left: 0px;" class="sidenav">
    <div class="sideNavBack"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
    </div>
    <div class="sideNavBack">
