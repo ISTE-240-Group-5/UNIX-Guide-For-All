@@ -352,6 +352,11 @@ letter-spacing: 0.04em;
 color: #000000;
  }
  
+ #gloss td a{
+ color: #FFFFFF;
+padding: 5px;
+text-decoration: none;
+ }
  #gloss td a:hover{
  color: #E3A303;
  }
