@@ -189,7 +189,7 @@ display: grid;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 140px;
-  grid-area: sidenav;
+  grid-area: auto;
 }
 
 .sideNavBack{
