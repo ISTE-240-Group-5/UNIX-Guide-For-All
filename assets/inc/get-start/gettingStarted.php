@@ -21,17 +21,16 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     
     <link rel="stylesheet" href="../../css/stylesheet.css">
     <script src="../../js/javascript.js"></script>
-
-</head>
-<body>
-
-<?php 
+    
+    <?php 
     //include header
     $page = 'gettingStarted';
 	require('../global/header.php');
 	require('../global/nav.php');
-	require('./gettingStartedSubDir/gettingstartedSidenav.php');
-?>
+    ?>
+
+</head>
+<body>
 	
 	<div class="content">
         <?php 
