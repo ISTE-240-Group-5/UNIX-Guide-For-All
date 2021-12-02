@@ -58,16 +58,23 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
     function gradeQ1(){
         if(document.getElementById('1-4').checked) {
-            diva.highlight {background-color: green;}
+            //diva.highlight {background-color: green;}
+            document.getElementById("diva").style.color = "green";
         }else if(document.getElementById('1-1').checked) {
-            divb.highlight {background-color: red;}
-            diva.highlight {background-color: green;}
+            //divb.highlight {background-color: red;}
+            //diva.highlight {background-color: green;}
+            document.getElementById("divb").style.color = "red";
+            document.getElementById("diva").style.color = "green";
         }else if(document.getElementById('1-2').checked) {
-            divc.highlight {background-color: red;}
-            diva.highlight {background-color: green;}
+            //divc.highlight {background-color: red;}
+            //diva.highlight {background-color: green;}
+            document.getElementById("divc").style.color = "red";
+            document.getElementById("diva").style.color = "green";
         }else if(document.getElementById('1-3').checked) {
-            divd.highlight {background-color: red;}
-            diva.highlight {background-color: green;}
+            //divd.highlight {background-color: red;}
+            //diva.highlight {background-color: green;}
+            document.getElementById("divd").style.color = "red";
+            document.getElementById("diva").style.color = "green";
         }else{
             echo("oh no");
         }
