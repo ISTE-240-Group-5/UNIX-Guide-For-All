@@ -34,11 +34,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	<div id="q1" class="qdiv">
     <h1 class="header"> Introduction Quiz </h1>
     <h2 class="subheader">1. What is UNIX?</h2>
-    <input class="qDivFont" type="radio" name ="1" value = "A system of mathematical equations" id="1-1"/><label id="a" for="1-1">A system of mathematical equations</label><br/>
-	<input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system" id="1-2"/><label for="1-2">A multitasking and multifunctional operating system</label><br/>
-	<input class="qDivFont" type="radio" name ="1" value = "A server organizer"  id="1-3"/><label for="1-3">A server organizer</label><br/>
-	<input class="qDivFont" type="radio" name ="1" value = "All of the above"  id="1-4"/><label for="1-4">All of the above</label><br/>
-    <button type="button" onclick="myFunction()">Set background color</button>
+    <input class="qDivFont" type="radio" name ="1" value = "A system of mathematical equations"                     id="1-1"/><label    id="a" for="1-1">A system of mathematical equations</label><br/>
+	<input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system"    id="1-2"/><label    id="b" for="1-2">A multitasking and multifunctional operating system</label><br/>
+	<input class="qDivFont" type="radio" name ="1" value = "A server organizer"                                     id="1-3"/><label    id="c" for="1-3">A server organizer</label><br/>
+	<input class="qDivFont" type="radio" name ="1" value = "All of the above"                                       id="1-4"/><label    id="d" for="1-4">All of the above</label><br/>
+    <button type="button" onclick="myFunction()">Submit</button>
     </div>
     </form>
 
@@ -47,8 +47,27 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <script>
 
     function myFunction() {
-        document.getElementById("a").style.backgroundColor = "red";
+        if(document.getElementById('1-1').checked){
+            document.getElementById("a").style.backgroundColor = "red";
+            document.getElementById("d").style.backgroundColor = "limegreen";
+        }
+        elseif(document.getElementById('1-2').checked){
+            document.getElementById("b").style.backgroundColor = "red";
+            document.getElementById("d").style.backgroundColor = "limegreen";
+        }
+        elseif(document.getElementById('1-3').checked){
+            document.getElementById("c").style.backgroundColor = "red";
+            document.getElementById("d").style.backgroundColor = "limegreen";
+        }
+        elseif(document.getElementById('1-4').checked){
+            document.getElementById("d").style.backgroundColor = "limegreen";
+        }
+        else{
+            echo('fuck');
+        }
     }
+
+
     
 	//Get the button
 	var mybutton = document.getElementById("myBtn");
