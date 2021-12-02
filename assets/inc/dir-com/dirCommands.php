@@ -27,7 +27,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         $page = 'dirCommands';
         require('../global/header.php');
         require('../global/nav.php');
-        require('./dirCommandsSubDir/dirSideNav.php');
+        require('../dirCommandsSubDir/dirSideNav.php');
 
     ?>
 
