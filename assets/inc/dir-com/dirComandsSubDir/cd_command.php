@@ -8,7 +8,8 @@
     
     <div class="term">
     <?php 
-      require '../../qClI/ls.php;'
+      require '../../qCLI/ls.php';
+      
     ?>
             </div>
             

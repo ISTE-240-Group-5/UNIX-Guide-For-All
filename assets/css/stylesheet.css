@@ -542,5 +542,63 @@ padding: 10px;
 }
 
  
- 
 /* Media queries */
+
+@media only screen and (max-width: 600px) {
+ body {
+ display: block;
+ }
+
+  .pageHeader {
+    position: absolute;
+    right: 0;
+    left: 0
+}
+
+.content{
+margin-top: 40px;
+}
+
+.header{
+font-size:24px;
+}
+
+.text{
+font-size: 12px;
+line-height: 14px;
+}
+
+#gloss{
+width: 45vw;
+}
+
+.qDiv{
+width:300px;
+}
+.qDivFont{
+font-size:20px;
+}
+
+.topnav .link {
+    padding: 13px 11px;
+    font-size: 9px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
