@@ -47,7 +47,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <script>
 
     function myFunction() {
-        if(document.getElementById('1a').checked==true){
+        if(document.getElementById("1a").checked==true){
             document.getElementById("a1").style.backgroundColor = "red";
             document.getElementById("d1").style.backgroundColor = "limegreen";
         }
