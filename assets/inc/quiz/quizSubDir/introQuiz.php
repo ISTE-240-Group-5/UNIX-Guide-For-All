@@ -147,10 +147,6 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ2(){
-            //var myElement = document.getElementById("q2");
-            //var topPos = myElement.offsetTop;
-
-            //document.getElementById('scrolling_div').scrollTop = topPos;
             document.getElementById("q2").scrollIntoView(true);
         }
         </script>
@@ -191,8 +187,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ3(){
-            var myElement = document.getElementById('element_within_div');
-            var topPos = myElement.offsetTop;
+            document.getElementById("q3").scrollIntoView(true);
         }
         </script>
 
@@ -232,8 +227,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ4(){
-            var myElement = document.getElementById('element_within_div');
-            var topPos = myElement.offsetTop;
+            document.getElementById("q4").scrollIntoView(true);
         }
         </script>
 
@@ -273,8 +267,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ5(){
-            var myElement = document.getElementById('element_within_div');
-            var topPos = myElement.offsetTop;
+            document.getElementById("q5").scrollIntoView(true);
         }
         </script>
 
@@ -314,8 +307,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ6(){
-            var myElement = document.getElementById('element_within_div');
-            var topPos = myElement.offsetTop;
+            document.getElementById("q6").scrollIntoView(true);
         }
         </script>
 
@@ -355,8 +347,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ1(){
-            var myElement = document.getElementById('element_within_div');
-            var topPos = myElement.offsetTop;
+            document.getElementById("q1").scrollIntoView(true);
         }
         </script>
 
