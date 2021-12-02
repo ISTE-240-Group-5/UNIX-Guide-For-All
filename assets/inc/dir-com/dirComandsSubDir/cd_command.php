@@ -6,7 +6,7 @@
         Syntax: cd [directory]
     [directory] can be the absolute path or the relative path to find the directory.</p>
     
-    <div onclick="" class="terminals">
+    <div class="term">
     <?php 
       require '../../qClI/ls.php;'
     ?>
