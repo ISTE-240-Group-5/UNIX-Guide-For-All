@@ -6,11 +6,7 @@
         Syntax: cd [directory]
     [directory] can be the absolute path or the relative path to find the directory.</p>
     
-    <div class="term">
-    <?php 
-      file_get_contents('http://solace.ist.rit.edu/~iste240t18/project-main/assets/inc/qCLI/ls.php');
-    ?>
-            </div>
+
             
     <h4 class="subsub" >Example 1: cd /example</h4>
 

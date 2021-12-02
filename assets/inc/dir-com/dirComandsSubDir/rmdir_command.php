@@ -24,14 +24,6 @@
   </p>
 
 
-<div class="term">
-    <?php 
-      require '../../qCLI/ls.php';
-    ?>
-            </div>
-
-
-
 <p class="text">Syntax: rmdir [directory]</p>
 
 <h4 class="subsub" >Example 1: rmdir quasar</h4>

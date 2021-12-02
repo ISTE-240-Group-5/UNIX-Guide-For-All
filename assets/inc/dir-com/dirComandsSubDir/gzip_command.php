@@ -3,11 +3,6 @@
 <p class="text">reads a file and sends the contents to an output. Can be used to
    append files or output the contents into the terminal window.</p>
    
-   <div  class="term">
-    <?php 
-       require '../../qCLI/ls.js';
-    ?>
-            </div>
 
 
   <h4 class="subsub" >Options</h4>

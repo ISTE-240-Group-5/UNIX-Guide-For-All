@@ -9,13 +9,6 @@
   </p>
 
 
-<div class="term">
-    <?php 
-      require '../../qCLI/ls.php';
-    ?>
-            </div>
-
-
 
 <p class="text">Syntax: mkdir [option] [directory]
     [directory] can be a name or a filepath

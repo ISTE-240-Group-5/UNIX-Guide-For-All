@@ -7,12 +7,7 @@
         Syntax: cp file1 file2
       </p>
       
-      <div  class="term">
-    <?php 
-       require '../../qCLI/ls.js';
-    ?>
-            </div>
-
+    
     <h4 class="subsub">Example: cp example  example2 </h4>
 
     <p class="text">Copies example.text, names the copy example2 </p>

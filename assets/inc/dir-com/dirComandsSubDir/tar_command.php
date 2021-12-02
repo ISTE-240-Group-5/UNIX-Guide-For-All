@@ -26,13 +26,6 @@ NOT FINISHED, DO NOT MERGE TO MAIN
   </p>
 
 
-<div class="term">
-    <?php 
-      require '../../qCLI/ls.php';
-    ?>
-            </div>
-
-
 <p class="text">Syntax: cat [option] [files]</p>
 
 <h4 class="subsub" >Example 1: cat quasar.txt</h4>

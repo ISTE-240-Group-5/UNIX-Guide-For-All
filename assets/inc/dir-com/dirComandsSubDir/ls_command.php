@@ -7,12 +7,6 @@ Options
 -a lists all files, including ones that would not be listed otherwise.
 </p>
 
-<div class="term">
-    <?php 
-      require '../../qCLI/ls.php';
-    ?>
-            </div>
-
 <h4 class="subsub">Syntax: ls [option]
 </h4>
 
