@@ -34,10 +34,10 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	<div id="q1" class="qdiv">
     <h1 class="header"> Introduction Quiz </h1>
     <h2 class="subheader">1. What is UNIX?</h2>
-    <div id="diva"><input id="diva1" class="qDivFont" type="radio" name ="1" value = "A system of mathematical equations" id="1-1"/><label for="1-1">A system of mathematical equations</label><br/></div>
-	<div id="divb"><input id="divb2" class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system" id="1-2"/><label for="1-2">A multitasking and multifunctional operating system</label></div><br/>
-	<div id="divc"><input id="divc3" class="qDivFont" type="radio" name ="1" value = "A server organizer"  id="1-3"/><label for="1-3">A server organizer</label></div><br/>
-	<div id="divd"><input id="divd4" class="qDivFont" type="radio" name ="1" value = "All of the above"  id="1-4"/><label for="1-4">All of the above</label></div><br/>
+    <input class="qDivFont" type="radio" name ="1" value = "A system of mathematical equations" id="1-1"/><label for="1-1">A system of mathematical equations</label><br/>
+	<input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system" id="1-2"/><label for="1-2">A multitasking and multifunctional operating system</label><br/>
+	<input class="qDivFont" type="radio" name ="1" value = "A server organizer"  id="1-3"/><label for="1-3">A server organizer</label><br/>
+	<input class="qDivFont" type="radio" name ="1" value = "All of the above"  id="1-4"/><label for="1-4">All of the above</label><br/>
     <input type="submit"  name="submit"  value="Submit"  onclick="gradeQ1()"/>
     </div>
     </form>
@@ -60,9 +60,9 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         if(document.getElementById('1-1').checked) {
             
 
-            document.getElementById('1-1').getElementById("diva1").className = "qDivFontRed";
+            document.getElementById('1-1').className = "qDivFontRed";
 
-            document.getElementById('1-1').getElementById("divd4").className = "qDivFontGreen";
+            document.getElementById('1-4').className = "qDivFontGreen";
 
 
             document.getElementById("diva").style.color = "red";
