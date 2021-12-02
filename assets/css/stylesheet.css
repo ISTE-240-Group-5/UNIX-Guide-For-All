@@ -304,7 +304,7 @@ color: #000000;
     grid-area: auto;
 }
 
-.noside{
+.nosideGloss{
 display:block;
 }
 
@@ -313,7 +313,9 @@ display:block;
   width: 100%;
   
 }
-
+#gloss{
+width: 50%;
+}
  #gloss td, #gloss th{
  border-bottom: 1px solid black;
  font-family: "Helvetica Neue";
@@ -403,6 +405,14 @@ line-height: 11px;
 padding: 10px;
 }
 
+.quizPageMargins {
+    margin-top: 150px;
+    margin-left: 88px;
+}
+
+.NoSidesContent{
+margin-top: 150px;
+}
 
 /** CSS Rules for landing page **/
 
