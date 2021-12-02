@@ -34,11 +34,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	<div id="q1" class="qdiv">
     <h1 class="header"> Introduction Quiz </h1>
     <h2 class="subheader">1. What is UNIX?</h2>
-    <input class="qDivFont" type="radio" name ="1" value = "A system of mathematical equations" id="1-1"/><label id="a"  class="qDivFont" for="1-1">A system of mathematical equations</label><br/>
+    <input class="qDivFont" type="radio" name ="1" value = "A system of mathematical equations" id="1-1"/><label id="abcd" for="1-1">A system of mathematical equations</label><br/>
 	<input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system" id="1-2"/><label for="1-2">A multitasking and multifunctional operating system</label><br/>
 	<input class="qDivFont" type="radio" name ="1" value = "A server organizer"  id="1-3"/><label for="1-3">A server organizer</label><br/>
 	<input class="qDivFont" type="radio" name ="1" value = "All of the above"  id="1-4"/><label for="1-4">All of the above</label><br/>
-    <input type="submit"  onclick="gradeQ1()"/>
+    <input type="submit"  onclick="changeColor()"/>
     </div>
     </form>
 
@@ -55,6 +55,12 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     inputText.innerHTML = innerHTML;
     }
     }*/
+
+    function changeColor() {
+        var elem = document.getElementById('abcd');
+        elem.style.color = 'red';
+    }   
+
 
     function gradeQ1(){
         if(document.getElementById('1-1').checked) {
