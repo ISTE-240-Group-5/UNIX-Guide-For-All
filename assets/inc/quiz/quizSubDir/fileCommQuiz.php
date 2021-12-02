@@ -11,9 +11,9 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Introduction Quiz</title>
+        <title>Quasar Quizzes</title>
 
-        <meta name="QUASAR" content="fileComm-quiz">
+        <meta name="QUASAR" content="File-Quiz">
 
         <!-- Mobile-friendly viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,137 +32,83 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         <div class="quizPageMargins">
                         <!---------------------------------------------------------------------->
             <form name="question 1">
-                <div id="q1" class="qdiv">
-                    <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="1" value = "A system of mathematical equations"                     id="1a"/><label    id="a1" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system"    id="1b"/><label    id="b1" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="1" value = "A server organizer"                                     id="1c"/><label    id="c1" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="1" value = "All of the above"                                       id="1d"/><label    id="d1" >All of the above</label><br/>
+                <div id="q1p" class="qdiv">
+                    <h1 class="header"> File Command Quiz </h1>
+                    <h2 class="subheader">1. How can you change file permissions?</h2>
+                        <input class="qDivFont" type="radio" name ="1" value = "Perm"                     id="1a"/><label    id="a1" >Perm</label><br/>
+                        <input class="qDivFont" type="radio" name ="1" value = "Chmod"    id="1d"/><label    id="d1" >Chmod</label><br/>
+                        <input class="qDivFont" type="radio" name ="1" value = "Mv"                                     id="1c"/><label    id="c1" >Mv</label><br/>
+                        <input class="qDivFont" type="radio" name ="1" value = "Ch"                                       id="1b"/><label    id="b1" >Ch</label><br/>
                             <button type="button" onclick="Q1()">Submit</button>
                             <button type="button" onclick="scrollTQ2()">Next Question</button>
                 </div>
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 2">
-                <div id="q2" class="qdiv">
-                    <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="2" value = "A system of mathematical equations"                     id="2a"/><label    id="a2" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="2" value = "A multitasking and multifunctional operating system"    id="2b"/><label    id="b2" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="2" value = "A server organizer"                                     id="2c"/><label    id="c2" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="2" value = "All of the above"                                       id="2d"/><label    id="d2" >All of the above</label><br/>
+                <div id="q2p" class="qdiv">
+                    <h1 class="header"> File Command Quiz </h1>
+                    <h2 class="subheader">2. What command reads and outputs the contents of a file?</h2>
+                        <input class="qDivFont" type="radio" name ="2" value = "Open"                     id="2a"/><label    id="a2" >Open</label><br/>
+                        <input class="qDivFont" type="radio" name ="2" value = "Read"    id="2b"/><label    id="b2" >Read</label><br/>
+                        <input class="qDivFont" type="radio" name ="2" value = "Ls"                                     id="2c"/><label    id="c2" >Ls</label><br/>
+                        <input class="qDivFont" type="radio" name ="2" value = "Cat"                                       id="2d"/><label    id="d2" >Cat</label><br/>
                             <button type="button" onclick="Q2()">Submit</button>
                             <button type="button" onclick="scrollTQ3()">Next Question</button>
                 </div>
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 3">
-                <div id="q3" class="qdiv">
-                    <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="3" value = "A system of mathematical equations"                     id="3a"/><label    id="a3" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="3" value = "A multitasking and multifunctional operating system"    id="3b"/><label    id="b3" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="3" value = "A server organizer"                                     id="3c"/><label    id="c3" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="3" value = "All of the above"                                       id="3d"/><label    id="d3" >All of the above</label><br/>
+                <div id="q3p" class="qdiv">
+                    <h1 class="header"> File Command Quiz </h1>
+                    <h2 class="subheader">3. Which of these commands would open a file in a text editor?</h2>
+                        <input class="qDivFont" type="radio" name ="3" value = "Vim filename"                     id="3d"/><label    id="d3" >Vim filename</label><br/>
+                        <input class="qDivFont" type="radio" name ="3" value = "Cat filename"    id="3b"/><label    id="b3" >Cat filename</label><br/>
+                        <input class="qDivFont" type="radio" name ="3" value = "Open filename"                                     id="3c"/><label    id="c3" >Open filename</label><br/>
+                        <input class="qDivFont" type="radio" name ="3" value = "Txt filename"                                       id="3a"/><label    id="a3" >Txt filename</label><br/>
                             <button type="button" onclick="Q3()">Submit</button>
                             <button type="button" onclick="scrollTQ4()">Next Question</button>
                 </div>
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 4">
-                <div id="q4" class="qdiv">
-                    <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="4" value = "A system of mathematical equations"                     id="4a"/><label    id="a4" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="4" value = "A multitasking and multifunctional operating system"    id="4b"/><label    id="b4" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="4" value = "A server organizer"                                     id="4c"/><label    id="c4" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="4" value = "All of the above"                                       id="4d"/><label    id="d4" >All of the above</label><br/>
+                <div id="q4p" class="qdiv">
+                    <h1 class="header"> File Command Quiz </h1>
+                    <h2 class="subheader">4. In the text editor vim, what command is used to save the working file?</h2>
+                        <input class="qDivFont" type="radio" name ="4" value = "Ctrl s"                     id="4a"/><label    id="a4" >Ctrl s</label><br/>
+                        <input class="qDivFont" type="radio" name ="4" value = ":o filename"    id="4b"/><label    id="b4" >:o filename</label><br/>
+                        <input class="qDivFont" type="radio" name ="4" value = ":s filename"                                     id="4c"/><label    id="c4" >:s filename</label><br/>
+                        <input class="qDivFont" type="radio" name ="4" value = ":w filename"                                       id="4d"/><label    id="d4" >:w filename</label><br/>
                             <button type="button" onclick="Q4()">Submit</button>
                             <button type="button" onclick="scrollTQ5()">Next Question</button>
                 </div>
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 5">
-                <div id="q5" class="qdiv">
-                    <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="5" value = "A system of mathematical equations"                     id="5a"/><label    id="a5" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="5" value = "A multitasking and multifunctional operating system"    id="5b"/><label    id="b5" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="5" value = "A server organizer"                                     id="5c"/><label    id="c5" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="5" value = "All of the above"                                       id="5d"/><label    id="d5" >All of the above</label><br/>
+                <div id="q5p" class="qdiv">
+                    <h1 class="header"> File Command Quiz </h1>
+                    <h2 class="subheader">5. How do you exit a text file in vim?</h2>
+                        <input class="qDivFont" type="radio" name ="5" value = "Esc"                     id="5a"/><label    id="a5" >Esc</label><br/>
+                        <input class="qDivFont" type="radio" name ="5" value = ":q!"    id="5d"/><label    id="d5" >:q!</label><br/>
+                        <input class="qDivFont" type="radio" name ="5" value = ":e!"                                     id="5c"/><label    id="c5" >:e!</label><br/>
+                        <input class="qDivFont" type="radio" name ="5" value = "-q"                                       id="5b"/><label    id="b5" >-q</label><br/>
                             <button type="button" onclick="Q5()">Submit</button>
                             <button type="button" onclick="scrollTQ6()">Next Question</button>
                 </div>
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 6">
-                <div id="q6" class="qdiv">
-                    <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="6" value = "A system of mathematical equations"                     id="6a"/><label    id="a6" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="6" value = "A multitasking and multifunctional operating system"    id="6b"/><label    id="b6" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="6" value = "A server organizer"                                     id="6c"/><label    id="c6" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="6" value = "All of the above"                                       id="6d"/><label    id="d6" >All of the above</label><br/>
+                <div id="q6p" class="qdiv">
+                    <h1 class="header"> File Command Quiz </h1>
+                    <h2 class="subheader">6. What command copies the current line?</h2>
+                        <input class="qDivFont" type="radio" name ="6" value = "Yy"                     id="6d"/><label    id="d6" >Yy</label><br/>
+                        <input class="qDivFont" type="radio" name ="6" value = "Xx"    id="6b"/><label    id="b6" >Xx</label><br/>
+                        <input class="qDivFont" type="radio" name ="6" value = "Cc"                                     id="6c"/><label    id="c6" >Cc</label><br/>
+                        <input class="qDivFont" type="radio" name ="6" value = "Ctrl + c"                                       id="6a"/><label    id="a6" >Ctrl + c</label><br/>
                             <button type="button" onclick="Q6()">Submit</button>
-                            <button type="button" onclick="scrollTQ7()">Back to the begining</button>
-                </div>
-            </form>
-                        <!---------------------------------------------------------------------->
-                        <form name="question 7">
-                <div id="q7" class="qdiv">
-                    <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="7" value = "A system of mathematical equations"                     id="7a"/><label    id="a7" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="7" value = "A multitasking and multifunctional operating system"    id="7b"/><label    id="b7" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="7" value = "A server organizer"                                     id="7c"/><label    id="c7" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="7" value = "All of the above"                                       id="7d"/><label    id="d7" >All of the above</label><br/>
-                            <button type="button" onclick="Q7()">Submit</button>
-                            <button type="button" onclick="scrollTQ8()">Next Question</button>
-                </div>
-            </form>
-                        <!---------------------------------------------------------------------->
-            <form name="question 8">
-                <div id="q8" class="qdiv">
-                    <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="8" value = "A system of mathematical equations"                     id="8a"/><label    id="a8" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="8" value = "A multitasking and multifunctional operating system"    id="8b"/><label    id="b8" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="8" value = "A server organizer"                                     id="8c"/><label    id="c8" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="8" value = "All of the above"                                       id="8d"/><label    id="d8" >All of the above</label><br/>
-                            <button type="button" onclick="Q8()">Submit</button>
-                            <button type="button" onclick="scrollTQ9()">Next Question</button>
-                </div>
-            </form>
-                        <!---------------------------------------------------------------------->
-            <form name="question 9">
-                <div id="q9" class="qdiv">
-                    <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="9" value = "A system of mathematical equations"                     id="9a"/><label    id="a9" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="9" value = "A multitasking and multifunctional operating system"    id="9b"/><label    id="b9" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="9" value = "A server organizer"                                     id="9c"/><label    id="c9" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="9" value = "All of the above"                                       id="9d"/><label    id="d9" >All of the above</label><br/>
-                            <button type="button" onclick="Q9()">Submit</button>
-                            <button type="button" onclick="scrollTQ10()">Next Question</button>
-                </div>
-            </form>
-                        <!---------------------------------------------------------------------->
-            <form name="question 10">
-                <div id="q10" class="qdiv">
-                    <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="10" value = "A system of mathematical equations"                     id="10a"/><label    id="a10" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="10" value = "A multitasking and multifunctional operating system"    id="10b"/><label    id="b10" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="10" value = "A server organizer"                                     id="10c"/><label    id="c10" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="10" value = "All of the above"                                       id="10d"/><label    id="d10" >All of the above</label><br/>
-                            <button type="button" onclick="Q10()">Submit</button>
                             <button type="button" onclick="scrollTQ1()">Back to the begining</button>
                 </div>
             </form>
                         <!---------------------------------------------------------------------->
-
-
         </div>
 
 
@@ -200,7 +146,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ2(){
-            document.getElementById("q2").scrollIntoView({behavior: "smooth"});
+            document.getElementById("q2").scrollIntoView(true);
+            document.getElementById("q2").scrollIntoView(false);
         }
         </script>
 
@@ -240,7 +187,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ3(){
-            document.getElementById("q3").scrollIntoView({behavior: "smooth"});
+            document.getElementById("q3").scrollIntoView(true);
         }
         </script>
 
@@ -280,7 +227,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ4(){
-            document.getElementById("q4").scrollIntoView({behavior: "smooth"});
+            document.getElementById("q4").scrollIntoView(true);
         }
         </script>
 
@@ -320,7 +267,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ5(){
-            document.getElementById("q5").scrollIntoView({behavior: "smooth"});
+            document.getElementById("q5").scrollIntoView(true);
         }
         </script>
 
@@ -360,7 +307,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ6(){
-            document.getElementById("q6").scrollIntoView({behavior: "smooth"});
+            document.getElementById("q6").scrollIntoView(true);
         }
         </script>
 
@@ -400,166 +347,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ1(){
-            document.getElementById("q7").scrollIntoView({behavior: "smooth"});
-        }
-        </script>
-
-                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                        <script id="q7p">
-        function Q7() {
-            if(document.getElementById("7a").checked==true){
-                document.getElementById("a7").style.backgroundColor = "red";
-                document.getElementById("b7").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                document.getElementById("c7").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                document.getElementById("d7").style.backgroundColor = "limegreen";
-            }else{
-                if(document.getElementById("7b").checked==true){
-                    document.getElementById("a7").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                    document.getElementById("b7").style.backgroundColor = "red";
-                    document.getElementById("c7").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                    document.getElementById("d7").style.backgroundColor = "limegreen";
-                }else{
-                    if(document.getElementById("7c").checked==true){
-                        document.getElementById("a7").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                        document.getElementById("b7").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                        document.getElementById("c7").style.backgroundColor = "red";
-                        document.getElementById("d7").style.backgroundColor = "limegreen";
-                    }else{
-                        if(document.getElementById("7d").checked==true){
-                            document.getElementById("a7").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                            document.getElementById("b7").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                            document.getElementById("c7").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                            document.getElementById("d7").style.backgroundColor = "limegreen";
-                        }else{
-                            echo('fuck');
-                        }
-                    }
-                }
-            }
-        }
-
-        function scrollTQ4(){
-            document.getElementById("q8").scrollIntoView({behavior: "smooth"});
-        }
-        </script>
-
-                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-        <script id="q8p">
-        function Q8() {
-            if(document.getElementById("8a").checked==true){
-                document.getElementById("a8").style.backgroundColor = "red";
-                document.getElementById("b8").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                document.getElementById("c8").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                document.getElementById("d8").style.backgroundColor = "limegreen";
-            }else{
-                if(document.getElementById("8b").checked==true){
-                    document.getElementById("a8").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                    document.getElementById("b8").style.backgroundColor = "red";
-                    document.getElementById("c8").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                    document.getElementById("d8").style.backgroundColor = "limegreen";
-                }else{
-                    if(document.getElementById("8c").checked==true){
-                        document.getElementById("a8").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                        document.getElementById("b8").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                        document.getElementById("c8").style.backgroundColor = "red";
-                        document.getElementById("d8").style.backgroundColor = "limegreen";
-                    }else{
-                        if(document.getElementById("8d").checked==true){
-                            document.getElementById("a8").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                            document.getElementById("b8").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                            document.getElementById("c8").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                            document.getElementById("d8").style.backgroundColor = "limegreen";
-                        }else{
-                            echo('fuck');
-                        }
-                    }
-                }
-            }
-        }
-
-        function scrollTQ5(){
-            document.getElementById("q9").scrollIntoView({behavior: "smooth"});
-        }
-        </script>
-
-                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-        <script id="q9p">
-        function Q9() {
-            if(document.getElementById("9a").checked==true){
-                document.getElementById("a9").style.backgroundColor = "red";
-                document.getElementById("b9").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                document.getElementById("c9").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                document.getElementById("d9").style.backgroundColor = "limegreen";
-            }else{
-                if(document.getElementById("9b").checked==true){
-                    document.getElementById("a9").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                    document.getElementById("b9").style.backgroundColor = "red";
-                    document.getElementById("c9").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                    document.getElementById("d9").style.backgroundColor = "limegreen";
-                }else{
-                    if(document.getElementById("9c").checked==true){
-                        document.getElementById("a9").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                        document.getElementById("b9").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                        document.getElementById("c9").style.backgroundColor = "red";
-                        document.getElementById("d9").style.backgroundColor = "limegreen";
-                    }else{
-                        if(document.getElementById("9d").checked==true){
-                            document.getElementById("a9").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                            document.getElementById("b9").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                            document.getElementById("c9").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                            document.getElementById("d9").style.backgroundColor = "limegreen";
-                        }else{
-                            echo('fuck');
-                        }
-                    }
-                }
-            }
-        }
-
-        function scrollTQ6(){
-            document.getElementById("q10").scrollIntoView({behavior: "smooth"});
-        }
-        </script>
-
-                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-        <script id="q10p">
-        function Q10() {
-            if(document.getElementById("10a").checked==true){
-                document.getElementById("a10").style.backgroundColor = "red";
-                document.getElementById("b10").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                document.getElementById("c10").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                document.getElementById("d10").style.backgroundColor = "limegreen";
-            }else{
-                if(document.getElementById("10b").checked==true){
-                    document.getElementById("a10").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                    document.getElementById("b10").style.backgroundColor = "red";
-                    document.getElementById("c10").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                    document.getElementById("d10").style.backgroundColor = "limegreen";
-                }else{
-                    if(document.getElementById("10c").checked==true){
-                        document.getElementById("a10").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                        document.getElementById("b10").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                        document.getElementById("c10").style.backgroundColor = "red";
-                        document.getElementById("d10").style.backgroundColor = "limegreen";
-                    }else{
-                        if(document.getElementById("10d").checked==true){
-                            document.getElementById("a10").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                            document.getElementById("b10").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                            document.getElementById("c10").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                            document.getElementById("d10").style.backgroundColor = "limegreen";
-                        }else{
-                            echo('fuck');
-                        }
-                    }
-                }
-            }
-        }
-
-        function scrollTQ1(){
-            document.getElementById("q1").scrollIntoView({behavior: "smooth"});
+            document.getElementById("q1").scrollIntoView(true);
         }
         </script>
 
