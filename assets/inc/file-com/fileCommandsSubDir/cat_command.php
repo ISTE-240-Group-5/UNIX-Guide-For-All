@@ -24,7 +24,7 @@
 
 <div class="term">
     <?php 
-      require '../../../qCLI/ls.php';
+      require '../../qCLI/ls.php';
     ?>
 </div>
 
