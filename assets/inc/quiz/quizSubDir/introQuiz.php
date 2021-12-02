@@ -30,7 +30,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     ?>	
     <div id="top" class="quizPageMargins">
 
-    <form id="mid" name="question 1" onsubmit="return gradeQ1();">
+    <form id="mid" name="question 1">
 	<div id="q1" class="qdiv">
     <h1 class="header"> Introduction Quiz </h1>
     <h2 class="subheader">1. What is UNIX?</h2>
@@ -46,7 +46,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     
     <script>
 
-    function highlight(text) {
+    /*function highlight(text) {
     var inputText = document.getElementById("inputText");
     var innerHTML = inputText.innerHTML;
     var index = innerHTML.indexOf(text);
@@ -54,7 +54,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     innerHTML = innerHTML.substring(0,index) + "<span class='highlight'>" + innerHTML.substring(index,index+text.length) + "</span>" + innerHTML.substring(index + text.length);
     inputText.innerHTML = innerHTML;
     }
-    }
+    }*/
 
     $(document).ready(function(){
         function gradeQ1(){
@@ -110,11 +110,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     </script>
 
     <?php 
-
         //include footer
         require($path.'../../global/footer.php');
-
-
     ?>
 </body>
 </html>
