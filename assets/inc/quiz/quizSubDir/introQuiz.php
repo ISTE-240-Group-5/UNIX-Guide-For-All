@@ -46,15 +46,6 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     
     <script>
 
-    /*function highlight(text) {
-    var inputText = document.getElementById("inputText");
-    var innerHTML = inputText.innerHTML;
-    var index = innerHTML.indexOf(text);
-    if (index >= 0) {
-    innerHTML = innerHTML.substring(0,index) + "<span class='highlight'>" + innerHTML.substring(index,index+text.length) + "</span>" + innerHTML.substring(index + text.length);
-    inputText.innerHTML = innerHTML;
-    }
-    }*/
 
     function highlight(text) {
         var inputText = document.getElementById("1-1");
@@ -66,61 +57,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
     }
 
-    .highlight {
-        background-color: red;
-    }
-
-    /*$(document).ready(function(){
-        function gradeQ1(){
-            if(document.getElementById('top').getElementById('mid').getElementById('q1').getElementById('1-1').checked) {
-                echo('its in');
-                document.getElementById('top').getElementById('1-1').style.background-color = "red";
-                document.getElementById('top').getElementById('1-4').style.background-color  = "greenyellow";
-            }
-            else if(document.getElementById('1-2').checked) {
-                document.getElementById("divb").style.color = "red";
-                document.getElementById("divd").style.color = "green";
-            }
-            else if(document.getElementById('1-3').checked) {
-                document.getElementById("divc").style.color = "red";
-                document.getElementById("divd").style.color = "green";
-            }
-            else if(document.getElementById('1-4').checked) {
-                document.getElementById("divd").style.color = "green";
-            }
-            else{
-                echo("oh no");
-            }
-        }
-        $("#quiz-clck").click(gradeQ1);
-    });*/
-
-
-
-        function scrolldiv() {
-            var q1 = document.getElementById("q1");
-            q1.scrollIntoView();
-        }
-
-	//Get the button
-	var mybutton = document.getElementById("myBtn");
-
-	// When the user scrolls down 20px from the top of the document, show the button
-	window.onscroll = function() {scrollFunction()};
-
-	function scrollFunction() {
- 		 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-   		 mybutton.style.display = "block";
-  		} else {
-  		  mybutton.style.display = "none";
-  		}
-	}
-
-	// When the user clicks on the button, scroll to the top of the document
-	function topFunction() {
- 		 document.body.scrollTop = 0;
- 		 document.documentElement.scrollTop = 0;
-	}
+    
     </script>
 
     <?php 
