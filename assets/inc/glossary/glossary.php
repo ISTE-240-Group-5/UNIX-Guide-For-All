@@ -26,9 +26,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	
 ?>
 </head>
-<body class="noside">
+<body class="nosideGloss">
 
 <div class="NoSidescontent">
+
+ <h1 class="header"> Glossary </h1>
 
 <table id="gloss">
   <tr>
