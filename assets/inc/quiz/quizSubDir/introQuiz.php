@@ -46,7 +46,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     
     <script>
 
-    function highlight(text) {
+    /*function highlight(text) {
     var inputText = document.getElementById("inputText");
     var innerHTML = inputText.innerHTML;
     var index = innerHTML.indexOf(text);
@@ -54,7 +54,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     innerHTML = innerHTML.substring(0,index) + "<span class='highlight'>" + innerHTML.substring(index,index+text.length) + "</span>" + innerHTML.substring(index + text.length);
     inputText.innerHTML = innerHTML;
     }
-    }
+    }*/
 
     function gradeQ1(){
         if(document.getElementById('1-1').checked) {
