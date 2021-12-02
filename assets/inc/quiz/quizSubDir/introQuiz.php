@@ -90,40 +90,41 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             }
         }
     }
+    </script>
+    <script>
     function Q2() {
-        if(document.getElementById("1a").checked==true){
-            document.getElementById("a1").style.backgroundColor = "red";
-            document.getElementById("b1").style.backgroundColor = "rgba(255, 255, 255, 0)";
-            document.getElementById("c1").style.backgroundColor = "rgba(255, 255, 255, 0)";
-            document.getElementById("d1").style.backgroundColor = "limegreen";
+        if(document.getElementById("2a").checked==true){
+            document.getElementById("a2").style.backgroundColor = "red";
+            document.getElementById("b2").style.backgroundColor = "rgba(255, 255, 255, 0)";
+            document.getElementById("c2").style.backgroundColor = "rgba(255, 255, 255, 0)";
+            document.getElementById("d2").style.backgroundColor = "limegreen";
         }else{
-            if(document.getElementById("1b").checked==true){
-                document.getElementById("a1").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                document.getElementById("b1").style.backgroundColor = "red";
-                document.getElementById("c1").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                document.getElementById("d1").style.backgroundColor = "limegreen";
+            if(document.getElementById("2b").checked==true){
+                document.getElementById("a2").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                document.getElementById("b2").style.backgroundColor = "red";
+                document.getElementById("c2").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                document.getElementById("d2").style.backgroundColor = "limegreen";
             }else{
-                if(document.getElementById("1c").checked==true){
-                    document.getElementById("a1").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                    document.getElementById("b1").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                    document.getElementById("c1").style.backgroundColor = "red";
-                    document.getElementById("d1").style.backgroundColor = "limegreen";
+                if(document.getElementById("2c").checked==true){
+                    document.getElementById("a2").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                    document.getElementById("b2").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                    document.getElementById("c2").style.backgroundColor = "red";
+                    document.getElementById("d2").style.backgroundColor = "limegreen";
                 }else{
-                    if(document.getElementById("1d").checked==true){
-                        document.getElementById("a1").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                        document.getElementById("b1").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                        document.getElementById("c1").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                        document.getElementById("d1").style.backgroundColor = "limegreen";
+                    if(document.getElementById("2d").checked==true){
+                        document.getElementById("a2").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                        document.getElementById("b2").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                        document.getElementById("c2").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                        document.getElementById("d2").style.backgroundColor = "limegreen";
                     }else{
                         echo('fuck');
                     }
                 }
             }
         }
-
     }
 
-    function scrollNext(){
+    function scrollQ2(){
         var myElement = document.getElementById('element_within_div');
         var topPos = myElement.offsetTop;
     }
