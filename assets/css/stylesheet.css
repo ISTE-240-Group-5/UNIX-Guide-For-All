@@ -1,37 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@mgrobe657 
-ISTE-240-Group-5
-/
-UNIX-Guide-For-All
-Public
-0
-2
-0
-Code
-Issues
-59
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-UNIX-Guide-For-All/assets/css/stylesheet.css
-@zoryisnotreal
-zoryisnotreal Small Alters to stylesheet
-Latest commit 8ae88a9 1 hour ago
- History
- 3 contributors
-@zoryisnotreal@JasonA19@mgrobe657
-533 lines (419 sloc)  7.67 KB
-   
 /** CSS Rules for all pages **/
 
 /**
@@ -125,13 +91,16 @@ margin-right: auto;
 }
 
 
-
-
-
 /** CSS Rules for all pages **/
 
 body {
 font-family: "Helvetica Neue", Verdana, SansSerif;
+display: grid;
+  grid-template-columns: 250px auto;
+  grid-template-areas: 
+    "head head"
+    "side content"
+    "footer footer"; 
 }
 
 .logo {
@@ -146,13 +115,13 @@ font-family: "Helvetica Neue", Verdana, SansSerif;
     right: 0;
     left: 0;
     top: 0;
+    grid-area: head;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
   overflow: hidden;
-  grid-area: nav
 }
 
 /* Style the links inside the navigation bar */
@@ -166,8 +135,14 @@ font-family: "Helvetica Neue", Verdana, SansSerif;
   font-weight: normal;
 }
 
+
 /* Change the color of links on hover */
 .topnav a:hover {
+  background-color: #FFC637;
+  color: #3B3B3B;
+}
+
+.hamburger:hover {
   background-color: #FFC637;
   color: #3B3B3B;
 }
@@ -179,19 +154,22 @@ font-family: "Helvetica Neue", Verdana, SansSerif;
 .sidenav {
   height: 100%;
   width: 0;
-  position: fixed;
+  position: static;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: #FFC637;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 140px;
+  grid-area: auto;
 }
 
 .sideNavBack{
 width: 250px;
-height: 30px;
+height: 100px;
+margin: 5px 5px 5px 5px;
+
 }
 
 .sideNavBack:hover{
@@ -201,7 +179,7 @@ background-color: #E3A303;
 .sidenav a {
   padding: 10px 10px 10px 40px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px;
   color: #3C3C3C;
   display: block;
   transition: 0.3s;
@@ -212,11 +190,11 @@ background-color: #E3A303;
 }
 
 .sidenav .closebtn {
-  position: absolute;
-  top: 0;
   right: 25px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-left: 40px;
+  float: right;
+  margin-right: 10px;
 }
 
 
@@ -250,6 +228,7 @@ margin-top: 5px;
     bottom: 10px;
     width: 100%;
 	color: black;
+	grid-area: footer;
 }
 
 .whitebanner {
@@ -280,7 +259,7 @@ margin-top: 5px;
 }
 
 .subsubheader{
-font-family: Helvetica Neue;
+font-family: "Helvetica Neue";
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
@@ -309,7 +288,7 @@ margin-top: 50px;
 }
 
 .text{
-font-family: Helvetica Neue;
+font-family: "Helvetica Neue";
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -318,10 +297,44 @@ letter-spacing: 0.04em;
 color: #000000;
 }
 
-.content{
-margin-top: 100px;
-margin-left: 88px;
+.content {
+    margin-top: 165px;
+    margin-left: 55px;
+    margin-right: 165px;
+    grid-area: auto;
 }
+
+.nosideGloss{
+display:block;
+}
+
+#gloss {
+  border:1px solid black;
+  width: 100%;
+  
+}
+#gloss{
+width: 50%;
+}
+ #gloss td, #gloss th{
+ border-bottom: 1px solid black;
+ font-family: "Helvetica Neue";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: 0.04em;
+color: #000000;
+ }
+ 
+ #gloss td a{
+ color: black;
+padding: 5px;
+text-decoration: none;
+ }
+ #gloss td a:hover{
+ color: #E3A303;
+ }
 
 .reminder {
 width: 165px;
@@ -336,7 +349,7 @@ font-weight: bold;
 }
 
 .reminderText{
-font-family: Helvetica Neue;
+font-family: "Helvetica Neue";
 font-style: normal;
 font-size: 10px;
 line-height: 12px;
@@ -375,6 +388,13 @@ width: 271px;
 height: 232px;
 }
 
+.term { 
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 5px;
+width: 271px;
+height: 232px;
+}
+
 .terminals p {
 color: white;
 font-family: 'Andale Mono';
@@ -385,13 +405,28 @@ line-height: 11px;
 padding: 10px;
 }
 
+.quizPageMargins {
+    margin-top: 150px;
+    margin-left: 88px;
+}
+
+.NoSidesContent{
+margin-top: 150px;
+}
 
 /** CSS Rules for landing page **/
 
 #landingPage{
 background-image: linear-gradient(110.27deg, rgba(255, 128, 8, 0.78) 10.56%, #FFC837 66.09%);
-background-repeat: no-repeat;
-height: 100vh;
+height: 100%;
+grid-template-columns: 0.8fr 1.2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 13px 45px; 
+  grid-template-areas: 
+    "head term"
+    "sub term"
+    "button term"
+    "statement statement"; 
 }
 
 
@@ -400,14 +435,6 @@ height: 100vh;
   margin-top: 210px;
   margin-right: 10%;
   margin-left: 20%;
-  grid-template-columns: 0.8fr 1.2fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 13px 45px; 
-  grid-template-areas: 
-    "head term"
-    "sub term"
-    "button term"
-    "statement statement"; 
 }
 
 .quasarHeading { 
@@ -525,9 +552,49 @@ padding: 10px;
 }
 
  
- 
 /* Media queries */
 
+@media only screen and (max-width: 600px) {
+ body {
+ display: block;
+ }
+
+  .pageHeader {
+    position: absolute;
+    right: 0;
+    left: 0
+}
+
+.content{
+margin-top: 40px;
+}
+
+.header{
+font-size:24px;
+}
+
+.text{
+font-size: 12px;
+line-height: 14px;
+}
+
+#gloss{
+width: 45vw;
+}
+
+.qDiv{
+width:300px;
+}
+.qDivFont{
+font-size:20px;
+}
+
+.topnav .link {
+    padding: 13px 11px;
+    font-size: 9px;
+}
+
+}
 
 
 
@@ -545,25 +612,3 @@ padding: 10px;
 
 
 
-
-
-
-
-
-
-
-
-
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete

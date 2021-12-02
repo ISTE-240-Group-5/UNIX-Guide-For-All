@@ -1,13 +1,5 @@
 
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-
-
+/**
 //Get the button
 	var mybutton = document.getElementById("myBtn");
 
@@ -27,16 +19,30 @@ function closeNav() {
  		 document.body.scrollTop = 0;
  		 document.documentElement.scrollTop = 0;
 	}
+**/
 	
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementsByClass("content").style.marginLeft = "250px";
+	if(x.matches){
+    document.getElementById("mySidenav").style.width = "250px";
+ 	 document.getElementsByClassName("content").style.marginTop = 		"20px";
+     }
+     else{
+     document.getElementById("mySidenav").style.width = "250px";
+  document.getElementsByClassName("content").style.marginLeft = "50px";
+     }
 }
 
-/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementsByClass("content").style.marginLeft = "0";
+	if(x.matches){
+    document.getElementById("mySidenav").style.width = "0px";
+ 	 document.getElementsByClassName("content").style.marginTop = 		"10px";
+     }
+     else{
+     document.getElementById("mySidenav").style.width = "00px";
+  document.getElementsByClassName("content").style.marginLeft = "50px";
+     }
 }
+
+var x = window.matchMedia("(max-width: 600px)")
 

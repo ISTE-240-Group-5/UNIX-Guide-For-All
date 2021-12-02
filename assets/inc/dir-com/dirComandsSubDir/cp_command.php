@@ -1,13 +1,17 @@
 
 <div style="margin-top: 0;"class="content">
     <h3  class="subsubheader">CP Command</h3>
-
-   
-
+    
     <p class="text">cp: Creates a copy of the specified file.
 
         Syntax: cp file1 file2
       </p>
+      
+      <div  class="term">
+    <?php 
+       require '../../qCLI/ls.js';
+    ?>
+            </div>
 
     <h4 class="subsub">Example: cp example  example2 </h4>
 

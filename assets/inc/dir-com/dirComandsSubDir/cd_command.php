@@ -6,11 +6,13 @@
         Syntax: cd [directory]
     [directory] can be the absolute path or the relative path to find the directory.</p>
     
-    <div class="terminals">
-    <p> <span style="color:#00FF85">example.bot:</span><span style="color:#00F0FF">~ $</span>
-     cd </p>
+    <div class="term">
+    <?php 
+      require '../../qCLI/ls.js';
+      
+    ?>
             </div>
-
+            
     <h4 class="subsub" >Example 1: cd /example</h4>
 
     <p class="text">changes working directory to directory named “example”</p>

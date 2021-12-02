@@ -18,6 +18,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/stylesheet.css">
+     <script src="../../js/javascript.js"></script>
 </head>
 <body id="landingPage">
 
@@ -33,7 +34,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             <h2 class="landingPageSubHeading"> Unix Learning Company </h2>
         
             <div> 
-                <a class="learnmoreButton" href="#"> LEARN MORE </a>
+                <a class="learnmoreButton" href="assets/inc/get-start/gettingStarted.php"> LEARN MORE </a>
             </div>
 
 
