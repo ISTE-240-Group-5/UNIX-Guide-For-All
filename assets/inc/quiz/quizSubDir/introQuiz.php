@@ -41,7 +41,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
                         <input class="qDivFont" type="radio" name ="1" value = "A server organizer"                                     id="1c"/><label    id="c1" >A server organizer</label><br/>
                         <input class="qDivFont" type="radio" name ="1" value = "All of the above"                                       id="1d"/><label    id="d1" >All of the above</label><br/>
                             <button type="button" onclick="Q1()">Submit</button>
-                            <button type="button" onclick="scrollTQ2()">Next</button>
+                            <button type="button" onclick="scrollTQ2()">Next Question</button>
                 </div>
             </form>
                         <!---------------------------------------------------------------------->
@@ -80,7 +80,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
                         <input class="qDivFont" type="radio" name ="4" value = "A server organizer"                                     id="4c"/><label    id="c4" >A server organizer</label><br/>
                         <input class="qDivFont" type="radio" name ="4" value = "All of the above"                                       id="4d"/><label    id="d4" >All of the above</label><br/>
                             <button type="button" onclick="Q4()">Submit</button>
-                            <button type="button" onclick="scrollTQ5()">Next</button>
+                            <button type="button" onclick="scrollTQ5()">Next Question</button>
                 </div>
             </form>
                         <!---------------------------------------------------------------------->
@@ -147,8 +147,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ2(){
-            var myElement = document.getElementById('element_within_div');
-            var topPos = myElement.offsetTop;
+            //var myElement = document.getElementById("q2");
+            //var topPos = myElement.offsetTop;
+
+            //document.getElementById('scrolling_div').scrollTop = topPos;
+            document.getElementById("q2").scrollIntoView(true);
         }
         </script>
 
