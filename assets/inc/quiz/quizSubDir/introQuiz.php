@@ -25,6 +25,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         $path = './';
         //include header
         require($path.'../../global/header.php');
+        require('../../global/nav.php');
 
     ?>	
     <div class="quizPageMargins">
@@ -37,7 +38,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	<input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system" id="1-2"/><label for="1-2">A multitasking and multifunctional operating system</label><br/>
 	<input class="qDivFont" type="radio" name ="1" value = "A server organizer"  id="1-3"/><label for="1-3">A server organizer</label><br/>
 	<input class="qDivFont" type="radio" name ="1" value = "All of the above"  id="1-4"/><label for="1-4">All of the above</label><br/>
-    <input type="submit"  name="submit"  value="Submit"  />
+    <input type="submit"  name="submit"  value="Submit"  onclick="gradeQ1()"/>
     </div>
     </form>
 
