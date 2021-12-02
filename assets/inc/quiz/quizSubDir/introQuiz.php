@@ -89,7 +89,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <?php 
 
         //include footer
-        require($path.'../footer.php');
+        require($path.'../../global/footer.php');
 
 
     ?>
