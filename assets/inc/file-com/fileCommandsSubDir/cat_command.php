@@ -22,12 +22,11 @@
   </p>
 
 
-
-
-<div class="terminals">
-<p> <span style="color:#00FF85">example.bot:</span><span style="color:#00F0FF">~ $</span>
- cd </p>
-        </div>
+<div class="term">
+    <?php 
+      require '../../qCLI/ls.php';
+    ?>
+            </div>
 
 
 <p class="text">Syntax: cat [option] [files]</p>

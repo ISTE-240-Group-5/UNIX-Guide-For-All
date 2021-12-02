@@ -1,12 +1,4 @@
 
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-
 /**
 //Get the button
 	var mybutton = document.getElementById("myBtn");
@@ -53,5 +45,4 @@ function closeNav() {
 }
 
 var x = window.matchMedia("(max-width: 600px)")
-myFunction(x) // Call listener function at run time
-x.addListener(myFunction)
+
