@@ -48,7 +48,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     </div>
     
     <div class="question">
-    <a class="qDivFont" href="./quizSubDir/advCommQuiz">Advanced Commands Quiz</a>
+    <a class="qDivFont" href="./quizSubDir/advCommQuiz">Misc Commands Quiz</a>
     </div>
     
     <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
