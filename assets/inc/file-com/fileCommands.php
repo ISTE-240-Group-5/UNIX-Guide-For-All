@@ -35,7 +35,13 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <?php
 
   include './fileCommandsSubDir/cat_command.php';
-  include './fileCommandsSubDir/cim_command.php';
+  include './fileCommandsSubDir/chmod_command.php';
+  include './fileCommandsSubDir/mv_command.php';
+  include './fileCommandsSubDir/rm_command.php';
+  include './fileCommandsSubDir/vim_command.php';
+
+
+
 
 
 
