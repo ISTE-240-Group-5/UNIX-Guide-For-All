@@ -279,6 +279,11 @@ color: rgba(255, 128, 8, 0.78);
 font-weight: normal;
 }
 
+.content{
+  margin-top: 200px;
+  margin-left: 88px;
+}
+
 .subheader{
 font-size: 24px;
 line-height: 29px;
