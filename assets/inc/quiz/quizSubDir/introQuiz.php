@@ -28,7 +28,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         require('../../global/nav.php');
 
     ?>	
-    <div class="quizPageMargins">
+    <div id="top" class="quizPageMargins">
 
     <form name="question 1" onsubmit="return gradeQ1();">
 	<div id="q1" class="qdiv">
@@ -57,9 +57,9 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     }
 
     function gradeQ1(){
-        if(document.getElementById('1-1').checked) {
-            document.getElementById('1-1').style.background-color = "red";
-            document.getElementById('1-4').style.background-color  = "greenyellow";
+        if(document.getElementById('top').getElementById('1-1').checked) {
+            document.getElementById('top').getElementById('1-1').style.background-color = "red";
+            document.getElementById('top').getElementById('1-4').style.background-color  = "greenyellow";
         }else if(document.getElementById('1-2').checked) {
             document.getElementById("divb").style.color = "red";
             document.getElementById("divd").style.color = "green";
