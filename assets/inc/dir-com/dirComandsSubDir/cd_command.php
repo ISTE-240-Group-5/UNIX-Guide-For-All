@@ -8,8 +8,7 @@
     
     <div class="term">
     <?php 
-      include 'http://solace.ist.rit.edu/~iste240t18/project-dev/assets/inc/qCLI/ls.php';
-      
+      file_get_contents('http://solace.ist.rit.edu/~iste240t18/project-dev/assets/inc/qCLI/ls.php');
     ?>
             </div>
             
