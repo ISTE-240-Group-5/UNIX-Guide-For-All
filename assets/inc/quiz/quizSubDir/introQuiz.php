@@ -32,7 +32,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         <div class="quizPageMargins">
                         <!---------------------------------------------------------------------->
             <form name="question 1">
-                <div id="q1" class="qdiv">
+                <div id="q1p" class="qdiv">
                     <h1 class="header"> Introduction Quiz </h1>
                     <h2 class="subheader">1. Which of these operating systems is not based on UNIX</h2>
                         <input class="qDivFont" type="radio" name ="1" value = "IOS"            id="1a"/><label    id="a1" >IOS</label><br/>
@@ -45,7 +45,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 2">
-                <div id="q2" class="qdiv">
+                <div id="q2p" class="qdiv">
                     <h1 class="header"> Introduction Quiz </h1>
                     <h2 class="subheader">2. What is UNIX?</h2>
                         <input class="qDivFont" type="radio" name ="2" value = "A system of mathematical equations"                     id="2a"/><label    id="a2" >A system of mathematical equations</label><br/>
@@ -58,11 +58,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 3">
-                <div id="q3" class="qdiv">
+                <div id="q3p" class="qdiv">
                     <h1 class="header"> Introduction Quiz </h1>
                     <h2 class="subheader">3. How is a Unix-based operating system navigated</h2>
                         <input class="qDivFont" type="radio" name ="3" value = "A GUI"                     id="3a"/><label    id="a3" >A GUI</label><br/>
-                        
+                        <input class="qDivFont" type="radio" name ="3" value = "File Explorer"                                     id="3b"/><label    id="b3" >File Explorer</label><br/>
                         <input class="qDivFont" type="radio" name ="3" value = "Terminal commands"                                     id="3c"/><label    id="c3" >Terminal commands</label><br/>
                         <input class="qDivFont" type="radio" name ="3" value = "Both A&B"                                       id="3d"/><label    id="d3" >Both A&B</label><br/>
                             <button type="button" onclick="Q3()">Submit</button>
@@ -71,7 +71,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 4">
-                <div id="q4" class="qdiv">
+                <div id="q4p" class="qdiv">
                     <h1 class="header"> Introduction Quiz </h1>
                     <h2 class="subheader">What are the instructions given to the operating system called</h2>
                         <input class="qDivFont" type="radio" name ="4" value = "Arguments"                     id="4a"/><label    id="a4" >Arguments</label><br/>
@@ -84,7 +84,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 5">
-                <div id="q5" class="qdiv">
+                <div id="q5p" class="qdiv">
                     <h1 class="header"> Introduction Quiz </h1>
                     <h2 class="subheader">5. How are commands input into a UNIX os?</h2>
                         <input class="qDivFont" type="radio" name ="5" value = "Terminal"                     id="5d"/><label    id="d5" >Terminal</label><br/>
@@ -97,7 +97,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             </form>
                         <!---------------------------------------------------------------------->
             <form name="question 6">
-                <div id="q6" class="qdiv">
+                <div id="q6p" class="qdiv">
                     <h1 class="header"> Introduction Quiz </h1>
                     <h2 class="subheader">6. How do you add modifiers to a command</h2>
                         <input class="qDivFont" type="radio" name ="6" value = "~"                     id="6a"/><label    id="a6" >~</label><br/>
@@ -201,6 +201,12 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
                 document.getElementById("c3").style.backgroundColor = "rgba(255, 255, 255, 0)";
                 document.getElementById("d3").style.backgroundColor = "limegreen";
             }else{
+                if(document.getElementById("3c").checked==true){
+                        document.getElementById("a3").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                        document.getElementById("b3").style.backgroundColor = "rgba(255, 255, 255, 0)";
+                        document.getElementById("c3").style.backgroundColor = "red";
+                        document.getElementById("d3").style.backgroundColor = "limegreen";
+                    }else{
                     if(document.getElementById("3c").checked==true){
                         document.getElementById("a3").style.backgroundColor = "rgba(255, 255, 255, 0)";
                         document.getElementById("b3").style.backgroundColor = "rgba(255, 255, 255, 0)";
