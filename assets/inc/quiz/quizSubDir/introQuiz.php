@@ -34,11 +34,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             <form name="question 1">
                 <div id="q1" class="qdiv">
                     <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="1" value = "A system of mathematical equations"                     id="1a"/><label    id="a1" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system"    id="1b"/><label    id="b1" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="1" value = "A server organizer"                                     id="1c"/><label    id="c1" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="1" value = "All of the above"                                       id="1d"/><label    id="d1" >All of the above</label><br/>
+                    <h2 class="subheader">1. Which of these operating systems is not based on UNIX</h2>
+                        <input class="qDivFont" type="radio" name ="1" value = "IOS"            id="1a"/><label    id="a1" >IOS</label><br/>
+                        <input class="qDivFont" type="radio" name ="1" value = "android"        id="1b"/><label    id="b1" >Android</label><br/>
+                        <input class="qDivFont" type="radio" name ="1" value = "linux"          id="1c"/><label    id="c1" >Linux</label><br/>
+                        <input class="qDivFont" type="radio" name ="1" value = "windows"        id="1d"/><label    id="d1" >Windows</label><br/>
                             <button type="button" onclick="Q1()">Submit</button>
                             <button type="button" onclick="scrollTQ2()">Next Question</button>
                 </div>
@@ -47,7 +47,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             <form name="question 2">
                 <div id="q2" class="qdiv">
                     <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
+                    <h2 class="subheader">2. What is UNIX?</h2>
                         <input class="qDivFont" type="radio" name ="2" value = "A system of mathematical equations"                     id="2a"/><label    id="a2" >A system of mathematical equations</label><br/>
                         <input class="qDivFont" type="radio" name ="2" value = "A multitasking and multifunctional operating system"    id="2b"/><label    id="b2" >A multitasking and multifunctional operating system</label><br/>
                         <input class="qDivFont" type="radio" name ="2" value = "A server organizer"                                     id="2c"/><label    id="c2" >A server organizer</label><br/>
@@ -60,11 +60,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             <form name="question 3">
                 <div id="q3" class="qdiv">
                     <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="3" value = "A system of mathematical equations"                     id="3a"/><label    id="a3" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="3" value = "A multitasking and multifunctional operating system"    id="3b"/><label    id="b3" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="3" value = "A server organizer"                                     id="3c"/><label    id="c3" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="3" value = "All of the above"                                       id="3d"/><label    id="d3" >All of the above</label><br/>
+                    <h2 class="subheader">3. How is a Unix-based operating system navigated</h2>
+                        <input class="qDivFont" type="radio" name ="3" value = "A GUI"                     id="3a"/><label    id="a3" >A GUI</label><br/>
+                        
+                        <input class="qDivFont" type="radio" name ="3" value = "Terminal commands"                                     id="3c"/><label    id="c3" >Terminal commands</label><br/>
+                        <input class="qDivFont" type="radio" name ="3" value = "Both A&B"                                       id="3d"/><label    id="d3" >Both A&B</label><br/>
                             <button type="button" onclick="Q3()">Submit</button>
                             <button type="button" onclick="scrollTQ4()">Next Question</button>
                 </div>
@@ -73,11 +73,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             <form name="question 4">
                 <div id="q4" class="qdiv">
                     <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="4" value = "A system of mathematical equations"                     id="4a"/><label    id="a4" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="4" value = "A multitasking and multifunctional operating system"    id="4b"/><label    id="b4" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="4" value = "A server organizer"                                     id="4c"/><label    id="c4" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="4" value = "All of the above"                                       id="4d"/><label    id="d4" >All of the above</label><br/>
+                    <h2 class="subheader">What are the instructions given to the operating system called</h2>
+                        <input class="qDivFont" type="radio" name ="4" value = "Arguments"                     id="4a"/><label    id="a4" >Arguments</label><br/>
+                        <input class="qDivFont" type="radio" name ="4" value = "Commands"    id="4d"/><label    id="d4" >Commands</label><br/>
+                        <input class="qDivFont" type="radio" name ="4" value = "suggestions"                                     id="4c"/><label    id="c4" >suggestions</label><br/>
+                        <input class="qDivFont" type="radio" name ="4" value = "instructions"                                       id="4b"/><label    id="b4" >instructions</label><br/>
                             <button type="button" onclick="Q4()">Submit</button>
                             <button type="button" onclick="scrollTQ5()">Next Question</button>
                 </div>
@@ -86,11 +86,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             <form name="question 5">
                 <div id="q5" class="qdiv">
                     <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="5" value = "A system of mathematical equations"                     id="5a"/><label    id="a5" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="5" value = "A multitasking and multifunctional operating system"    id="5b"/><label    id="b5" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="5" value = "A server organizer"                                     id="5c"/><label    id="c5" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="5" value = "All of the above"                                       id="5d"/><label    id="d5" >All of the above</label><br/>
+                    <h2 class="subheader">5. How are commands input into a UNIX os?</h2>
+                        <input class="qDivFont" type="radio" name ="5" value = "Terminal"                     id="5d"/><label    id="d5" >Terminal</label><br/>
+                        <input class="qDivFont" type="radio" name ="5" value = "Command-line"    id="5b"/><label    id="b5" >Command-line</label><br/>
+                        <input class="qDivFont" type="radio" name ="5" value = "File explorer"                                     id="5c"/><label    id="c5" >File explorer</label><br/>
+                        <input class="qDivFont" type="radio" name ="5" value = "None of the above"                                       id="5a"/><label    id="a5" >None of the above</label><br/>
                             <button type="button" onclick="Q5()">Submit</button>
                             <button type="button" onclick="scrollTQ6()">Next Question</button>
                 </div>
@@ -99,11 +99,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             <form name="question 6">
                 <div id="q6" class="qdiv">
                     <h1 class="header"> Introduction Quiz </h1>
-                    <h2 class="subheader">1. What is UNIX?</h2>
-                        <input class="qDivFont" type="radio" name ="6" value = "A system of mathematical equations"                     id="6a"/><label    id="a6" >A system of mathematical equations</label><br/>
-                        <input class="qDivFont" type="radio" name ="6" value = "A multitasking and multifunctional operating system"    id="6b"/><label    id="b6" >A multitasking and multifunctional operating system</label><br/>
-                        <input class="qDivFont" type="radio" name ="6" value = "A server organizer"                                     id="6c"/><label    id="c6" >A server organizer</label><br/>
-                        <input class="qDivFont" type="radio" name ="6" value = "All of the above"                                       id="6d"/><label    id="d6" >All of the above</label><br/>
+                    <h2 class="subheader">6. How do you add modifiers to a command</h2>
+                        <input class="qDivFont" type="radio" name ="6" value = "~"                     id="6a"/><label    id="a6" >~</label><br/>
+                        <input class="qDivFont" type="radio" name ="6" value = "+"    id="6b"/><label    id="b6" >+</label><br/>
+                        <input class="qDivFont" type="radio" name ="6" value = "="                                     id="6c"/><label    id="c6" >=</label><br/>
+                        <input class="qDivFont" type="radio" name ="6" value = "-"                                       id="6d"/><label    id="d6" >-</label><br/>
                             <button type="button" onclick="Q6()">Submit</button>
                             <button type="button" onclick="scrollTQ1()">Back to the begining</button>
                 </div>
@@ -201,12 +201,6 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
                 document.getElementById("c3").style.backgroundColor = "rgba(255, 255, 255, 0)";
                 document.getElementById("d3").style.backgroundColor = "limegreen";
             }else{
-                if(document.getElementById("3b").checked==true){
-                    document.getElementById("a3").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                    document.getElementById("b3").style.backgroundColor = "red";
-                    document.getElementById("c3").style.backgroundColor = "rgba(255, 255, 255, 0)";
-                    document.getElementById("d3").style.backgroundColor = "limegreen";
-                }else{
                     if(document.getElementById("3c").checked==true){
                         document.getElementById("a3").style.backgroundColor = "rgba(255, 255, 255, 0)";
                         document.getElementById("b3").style.backgroundColor = "rgba(255, 255, 255, 0)";
