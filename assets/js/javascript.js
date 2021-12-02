@@ -7,7 +7,7 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
-
+/**
 //Get the button
 	var mybutton = document.getElementById("myBtn");
 
@@ -27,15 +27,19 @@ function closeNav() {
  		 document.body.scrollTop = 0;
  		 document.documentElement.scrollTop = 0;
 	}
+**/
 	
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
+  document.getElementsByClassName("content").style.marginLeft = "50px";
+  
 }
 
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
+  document.getElementById("mySidenav").style.width = "0px";
+  document.getElementsByClassName("content").style.marginLeft = "0px";
+  
 }
+
