@@ -50,30 +50,23 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     var inputText = document.getElementById("inputText");
     var innerHTML = inputText.innerHTML;
     var index = innerHTML.indexOf(text);
-    if (index >= 0) { 
+    if (index >= 0) {
     innerHTML = innerHTML.substring(0,index) + "<span class='highlight'>" + innerHTML.substring(index,index+text.length) + "</span>" + innerHTML.substring(index + text.length);
     inputText.innerHTML = innerHTML;
     }
     }
 
     function gradeQ1(){
-        if(document.getElementById('1-4').checked) {
-            //diva.highlight {background-color: green;}
+        if(document.getElementById('1-1').checked) {
             document.getElementById("diva").style.color = "red";
             document.getElementById("divd").style.color = "green";
-        }else if(document.getElementById('1-1').checked) {
-            //divb.highlight {background-color: red;}
-            //diva.highlight {background-color: green;}
+        }else if(document.getElementById('1-2').checked) {
             document.getElementById("divb").style.color = "red";
             document.getElementById("divd").style.color = "green";
-        }else if(document.getElementById('1-2').checked) {
-            //divc.highlight {background-color: red;}
-            //diva.highlight {background-color: green;}
+        }else if(document.getElementById('1-3').checked) {
             document.getElementById("divc").style.color = "red";
             document.getElementById("divd").style.color = "green";
-        }else if(document.getElementById('1-3').checked) {
-            //divd.highlight {background-color: red;}
-            //diva.highlight {background-color: green;}
+        }else if(document.getElementById('1-4').checked) {
             document.getElementById("divd").style.color = "green";
         }else{
             echo("oh no");
