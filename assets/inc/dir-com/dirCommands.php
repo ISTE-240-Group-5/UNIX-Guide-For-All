@@ -43,7 +43,6 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <b> Think of directories like the folders on your computer and files are the objects inside of them! </b>  </p>
 
 
-    <!--CD Command Here-->
     <?php
         include './dirComandsSubDir/cd_command.php';
 

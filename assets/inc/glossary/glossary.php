@@ -18,16 +18,17 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/stylesheet.css">
-</head>
-<body>
-<?php 
+    <?php 
     //include header
-    $page = 'fileCommands';
+    $page = 'glossary';
     require('../global/header.php');
     require('../global/nav.php');
 	
 ?>
-<div class="content">
+</head>
+<body class="noside">
+
+<div class="NoSidescontent">
 
 <table id="gloss">
   <tr>
