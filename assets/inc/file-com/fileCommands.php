@@ -1,10 +1,10 @@
-<!-- 
+<!--
 Name         : index
 File         : index.html
 Objectives   : _________________________________________
 Usage        : Read directly in browser.
 Compatibility: caniuse.com, allmost all browsers.
-Rights       : Copyright (c) 2021 Quasar - GPLv3             
+Rights       : Copyright (c) 2021 Quasar - GPLv3
 -->
 
 <!DOCTYPE html>
@@ -18,6 +18,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/stylesheet.css">
+
      <script src="../../js/javascript.js"></script>
      <?php 
     //include header
@@ -25,6 +26,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     require('../global/header.php');
     require('../global/nav.php');
     ?>
+	
 </head>
 <body>
 <?php 
@@ -38,9 +40,21 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
   <b> Think of files like the objects within a folder and the folder is the directory! </b>  </p>
 
+<?php
+
+  include './fileCommandsSubDir/cat_command.php';
+  include './fileCommandsSubDir/cim_command.php';
+
+
+
+
+ ?>
+
+
+
 
 </div>
-<?php 
+<?php
 
     //include footer
 	require('../global/footer.php');
