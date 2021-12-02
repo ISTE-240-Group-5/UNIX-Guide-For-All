@@ -1,12 +1,20 @@
 <h2 class="subheader"> How to use Terminal </h2>
 
-<p class="text">
-To open a new terminal/shell, a user can simply press [ctrl+alt+t].  Alternatively, you can look for it in your machine’s search area. The shell will be ready to use when it displays your username followed by a “$”. 
+<h3 class="subsubheader"> Mac Version </h3>
+<p class="text"> Click Finder and head to Applications. 
+<br> The terminal app is under the utilities folder.
+<br> <b> OR </b> 
+You can also click the search button on the upper right corner. Type "Terminal" and the app should appear. 
 </p>
 
 
+<h3 class="subsubheader"> Windows Version </h3>
+<p class="text"> Press [ctrl+alt+t] and Terminal should appear.
+<br> <b> OR </b> 
+Press the home button at the bottom left corner of your screen. 
+Type "Terminal" and it is the first program to appear.
+</p>
+		
+
 </div>
-
-
-
 
