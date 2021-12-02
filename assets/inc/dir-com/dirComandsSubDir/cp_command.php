@@ -9,7 +9,7 @@
       
       <div  class="term">
     <?php 
-      require '../../qClI/ls.php;'
+       require '../../qCLI/ls.js';
     ?>
             </div>
 

@@ -1,17 +1,14 @@
 /** CSS Rules for all pages **/
 
 /**
-
 Class Name Rules:
 header = header
 subheader = subheader
 command titles/sub-subheader = subber
-
 Hex Codes & Needs:
 header: color: rgba(255, 128, 8, 0.78);
 subheader: #DAA20F;
 subber: #585858;
-
 For Nav:
 background-color of top nav: #646363;
 Color of top nav (font): white;
@@ -19,13 +16,11 @@ color of top nav (hover): #3B3B3B;
 Hover of top nav AND color of side nav: #FFC637;
 Hover of side nav: #E3A303;
 color of side nav(and hover): #3B3B3B;
-
 For body:
 color: black;
 For search bar: 
 	background: rgba(230, 228, 228, 0.54);
 	border-radius: 10px;
-
 Buttons: 
 	previous and Next: #4C4B7A;
 	
@@ -96,14 +91,16 @@ margin-right: auto;
 }
 
 
-
-
-
-
 /** CSS Rules for all pages **/
 
 body {
 font-family: "Helvetica Neue", Verdana, SansSerif;
+display: grid;
+  grid-template-columns: 250px auto;
+  grid-template-areas: 
+    "head head"
+    "side content"
+    "footer footer"; 
 }
 
 .logo {
@@ -118,13 +115,13 @@ font-family: "Helvetica Neue", Verdana, SansSerif;
     right: 0;
     left: 0;
     top: 0;
+    grid-area: head;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
   overflow: hidden;
-  grid-area: nav
 }
 
 /* Style the links inside the navigation bar */
@@ -157,19 +154,22 @@ font-family: "Helvetica Neue", Verdana, SansSerif;
 .sidenav {
   height: 100%;
   width: 0;
-  position: fixed;
+  position: static;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: #FFC637;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 140px;
+  grid-area: auto;
 }
 
 .sideNavBack{
 width: 250px;
-height: 30px;
+height: 100px;
+margin: 5px 5px 5px 5px;
+
 }
 
 .sideNavBack:hover{
@@ -179,7 +179,7 @@ background-color: #E3A303;
 .sidenav a {
   padding: 10px 10px 10px 40px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px;
   color: #3C3C3C;
   display: block;
   transition: 0.3s;
@@ -190,11 +190,11 @@ background-color: #E3A303;
 }
 
 .sidenav .closebtn {
-  position: absolute;
-  top: 0;
   right: 25px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-left: 40px;
+  float: right;
+  margin-right: 10px;
 }
 
 
@@ -228,6 +228,7 @@ margin-top: 5px;
     bottom: 10px;
     width: 100%;
 	color: black;
+	grid-area: footer;
 }
 
 .whitebanner {
@@ -258,7 +259,7 @@ margin-top: 5px;
 }
 
 .subsubheader{
-font-family: Helvetica Neue;
+font-family: "Helvetica Neue";
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
@@ -278,6 +279,11 @@ color: rgba(255, 128, 8, 0.78);
 font-weight: normal;
 }
 
+.content{
+  margin-top: 200px;
+  margin-left: 88px;
+}
+
 .subheader{
 font-size: 24px;
 line-height: 29px;
@@ -287,7 +293,7 @@ margin-top: 50px;
 }
 
 .text{
-font-family: Helvetica Neue;
+font-family: "Helvetica Neue";
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -296,10 +302,44 @@ letter-spacing: 0.04em;
 color: #000000;
 }
 
-.content{
-margin-top: 100px;
-margin-left: 88px;
+.content {
+    margin-top: 165px;
+    margin-left: 55px;
+    margin-right: 165px;
+    grid-area: auto;
 }
+
+.nosideGloss{
+display:block;
+}
+
+#gloss {
+  border:1px solid black;
+  width: 100%;
+  
+}
+#gloss{
+width: 50%;
+}
+ #gloss td, #gloss th{
+ border-bottom: 1px solid black;
+ font-family: "Helvetica Neue";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: 0.04em;
+color: #000000;
+ }
+ 
+ #gloss td a{
+ color: black;
+padding: 5px;
+text-decoration: none;
+ }
+ #gloss td a:hover{
+ color: #E3A303;
+ }
 
 .reminder {
 width: 165px;
@@ -314,7 +354,7 @@ font-weight: bold;
 }
 
 .reminderText{
-font-family: Helvetica Neue;
+font-family: "Helvetica Neue";
 font-style: normal;
 font-size: 10px;
 line-height: 12px;
@@ -370,13 +410,30 @@ line-height: 11px;
 padding: 10px;
 }
 
+.quizPageMargins {
+    margin-top: 150px;
+    margin-left: 88px;
+}
+
+.NoSidescontent{
+margin-top: 150px;
+    margin-left: 88px;
+}
+
 
 /** CSS Rules for landing page **/
 
 #landingPage{
 background-image: linear-gradient(110.27deg, rgba(255, 128, 8, 0.78) 10.56%, #FFC837 66.09%);
-background-repeat: no-repeat;
-height: 100vh;
+height: 100%;
+grid-template-columns: 0.8fr 1.2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 13px 45px; 
+  grid-template-areas: 
+    "head term"
+    "sub term"
+    "button term"
+    "statement statement"; 
 }
 
 
@@ -385,14 +442,6 @@ height: 100vh;
   margin-top: 210px;
   margin-right: 10%;
   margin-left: 20%;
-  grid-template-columns: 0.8fr 1.2fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 13px 45px; 
-  grid-template-areas: 
-    "head term"
-    "sub term"
-    "button term"
-    "statement statement"; 
 }
 
 .quasarHeading { 
@@ -510,23 +559,59 @@ padding: 10px;
 }
 
  
- 
 /* Media queries */
 
+@media only screen and (max-width: 600px) {
+ body {
+ display: block;
+ }
 
+  .pageHeader {
+    position: absolute;
+    right: 0;
+    left: 0
+}
 
+.content{
+margin-top: 40px;
+}
 
+.header{
+font-size:24px;
+}
 
+.text{
+font-size: 12px;
+line-height: 14px;
+}
 
+#gloss{
+width: 45vw;
+}
 
+.qDiv{
+width:300px;
+}
+.qDivFont{
+font-size:20px;
+}
 
+.topnav .link {
+    padding: 13px 11px;
+    font-size: 9px;
+}
 
+.quizPageMargins {
+    margin-top: 210px;
+    margin-left: 88px;
+}
 
+.NoSidescontent{
+margin-top: 210px;
+    margin-left: 88px;
+}
 
-
-
-
-
+}
 
 
 
