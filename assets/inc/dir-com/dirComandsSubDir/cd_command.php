@@ -8,7 +8,7 @@
     
     <div class="term">
     <?php 
-      require '../../qCLI/ls.js';
+      include 'http://solace.ist.rit.edu/~iste240t18/project-dev/assets/inc/qCLI/ls.php';
       
     ?>
             </div>
