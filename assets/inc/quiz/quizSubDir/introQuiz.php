@@ -47,19 +47,19 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <script>
 
     function myFunction() {
-        if(document.getElementById('a').checked){
+        if(document.getElementById('a').checked==true){
             document.getElementById("a").style.backgroundColor = "red";
             document.getElementById("d").style.backgroundColor = "limegreen";
         }
-        elseif(document.getElementById('1-2').checked){
+        elseif(document.getElementById('1-2').checked==true){
             document.getElementById("b").style.backgroundColor = "red";
             document.getElementById("d").style.backgroundColor = "limegreen";
         }
-        elseif(document.getElementById('1-3').checked){
+        elseif(document.getElementById('1-3').checked==true){
             document.getElementById("c").style.backgroundColor = "red";
             document.getElementById("d").style.backgroundColor = "limegreen";
         }
-        elseif(document.getElementById('1-4').checked){
+        elseif(document.getElementById('1-4').checked==true){
             document.getElementById("d").style.backgroundColor = "limegreen";
         }
         else{
