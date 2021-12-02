@@ -47,14 +47,9 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <script>
 
     function myFunction() {
-        document.getElementById("1-1").style.backgroundColor = "red";
+        document.getElementById("a").style.backgroundColor = "red";
     }
-
-        function scrolldiv() {
-            var q1 = document.getElementById("q1");
-            q1.scrollIntoView();
-        }
-
+    
 	//Get the button
 	var mybutton = document.getElementById("myBtn");
 
