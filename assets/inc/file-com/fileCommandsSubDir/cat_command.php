@@ -26,7 +26,7 @@
     <?php 
       require '../../qCLI/ls.php';
     ?>
-</div>
+            </div>
 
 
 <p class="text">Syntax: cat [option] [files]</p>

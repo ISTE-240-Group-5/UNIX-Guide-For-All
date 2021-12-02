@@ -42,10 +42,10 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
 <?php
 
-require('http://solace.ist.rit.edu/~iste240t18/project-dev/assets/inc/file-com/fileCommandsSubDir/cat_command.php');
-require('http://solace.ist.rit.edu/~iste240t18/project-dev/assets/inc/file-com/fileCommandsSubDir/vim_command.php');
+  include('./fileCommandsSubDir/cat_command.php');
+  include ('./fileCommandsSubDir/vim_command.php');
 
-?>
+ ?>
 
 
 
