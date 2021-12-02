@@ -11,7 +11,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Quasar Quizzes</title>
+        <title>Introduction Quiz</title>
 
         <meta name="QUASAR" content="intro-quiz">
 
@@ -146,8 +146,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ2(){
-            document.getElementById("q2").scrollIntoView(true);
-            document.getElementById("q2").scrollIntoView(false);
+            document.getElementById("q2").scrollIntoView({behavior: "smooth"});
         }
         </script>
 
@@ -187,7 +186,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ3(){
-            document.getElementById("q3").scrollIntoView(true);
+            document.getElementById("q3").scrollIntoView({behavior: "smooth"});
         }
         </script>
 
@@ -227,7 +226,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ4(){
-            document.getElementById("q4").scrollIntoView(true);
+            document.getElementById("q4").scrollIntoView({behavior: "smooth"});
         }
         </script>
 
@@ -267,7 +266,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ5(){
-            document.getElementById("q5").scrollIntoView(true);
+            document.getElementById("q5").scrollIntoView({behavior: "smooth"});
         }
         </script>
 
@@ -307,7 +306,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ6(){
-            document.getElementById("q6").scrollIntoView(true);
+            document.getElementById("q6").scrollIntoView({behavior: "smooth"});
         }
         </script>
 
@@ -347,7 +346,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         }
 
         function scrollTQ1(){
-            document.getElementById("q1").scrollIntoView(true);
+            document.getElementById("q1").scrollIntoView({behavior: "smooth"});
         }
         </script>
 
