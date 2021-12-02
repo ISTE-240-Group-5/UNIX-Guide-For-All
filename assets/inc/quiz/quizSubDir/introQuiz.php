@@ -28,9 +28,9 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         require('../../global/nav.php');
 
     ?>	
-    <div id="top" class="quizPageMargins">
+    <div class="quizPageMargins">
 
-    <form id="mid" name="question 1">
+    <form name="question 1">
 	<div id="q1" class="qdiv">
     <h1 class="header"> Introduction Quiz </h1>
     <h2 class="subheader">1. What is UNIX?</h2>
@@ -38,7 +38,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	<input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system" id="1-2"/><label for="1-2">A multitasking and multifunctional operating system</label><br/>
 	<input class="qDivFont" type="radio" name ="1" value = "A server organizer"  id="1-3"/><label for="1-3">A server organizer</label><br/>
 	<input class="qDivFont" type="radio" name ="1" value = "All of the above"  id="1-4"/><label for="1-4">All of the above</label><br/>
-    <input type="submit" onclick=gradeQ1()/>
+    <input type="submit" onclick=highlight()/>
     </div>
     </form>
 
@@ -56,29 +56,15 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     }
     }*/
 
-    function gradeQ1(){
-        echo('its not in');
-            if(document.getElementById('top').getElementById('mid').getElementById('q1').getElementById('1-1').checked) {
-                echo('its in');
-                document.getElementById('top').getElementById('1-1').style.background-color = "red";
-                document.getElementById('top').getElementById('1-4').style.background-color  = "greenyellow";
-            }
-            else if(document.getElementById('1-2').checked) {
-                document.getElementById("divb").style.color = "red";
-                document.getElementById("divd").style.color = "green";
-            }
-            else if(document.getElementById('1-3').checked) {
-                document.getElementById("divc").style.color = "red";
-                document.getElementById("divd").style.color = "green";
-            }
-            else if(document.getElementById('1-4').checked) {
-                document.getElementById("divd").style.color = "green";
-            }
-            else{
-                echo("oh no");
-            }
+    function highlight(text) {
+        var inputText = document.getElementById("1-1");
+        var innerHTML = inputText.innerHTML;
+        var index = innerHTML.indexOf(text);
+        if (index >= 0) { 
+            innerHTML = innerHTML.substring(0,index) + "<span class='highlight'>" + innerHTML.substring(index,index+text.length) + "</span>" + innerHTML.substring(index + text.length);
+            inputText.innerHTML = innerHTML;
+        }
     }
-
     /*$(document).ready(function(){
         function gradeQ1(){
             if(document.getElementById('top').getElementById('mid').getElementById('q1').getElementById('1-1').checked) {
