@@ -51,25 +51,23 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
             document.getElementById("a1").style.backgroundColor = "red";
             document.getElementById("d1").style.backgroundColor = "limegreen";
         }else{
-            echo('fuck');
+            if(document.getElementById("1b").checked==true){
+                document.getElementById("b1").style.backgroundColor = "red";
+                document.getElementById("d1").style.backgroundColor = "limegreen";
+            }else{
+                if(document.getElementById("1c").checked==true){
+                    document.getElementById("c1").style.backgroundColor = "red";
+                    document.getElementById("d1").style.backgroundColor = "limegreen";
+                }else{
+                    if(document.getElementById("1d").checked==true){
+                        document.getElementById("d1").style.backgroundColor = "limegreen";
+                    }else{
+                        echo('fuck');
+                    }
+                }
+            }
         }
-        if(document.getElementById("1b").checked==true){
-            document.getElementById("b1").style.backgroundColor = "red";
-            document.getElementById("d1").style.backgroundColor = "limegreen";
-        }else{
-            echo('fuck');
-        }
-        if(document.getElementById("1c").checked==true){
-            document.getElementById("c1").style.backgroundColor = "red";
-            document.getElementById("d1").style.backgroundColor = "limegreen";
-        }else{
-            echo('fuck');
-        }
-        if(document.getElementById("1d").checked==true){
-            document.getElementById("d1").style.backgroundColor = "limegreen";
-        }else{
-            echo('fuck');
-        }
+
     }
 
 
