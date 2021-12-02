@@ -38,7 +38,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 	<input class="qDivFont" type="radio" name ="1" value = "A multitasking and multifunctional operating system" id="1-2"/><label for="1-2">A multitasking and multifunctional operating system</label><br/>
 	<input class="qDivFont" type="radio" name ="1" value = "A server organizer"  id="1-3"/><label for="1-3">A server organizer</label><br/>
 	<input class="qDivFont" type="radio" name ="1" value = "All of the above"  id="1-4"/><label for="1-4">All of the above</label><br/>
-    <input type="submit" id="img-clck"/>
+    <input type="submit" id="quiz-clck"/>
     </div>
     </form>
 
@@ -56,23 +56,31 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     }
     }
 
-    function gradeQ1(){
-        if(document.getElementById('top').getElementById('mid').getElementById('q1').getElementById('1-1').checked) {
-            echo('its in');
-            document.getElementById('top').getElementById('1-1').style.background-color = "red";
-            document.getElementById('top').getElementById('1-4').style.background-color  = "greenyellow";
-        }else if(document.getElementById('1-2').checked) {
-            document.getElementById("divb").style.color = "red";
-            document.getElementById("divd").style.color = "green";
-        }else if(document.getElementById('1-3').checked) {
-            document.getElementById("divc").style.color = "red";
-            document.getElementById("divd").style.color = "green";
-        }else if(document.getElementById('1-4').checked) {
-            document.getElementById("divd").style.color = "green";
-        }else{
-            echo("oh no");
+    $(document).ready(function(){
+        function gradeQ1(){
+            if(document.getElementById('top').getElementById('mid').getElementById('q1').getElementById('1-1').checked) {
+                echo('its in');
+                document.getElementById('top').getElementById('1-1').style.background-color = "red";
+                document.getElementById('top').getElementById('1-4').style.background-color  = "greenyellow";
+            }
+            else if(document.getElementById('1-2').checked) {
+                document.getElementById("divb").style.color = "red";
+                document.getElementById("divd").style.color = "green";
+            }
+            else if(document.getElementById('1-3').checked) {
+                document.getElementById("divc").style.color = "red";
+                document.getElementById("divd").style.color = "green";
+            }
+            else if(document.getElementById('1-4').checked) {
+                document.getElementById("divd").style.color = "green";
+            }
+            else{
+                echo("oh no");
+            }
         }
-    }
+        $("#quiz-clck").click(gradeQ1);
+    });
+
 
 
         function scrolldiv() {
