@@ -20,15 +20,15 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <link rel="stylesheet" href="../../css/stylesheet.css">
 
      <script src="../../js/javascript.js"></script>
-     
-      <?php 
+
+      <?php
         //include header
         $page = 'dirCommands';
         require('../global/header.php');
         require('../global/nav.php');
         ?>
 </head>
-<body class="contentSide">
+<body>
 <?php
 
         require('./dirComandsSubDir/dirSideNav.php');
@@ -39,7 +39,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <h1 class="header"> Directory Commands </h1>
 
     <p class="text"> Directory commands are Unix commands that apply to your directory. They can change permissions, delete, rename, and move directories!
-    
+
     <b> Think of directories like the folders on your computer and files are the objects inside of them! </b>  </p>
 
 
@@ -50,13 +50,11 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
         include './dirComandsSubDir/ls_command.php';
 
-        include './dirComandsSubDir/gzip_command.php';
-
         include './dirComandsSubDir/mkdir_command.php';
 
         include './dirComandsSubDir/rmdir_command.php';
 
-       include './dirComandsSubDir/tar_command.php';
+        include './dirComandsSubDir/pwd_command.php';
 
     ?>
 

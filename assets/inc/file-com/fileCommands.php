@@ -28,7 +28,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     ?>
 
 </head>
-<body id="contentSide">
+<body>
 <?php
 
     require('./fileCommandsSubDir/fileSideNav.php');
@@ -44,6 +44,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
   include('./fileCommandsSubDir/cat_command.php');
   include('./fileCommandsSubDir/vim_command.php');
+  include('./fileCommandsSubDir/rm_command.php');
+  include('./fileCommandsSubDir/mv_command.php');
 
  ?>
 
