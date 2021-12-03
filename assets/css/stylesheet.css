@@ -423,15 +423,6 @@ margin-left: 88px;
 #landingPage{
 background-image: linear-gradient(110.27deg, rgba(255, 128, 8, 0.78) 10.56%, #FFC837 66.09%);
 height: 100%;
-display: grid; 
-grid-template-columns: 0.8fr 1.2fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 13px 45px; 
-  grid-template-areas: 
-    "head term"
-    "sub term"
-    "button term"
-    "statement statement"; 
 }
 
 
@@ -439,6 +430,16 @@ grid-template-columns: 0.8fr 1.2fr;
   margin-top: 210px;
   margin-right: 10%;
   margin-left: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 13px 45px;
+    grid-template-areas:
+        "head term"
+        "sub term"
+        "button term"
+        "statement statement";
+}
 }
 
 .quasarHeading { 
