@@ -55,5 +55,3 @@
 <p class="text">Syntax: vim filename</p>
 
 
-
-</div>

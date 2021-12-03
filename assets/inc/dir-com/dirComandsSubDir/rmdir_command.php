@@ -31,5 +31,3 @@
 <p class="text">Removes directory named “quasar”</p>
 
 
-
-</div>

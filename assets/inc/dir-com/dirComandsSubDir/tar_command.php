@@ -36,6 +36,3 @@ NOT FINISHED, DO NOT MERGE TO MAIN
 
 <p class="text">Takes the contents of file1 and file2  and concatenates them into file3</p>
 
-
-
-</div>

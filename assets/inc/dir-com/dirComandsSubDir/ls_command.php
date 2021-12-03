@@ -12,4 +12,3 @@ Options
 
 <p class="text">Example: ls -a
 Lists all files in the current directory</p>
-</div>

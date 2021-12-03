@@ -12,5 +12,4 @@
 
     <p class="text">Copies example.text, names the copy example2 </p>
 
-</div>
     
