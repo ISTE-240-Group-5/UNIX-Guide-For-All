@@ -31,5 +31,3 @@
 <h4 class="subsub" >Example 1: cat file1 file2 > file3</h4>
 
 <p class="text">Takes the contents of file1 and file2  and concatenates them into file3</p>
-
-
