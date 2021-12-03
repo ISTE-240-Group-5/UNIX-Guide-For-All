@@ -1,3 +1,5 @@
+<div style="margin-top: 0;"class="content">
+
 <h3 class="subsubheader">vim Command</h3>
 
 <p class="text">vim: Launches a text editor called Vim and creates a file with
@@ -51,7 +53,14 @@
     . : repeat the last action
   </p>
 
+<div class="term">
+    <?php
+      require '../../qCLI/ls.php';
+    ?>
+            </div>
 
 <p class="text">Syntax: vim filename</p>
 
 
+
+</div>

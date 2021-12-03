@@ -1,3 +1,5 @@
+<div style="margin-top: 0;"class="content">
+
 <h3 class="subsubheader">cat Command</h3>
 
 <p class="text">reads a file and sends the contents to an output. Can be used to
@@ -22,6 +24,13 @@
   </p>
 
 
+<div class="term">
+    <?php
+      file_get_contents('http://solace.ist.rit.edu/~iste240t18/project-dev/assets/inc/qCLI/ls.php');
+    ?>
+</div>
+
+
 <p class="text">Syntax: cat [option] [files]</p>
 
 <h4 class="subsub" >Example 1: cat quasar.txt</h4>
@@ -33,3 +42,5 @@
 <p class="text">Takes the contents of file1 and file2  and concatenates them into file3</p>
 
 
+
+</div>

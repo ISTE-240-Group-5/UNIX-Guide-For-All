@@ -20,18 +20,18 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     <link rel="stylesheet" href="../../css/stylesheet.css">
 
      <script src="../../js/javascript.js"></script>
-     <?php 
+     <?php
     //include header
     $page = 'fileCommands';
     require('../global/header.php');
     require('../global/nav.php');
     ?>
-	
+
 </head>
-<body class="contentSide">
-<?php 
-    
-    require('./fileCommandsSubDir/fileSideNav.php');	
+<body>
+<?php
+
+    require('./fileCommandsSubDir/fileSideNav.php');
 ?>
 <div class="content">
 <h1 class="header"> File Commands </h1>
@@ -43,11 +43,14 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <?php
 
   include('./fileCommandsSubDir/cat_command.php');
-  include ('./fileCommandsSubDir/vim_command.php');
+  include('./fileCommandsSubDir/vim_command.php');
 
  ?>
-</div>
 
+
+
+
+</div>
 <?php
 
     //include footer
