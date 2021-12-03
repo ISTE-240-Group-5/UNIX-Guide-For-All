@@ -28,8 +28,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <?php 
     //include header
     $page = 'about';
-	require('assets/inc/header.php');
-	require('assets/inc/nav.php');
+	require('assets/inc/global/header.php');
+	require('assets/inc/global/nav.php');
 ?>
 
 
@@ -59,7 +59,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         </div>
 
         <div class="card ju">
-            <img class="teamImg" src="" alt="Julian">
+            <img class="teamImg" src="assets/images/raw/coloredquasaricon.png" alt="Julian">
             <div class="container">
                 <h2 class="subheader">Julian Mato Hernandez</h2>
                 <p class="title">Team Leader</p>
@@ -83,7 +83,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         </div>
 
         <div class="card ms">
-            <img class="teamImg" src="" alt="Mark">
+            <img class="teamImg" src="assets/images/raw/coloredquasaricon.png" alt="Mark">
             <div class="container">
                 <h2 class="subheader">Mark Stubble</h2>
                 <p class="title">Content Creator</p>
@@ -98,6 +98,6 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
 <?php 
     //include footer
-	require('assets/inc/footer.php');
+	require('assets/inc/global/footer.php');
 
 ?>
