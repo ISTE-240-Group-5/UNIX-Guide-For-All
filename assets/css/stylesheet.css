@@ -90,6 +90,79 @@ margin-left: auto;
 margin-right: auto;
 }
 
+/** CSS for about page **/
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: #585858;
+}
+
+.container {
+  padding: 0 16px;
+  text-align: center;
+}
+
+.grid { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  /* align-items: stretch; */
+  grid-template-areas: 
+    "ja jo ju"
+    "zo mg ms"; 
+
+  }
+
+.card.ja {
+  grid-area: ja;
+}
+
+.card.jo {
+  grid-area: jo;
+}
+
+.card.ju {
+  grid-area: ju;
+}
+
+.card.zo {
+  grid-area: zo;
+}
+
+.card.mg {
+  grid-area: mg;
+}
+
+.card.ms {
+  grid-area: ms;
+}
+
+
+.teamImg {
+  width: 100%;
+}
+
+.subheader.team {
+  text-align: center;
+}
+
+.title {
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: white;
+}
+
+
 
 /** CSS Rules for all pages **/
 
@@ -148,7 +221,7 @@ font-family: "Helvetica Neue", Verdana, SansSerif;
 .sidenav {
   height: 100%;
   width: 0;
-  position: static;
+  position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
@@ -282,7 +355,7 @@ font-weight: normal;
 
 .content{
   margin-top: 200px;
-  margin-left: 88px;
+  margin-left: 270px;
   margin-right: 130px;
 }
 
@@ -304,11 +377,6 @@ letter-spacing: 0.04em;
 color: #000000;
 }
 
-.content {
-    margin-top: 165px;
-    margin-left: 88px;
-    margin-right: 165px;
-}
 
 .nosideGloss{
 display:block;
@@ -456,7 +524,6 @@ height: 100%;
         "sub term"
         "button term"
         "statement statement";
-}
 }
 
 .quasarHeading { 

@@ -27,8 +27,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 <?php 
     //include header
     $page = 'contact';
-	require('assets/inc/header.php');
-	require('assets/inc/nav.php');
+    require('assets/inc/global/header.php');
+	require('assets/inc/global/nav.php');
 ?>
 
 <div class="content">
@@ -105,6 +105,6 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
 <?php 
     //include footer
-	require('assets/inc/footer.php');
+	require('assets/inc/global/footer.php');
 
 ?>

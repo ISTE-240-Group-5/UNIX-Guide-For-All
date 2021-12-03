@@ -1,4 +1,3 @@
-<div class="content">
 
 <h3 class="subsubheader">mkdir Command</h3>
 
@@ -19,7 +18,7 @@
 <h4 class="subsub" >Example 1: mkdir -p quasar/example</h4>
 
 <p class="text">Creates a directory “quasar” with child directory “example”</p>
-</div>
+
 
 
 

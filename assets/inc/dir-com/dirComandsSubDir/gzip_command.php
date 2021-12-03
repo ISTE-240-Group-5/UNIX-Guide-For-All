@@ -1,4 +1,4 @@
-<div class="content">
+
 <h3 class="subsubheader">cat Command</h3>
 
 <p class="text">reads a file and sends the contents to an output. Can be used to
@@ -34,6 +34,6 @@
 <h4 class="subsub" >Example 1: cat file1 file2 > file3</h4>
 
 <p class="text">Takes the contents of file1 and file2  and concatenates them into file3</p>
-</div>
+
 
 
