@@ -28,7 +28,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
     ?>
 
 </head>
-<body>
+<body id="contentSide">
 <?php
 
     require('./fileCommandsSubDir/fileSideNav.php');
