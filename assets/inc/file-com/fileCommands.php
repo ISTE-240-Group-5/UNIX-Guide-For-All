@@ -46,11 +46,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
   include ('./fileCommandsSubDir/vim_command.php');
 
  ?>
-
-
-
-
 </div>
+
 <?php
 
     //include footer
