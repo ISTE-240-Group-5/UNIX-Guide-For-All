@@ -95,12 +95,6 @@ margin-right: auto;
 
 body {
 font-family: "Helvetica Neue", Verdana, SansSerif;
-display: grid;
-  grid-template-columns: 250px auto;
-  grid-template-areas: 
-    "head head"
-    "side content"
-    "footer footer"; 
 }
 
 .logo {
@@ -161,14 +155,14 @@ display: grid;
   background-color: #FFC637;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 140px;
-  grid-area: auto;
+  padding-top: 185px;
 }
 
 .sideNavBack{
 width: 250px;
 height: 100px;
 margin: 5px 5px 5px 5px;
+
 
 }
 
@@ -282,6 +276,7 @@ font-weight: normal;
 .content{
   margin-top: 200px;
   margin-left: 88px;
+  margin-right: 130px;
 }
 
 .subheader{
@@ -304,9 +299,8 @@ color: #000000;
 
 .content {
     margin-top: 165px;
-    margin-left: 55px;
+    margin-left: 88px;
     margin-right: 165px;
-    grid-area: auto;
 }
 
 .nosideGloss{
@@ -337,8 +331,11 @@ color: #000000;
 padding: 5px;
 text-decoration: none;
  }
+ 
  #gloss td a:hover{
  color: #E3A303;
+ height: 100%;
+ width: 100%;
  }
 
 .reminder {
@@ -417,7 +414,7 @@ padding: 10px;
 
 .NoSidescontent{
 margin-top: 150px;
-    margin-left: 88px;
+margin-left: 88px;
 }
 
 
