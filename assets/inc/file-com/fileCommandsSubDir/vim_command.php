@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 <div style="margin-top: 0;"class="content">
 
+=======
+<div class="content">
+>>>>>>> d8907568567dc8960a9093e05c782ac4fb93ad10
 <h3 class="subsubheader">vim Command</h3>
 
 <p class="text">vim: Launches a text editor called Vim and creates a file with
@@ -60,6 +64,7 @@
             </div>
 
 <p class="text">Syntax: vim filename</p>
+</div>
 
 
 
