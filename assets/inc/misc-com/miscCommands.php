@@ -38,6 +38,8 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
       include 'miscCommandsSubDir/df_command.php';
       include 'advCommandsSubDir/sshkeygen_command.php';
       include 'miscCommandsSubDir/grep_command.php';
+      include 'miscCommandsSubDir/chmod_command.php';
+
 
 
 
