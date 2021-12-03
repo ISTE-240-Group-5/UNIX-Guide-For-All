@@ -1,4 +1,4 @@
-<div class="content">
+
 
 <h3 class="subsubheader">rmdir Command</h3>
 
@@ -31,5 +31,5 @@
 <h4 class="subsub" >Example 1: rmdir quasar</h4>
 
 <p class="text">Removes directory named “quasar”</p>
-</div>
+
 
