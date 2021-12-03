@@ -1,3 +1,5 @@
+<div class="content">
+
 <h3 class="subsubheader">rmdir Command</h3>
 
 <p class="text"> removes the directory with specified name.
@@ -29,5 +31,5 @@
 <h4 class="subsub" >Example 1: rmdir quasar</h4>
 
 <p class="text">Removes directory named “quasar”</p>
-
+</div>
 

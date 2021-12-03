@@ -50,13 +50,13 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
         include './dirComandsSubDir/ls_command.php';
 
-      //  include './dirComandsSubDir/gzip_command.php';
+       include './dirComandsSubDir/gzip_command.php';
 
-      //  include './dirComandsSubDir/mkdir_command.php';
+        include './dirComandsSubDir/mkdir_command.php';
 
-      //  include './dirComandsSubDir/rmdir_command.php';
+        include './dirComandsSubDir/rmdir_command.php';
 
-      //  include './dirComandsSubDir/tar_command.php';
+       include './dirComandsSubDir/tar_command.php';
 
     ?>
 
