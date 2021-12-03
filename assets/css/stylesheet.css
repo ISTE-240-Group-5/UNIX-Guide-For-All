@@ -273,6 +273,13 @@ color: rgba(255, 128, 8, 0.78);
 font-weight: normal;
 }
 
+.quizheader{
+font-size: 36px;
+line-height: 43px;
+color: black;
+font-weight: normal;
+}
+
 .content{
   margin-top: 200px;
   margin-left: 88px;
@@ -412,7 +419,7 @@ padding: 10px;
     margin-left: 88px;
 }
 
-.contentSide{
+#contentSide{
 display: grid;
 grid-template-columns: 250px auto;
 grid-template-areas:

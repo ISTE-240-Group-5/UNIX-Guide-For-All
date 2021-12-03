@@ -52,10 +52,4 @@
     . : repeat the last action
   </p>
 
-<div class="term">
-    <?php
-      require '../../qCLI/ls.php';
-    ?>
-            </div>
-
 <p class="text">Syntax: vim filename</p>

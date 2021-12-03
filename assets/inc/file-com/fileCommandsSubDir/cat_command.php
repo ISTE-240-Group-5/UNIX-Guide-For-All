@@ -23,12 +23,6 @@
   </p>
 
 
-<div class="term">
-    <?php
-      file_get_contents('http://solace.ist.rit.edu/~iste240t18/project-dev/assets/inc/qCLI/ls.php');
-    ?>
-</div>
-
 
 <p class="text">Syntax: cat [option] [files]</p>
 
