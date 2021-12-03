@@ -2,6 +2,7 @@
 NOT FINISHED, DO NOT MERGE TO MAIN
 -->
 
+
 <h3 class="subsubheader">cat Command</h3>
 
 <p class="text">reads a file and sends the contents to an output. Can be used to
@@ -37,5 +38,3 @@ NOT FINISHED, DO NOT MERGE TO MAIN
 <p class="text">Takes the contents of file1 and file2  and concatenates them into file3</p>
 
 
-
-</div>

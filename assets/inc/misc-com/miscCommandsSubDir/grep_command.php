@@ -16,15 +16,6 @@
   </p>
 
 
-
-
-
-<div class="terminals">
-<p> <span style="color:#00FF85">example.bot:</span><span style="color:#00F0FF">~ $</span>
- cd </p>
-        </div>
-
-
 <p class="text">Syntax: grep [options] text  filename</p>
 
 <h4 class="subsub" >Example 1: grep -c “learning” quasar.txt</h4>

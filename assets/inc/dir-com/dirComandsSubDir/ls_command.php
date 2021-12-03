@@ -1,5 +1,4 @@
-<div style="margin-top: 0;"
-class="content">
+
  <h3 class="subsubheader">LS Command</h3>
 <p class="text">ls: Lists the files in the current directory
 Options
@@ -12,4 +11,3 @@ Options
 
 <p class="text">Example: ls -a
 Lists all files in the current directory</p>
-</div>

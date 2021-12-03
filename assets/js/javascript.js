@@ -23,25 +23,16 @@
 	
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
 function openNav() {
-	if(x.matches){
-    document.getElementById("mySidenav").style.width = "250px";
- 	 document.getElementsByClassName("content").style.marginTop = 		"20px";
-     }
-     else{
+	
      document.getElementById("mySidenav").style.width = "250px";
-  document.getElementsByClassName("content").style.marginLeft = "50px";
-     }
+  document.getElementById("contentSide").style.marginLeft = "50px";
+
 }
 
 function closeNav() {
-	if(x.matches){
-    document.getElementById("mySidenav").style.width = "0px";
- 	 document.getElementsByClassName("content").style.marginTop = 		"10px";
-     }
-     else{
      document.getElementById("mySidenav").style.width = "00px";
-  document.getElementsByClassName("content").style.marginLeft = "50px";
-     }
+  document.getElementById("contentSide").style.marginLeft = "50px";
+
 }
 
 var x = window.matchMedia("(max-width: 600px)")

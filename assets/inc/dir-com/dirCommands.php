@@ -28,7 +28,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         require('../global/nav.php');
         ?>
 </head>
-<body>
+<body class="contentSide">
 <?php
 
         require('./dirComandsSubDir/dirSideNav.php');
@@ -56,7 +56,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
 
         include './dirComandsSubDir/rmdir_command.php';
 
-        include './dirComandsSubDir/tar_command.php';
+       include './dirComandsSubDir/tar_command.php';
 
     ?>
 

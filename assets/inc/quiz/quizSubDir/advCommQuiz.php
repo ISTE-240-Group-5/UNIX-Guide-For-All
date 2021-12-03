@@ -20,7 +20,7 @@ Rights       : Copyright (c) 2021 Quasar - GPLv3
         <link rel="stylesheet" href="../../../css/stylesheet.css">
 
     </head>
-    <body>
+    <body id="contentSide">
 
         <?php 
             $path = './';

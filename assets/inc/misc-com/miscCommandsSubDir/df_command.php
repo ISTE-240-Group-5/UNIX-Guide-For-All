@@ -10,11 +10,6 @@
     -l: Display local file systems
   </p>
 
-<div class="terminals">
-<p> <span style="color:#00FF85">example.bot:</span><span style="color:#00F0FF">~ $</span>
- df /p>
- </div>
-
 
 <p class="text">Syntax: df [option] filename</p>
 

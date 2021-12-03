@@ -1,3 +1,4 @@
+
 <h3 class="subsubheader">cat Command</h3>
 
 <p class="text">reads a file and sends the contents to an output. Can be used to
@@ -24,14 +25,6 @@
   </p>
 
 
-
-
-<div class="terminals">
-<p> <span style="color:#00FF85">example.bot:</span><span style="color:#00F0FF">~ $</span>
- cd </p>
-        </div>
-
-
 <p class="text">Syntax: cat [option] [files]</p>
 
 <h4 class="subsub" >Example 1: cat quasar.txt</h4>
@@ -44,4 +37,3 @@
 
 
 
-</div>

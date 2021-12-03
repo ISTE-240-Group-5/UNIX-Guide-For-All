@@ -1,5 +1,5 @@
 
-<div style="margin-top: 0;"class="content">
+
     <h3  class="subsubheader">CP Command</h3>
     
     <p class="text">cp: Creates a copy of the specified file.
@@ -12,5 +12,4 @@
 
     <p class="text">Copies example.text, names the copy example2 </p>
 
-</div>
     

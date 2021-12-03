@@ -21,13 +21,6 @@
 
 
 
-
-<div class="terminals">
-<p> <span style="color:#00FF85">example.bot:</span><span style="color:#00F0FF">~ $</span>
- date </p>
-        </div>
-
-
 <p class="text">Syntax: date [option] [+format]</p>
 
 <h4 class="subsub" >Example 1: date</h4>

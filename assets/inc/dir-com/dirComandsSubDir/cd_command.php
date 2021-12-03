@@ -18,6 +18,5 @@
     <p class="text">changes the current working directory to the specified directory. </p>
     
 
-    </div>
 
     
